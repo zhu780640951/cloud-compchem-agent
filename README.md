@@ -36,14 +36,14 @@ flowchart LR
 3. **第三方软件与许可提示**：
    - Quantum ESPRESSO 遵循 GPL v2 协议；NVIDIA HPC SDK / CUDA 运行库受 NVIDIA EULA 约束，本仓库**不分发任何编译后的二进制与运行库**，仅保留构建与恢复脚本以供个人在 Colab 环境自建复现。
 
-## 推送到 GitHub（`PC2005-cloud`）指南
+## 后续开发与 GitHub 同步
 
-本目录已初始化为独立的本地 Git 仓库（`main` 分支）。后续推送到 GitHub：
+仓库地址：`https://github.com/zhu780640951/cloud-compchem-agent.git`（主分支 `main`）。
 
-1. 在 GitHub（`https://github.com/new`）创建一个空仓库（例如 `cloud-compchem-agent`，建议先设为 Private 或按需设为 Public，**不要**勾选自动生成 README/.gitignore）；
-2. 在本仓库根目录执行：
-   ```powershell
-   git remote add origin https://github.com/PC2005-cloud/<你的仓库名>.git
-   git push -u origin main
-   ```
-3. 推送前可用 `git log --stat` 或 `git status` 再次确认无任何 `.env`、私钥或超大文件混入。
+日常修改脚本或补充学习记录后，可执行以下命令同步：
+```powershell
+git add .
+git commit -m "说明本次改动"
+git push
+```
+推送前建议通过 `git status` 检查，确保 `.env`、凭据文件与超限大二进制未被纳入。
