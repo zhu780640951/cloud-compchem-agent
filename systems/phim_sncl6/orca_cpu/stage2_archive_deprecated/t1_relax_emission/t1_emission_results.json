@@ -1,0 +1,13 @@
+{
+  "absorption_S1_eV": 5.041,
+  "absorption_S1_nm": 245.95120015869864,
+  "absorption_T1_vertical_eV": 3.39,
+  "absorption_T1_vertical_nm": 365.7345132743362,
+  "emission_T1_vertical_TDDFT_eV": 2.493,
+  "emission_T1_vertical_TDDFT_nm": 497.3285198555957,
+  "emission_T1_DeltaSCF_eV": -1.8391884048346971,
+  "emission_T1_DeltaSCF_nm": null,
+  "adiabatic_energy_E00_eV": -2.040537142825689,
+  "adiabatic_energy_E00_nm": null,
+  "stokes_shift_eV": 0.8970000000000002
+}

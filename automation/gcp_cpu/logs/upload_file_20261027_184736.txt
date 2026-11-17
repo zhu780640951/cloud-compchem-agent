@@ -1,0 +1,10 @@
+﻿==== upload_file  2026-10-27 18:47:36
+实例状态：RUNNING
+
+make_cubes.sh             | 1 kB |   2.0 kB/s | ETA: 00:00:00 | 100%
+
+>>> 远程执行：sed -i s/\\r$// ~/stage3/make_cubes.sh; ls -l ~/stage3/make_cubes.sh; head -3 ~/stage3/make_cubes.sh
+-rw-rw-r-- 1 y y 2043 Oct 27 10:47 /home/y/stage3/make_cubes.sh
+#!/bin/bash
+# 在虚拟机 ~/stage3 下运行：bash make_cubes.sh
+# 为论文配图生成 Gaussian cube 文件，统一放到 ~/stage3/cubes/

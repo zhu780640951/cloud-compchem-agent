@@ -1,0 +1,6 @@
+&PROJWFC
+  prefix = 'phim_sncl6', outdir = './tmp'
+  filpdos = 'phim'
+  ngauss = 0, degauss = 0.005
+  DeltaE = 0.01
+/

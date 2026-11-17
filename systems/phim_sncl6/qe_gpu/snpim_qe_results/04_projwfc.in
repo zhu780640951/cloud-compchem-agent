@@ -1,0 +1,7 @@
+&PROJWFC
+  prefix = 'snpim'
+  outdir = './tmp'
+  filpdos = 'snpim.pdos'
+  degauss = 0.005        ! 展宽 / Ry（约 0.07 eV）
+  DeltaE = 0.01          ! 能量步长 / eV
+/

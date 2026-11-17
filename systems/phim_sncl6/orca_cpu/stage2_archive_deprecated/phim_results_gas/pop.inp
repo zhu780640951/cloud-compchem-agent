@@ -1,0 +1,7 @@
+! PBE0 D3BJ def2-SVP def2/J RIJCOSX TightSCF
+%pal nprocs 6 end
+%maxcore 6000
+%output
+ Print[P_ReducedOrbPopMO_L] 1
+end
+* xyzfile 0 1 phim_opt.xyz

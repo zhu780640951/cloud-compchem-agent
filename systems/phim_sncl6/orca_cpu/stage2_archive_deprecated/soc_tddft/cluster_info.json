@@ -1,0 +1,82 @@
+{
+ "n_qm": 53,
+ "n_mm": 11077,
+ "qm_charge": 0,
+ "fragments": [
+  "SnCl6",
+  "SnCl6",
+  "SnCl6",
+  "SnCl6",
+  "SnCl6",
+  "SnCl6",
+  "SnCl6",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH1",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "PhImH2",
+  "H2O3",
+  "H2O3",
+  "H2O3",
+  "H2O4",
+  "H2O4",
+  "H2O4"
+ ],
+ "hb_contacts_A": {
+  "cation1": 2.15510247586774,
+  "cation2": 2.2978544676156494,
+  "water1": 2.2630662864871125,
+  "water2": 2.302988190333555
+ },
+ "mm_total_charge": -7.993605777301127e-15,
+ "min_qm_mm_distance_A": 1.6734306209470948,
+ "esp_charges_reference": {
+  "SnCl60": {
+   "Cl": -0.361,
+   "Sn": 0.259
+  },
+  "SnCl62": {
+   "Sn": 0.223,
+   "Cl": -0.35
+  },
+  "H2O6": {
+   "O": -0.704,
+   "H": 0.352
+  }
+ }
+}

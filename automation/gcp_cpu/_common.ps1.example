@@ -1,0 +1,55 @@
+# 公共设置模板：复制为 _common.ps1 后通过环境变量或本文件配置个人参数（勿将真实密钥提交仓库）
+$ErrorActionPreference = 'Continue'
+
+$G    = if ($env:GCLOUD_SDK_BIN) { Join-Path $env:GCLOUD_SDK_BIN 'gcloud.ps1' } else { 'gcloud' }
+$KEY  = if ($env:GCP_SSH_KEY_PATH) { $env:GCP_SSH_KEY_PATH } else { '<YOUR_GCP_SSH_KEY_PATH>' }
+$ZONE = if ($env:GCP_ZONE) { $env:GCP_ZONE } else { 'us-central1-a' }
+$INST = if ($env:GCP_INSTANCE) { $env:GCP_INSTANCE } else { 'orca-cpu-16' }
+$PROJ = if ($env:GCP_PROJECT_ID) { $env:GCP_PROJECT_ID } else { '<YOUR_GCP_PROJECT_ID>' }
+
+$Root = Split-Path $PSScriptRoot -Parent
+$Stage3Local = (Get-ChildItem $Root -Directory -ErrorAction SilentlyContinue | Where-Object { $_.Name -like '*_ORCA' -or $_.Name -like 'stage3*' } | Select-Object -First 1).FullName
+$LogDir = Join-Path $PSScriptRoot 'logs'
+New-Item -ItemType Directory -Force -Path $LogDir | Out-Null
+
+function Start-Log([string]$name) {
+    $script:LogFile = Join-Path $LogDir ("{0}_{1}.txt" -f $name, (Get-Date -Format 'yyyyMMdd_HHmmss'))
+    $script:LatestFile = Join-Path $LogDir ("latest_{0}.txt" -f $name)
+    "==== $name  $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" | Out-File $script:LogFile -Encoding utf8
+}
+
+function Log([string]$msg) {
+    Write-Output $msg
+    Add-Content -Path $script:LogFile -Value $msg -Encoding utf8
+}
+
+function Close-Log {
+    Copy-Item $script:LogFile $script:LatestFile -Force
+    Write-Host "`n日志已保存：$script:LogFile" -ForegroundColor Green
+}
+
+function Get-Status {
+    (& $G compute instances describe $INST --zone=$ZONE --project=$PROJ --format='value(status)' 2>&1 | Out-String).Trim()
+}
+
+function Ensure-Running {
+    $s = Get-Status
+    Log "实例状态：$s"
+    if ($s -eq 'SUSPENDED') {
+        Log '正在 resume ...'
+        & $G compute instances resume $INST --zone=$ZONE --project=$PROJ --quiet 2>&1 | ForEach-Object { Log "$_" }
+    } elseif ($s -eq 'TERMINATED') {
+        Log '正在 start ...'
+        & $G compute instances start $INST --zone=$ZONE --project=$PROJ --quiet 2>&1 | ForEach-Object { Log "$_" }
+    }
+    if ($s -ne 'RUNNING') {
+        Start-Sleep -Seconds 40
+        Log "现在状态：$(Get-Status)"
+    }
+}
+
+# 远程命令里避免嵌套双引号（Windows PowerShell 5.1 传参容易被吞掉），优先用单引号
+function Invoke-Remote([string]$cmd) {
+    Log "`n>>> 远程执行：$cmd"
+    & $G compute ssh $INST --zone=$ZONE --project=$PROJ "--ssh-key-file=$KEY" --quiet "--command=$cmd" 2>&1 | ForEach-Object { Log "$_" }
+}

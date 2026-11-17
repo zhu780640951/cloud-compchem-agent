@@ -1,0 +1,5 @@
+Copied three selected files over SSH.
+Updating project ssh metadata...
+...........Updated [https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>].
+done.
+Waiting for SSH key to propagate.

@@ -1,0 +1,8 @@
+SCF (k 3x2x2): VBM = 0.950 eV, CBM = 3.151 eV, gap = 2.201 eV (PBE, underestimates)
+VBM [-0.30,+0.05] eV composition: C-s nan%, N-s nan%, H-s nan%, Sn-p nan%, Cl-p nan%, Cl-s nan%
+    by element: C nan%, N nan%, H nan%, Sn nan%, Cl nan%, O nan%
+    by part: [SnCl6] nan%, organic cation nan%, water(O) nan%
+CBM [+2.15,+2.50] eV composition: C-s nan%, N-s nan%, H-s nan%, Sn-p nan%, Cl-p nan%, Cl-s nan%
+    by element: C nan%, N nan%, H nan%, Sn nan%, Cl nan%, O nan%
+    by part: [SnCl6] nan%, organic cation nan%, water(O) nan%
+band dispersion along path: VBM band width 60 meV, CBM band width 203 meV

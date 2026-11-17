@@ -1,0 +1,456 @@
+﻿==geom-table-RMS-gradient
+     1	RMS gradient                       ...    0.0001370204
+     2	          RMS gradient        0.0015735633            0.0001000000      NO
+     3	RMS gradient                       ...    0.0001381623
+     4	          RMS gradient        0.0011015000            0.0001000000      NO
+     5	RMS gradient                       ...    0.0001395100
+     6	          RMS gradient        0.0025235033            0.0001000000      NO
+     7	RMS gradient                       ...    0.0001388827
+     8	          RMS gradient        0.0037081065            0.0001000000      NO
+     9	RMS gradient                       ...    0.0001392433
+    10	          RMS gradient        0.0086384817            0.0001000000      NO
+    11	RMS gradient                       ...    0.0001381271
+    12	          RMS gradient        0.0261767663            0.0001000000      NO
+    13	RMS gradient                       ...    0.0001379241
+    14	          RMS gradient        0.0629601642            0.0001000000      NO
+    15	RMS gradient                       ...    0.0001397376
+    16	          RMS gradient        0.2549071984            0.0001000000      NO
+    17	RMS gradient                       ...    0.0001409996
+    18	          RMS gradient        0.8098381314            0.0001000000      NO
+    19	RMS gradient                       ...    0.0001407103
+    20	          RMS gradient        0.1998638298            0.0001000000      NO
+    21	RMS gradient                       ...    0.0001458662
+    22	          RMS gradient        0.1931883424            0.0001000000      NO
+    23	RMS gradient                       ...    0.0001405603
+    24	          RMS gradient        1.7944774027            0.0001000000      NO
+    25	RMS gradient                       ...    0.0001398913
+    26	          RMS gradient        0.3685645342            0.0001000000      NO
+    27	RMS gradient                       ...    0.0001406888
+    28	          RMS gradient        5.1157429205            0.0001000000      NO
+    29	RMS gradient                       ...    0.0001427190
+    30	          RMS gradient        1.0934904380            0.0001000000      NO
+    31	RMS gradient                       ...    0.0001478435
+    32	          RMS gradient        2.8632179169            0.0001000000      NO
+    33	RMS gradient                       ...    0.0001567827
+    34	          RMS gradient        1.0192467967            0.0001000000      NO
+    35	RMS gradient                       ...    0.0001462720
+    36	          RMS gradient        2.5851591315            0.0001000000      NO
+    37	RMS gradient                       ...    0.0001513992
+    38	          RMS gradient        2.3626945289            0.0001000000      NO
+    39	RMS gradient                       ...    0.0001559931
+    40	          RMS gradient       28.2589911029            0.0001000000      NO
+    41	RMS gradient                       ...    0.0001696612
+    42	          RMS gradient        3.6079402522            0.0001000000      NO
+    43	RMS gradient                       ...    0.0001868904
+    44	          RMS gradient        4.5859913672            0.0001000000      NO
+    45	RMS gradient                       ...    0.0001808772
+    46	          RMS gradient       20.5036531996            0.0001000000      NO
+    47	RMS gradient                       ...    0.0001895866
+    48	          RMS gradient        3.9059445197            0.0001000000      NO
+    49	RMS gradient                       ...    0.0001949336
+    50	          RMS gradient        5.1288496536            0.0001000000      NO
+    51	RMS gradient                       ...    0.0001813743
+    52	          RMS gradient       95.5915115174            0.0001000000      NO
+    53	RMS gradient                       ...    0.0001891662
+    54	          RMS gradient       18.5601751782            0.0001000000      NO
+    55	RMS gradient                       ...    0.0001803101
+    56	          RMS gradient       13.7062927681            0.0001000000      NO
+    57	RMS gradient                       ...    0.0001833575
+    58	          RMS gradient       92.9544280454            0.0001000000      NO
+    59	RMS gradient                       ...    0.0001895886
+    60	          RMS gradient       32.3539538410            0.0001000000      NO
+    61	RMS gradient                       ...    0.0001600490
+    62	          RMS gradient       36.7413235321            0.0001000000      NO
+    63	RMS gradient                       ...    0.0001633314
+    64	          RMS gradient       13.9807356582            0.0001000000      NO
+    65	RMS gradient                       ...    0.0001545568
+    66	          RMS gradient       28.6902569629            0.0001000000      NO
+    67	RMS gradient                       ...    0.0001437159
+    68	          RMS gradient       10.3216454688            0.0001000000      NO
+    69	RMS gradient                       ...    0.0001469746
+    70	          RMS gradient       67.7013140552            0.0001000000      NO
+    71	RMS gradient                       ...    0.0001620305
+    72	          RMS gradient       85.8603036561            0.0001000000      NO
+    73	RMS gradient                       ...    0.0001783847
+    74	          RMS gradient       15.2165112706            0.0001000000      NO
+    75	RMS gradient                       ...    0.0001759947
+    76	          RMS gradient       79.2490618973            0.0001000000      NO
+    77	RMS gradient                       ...    0.0001546319
+    78	          RMS gradient        2.8234283453            0.0001000000      NO
+    79	RMS gradient                       ...    0.0001614239
+    80	          RMS gradient        3.1423112792            0.0001000000      NO
+    81	RMS gradient                       ...    0.0001922878
+    82	          RMS gradient        3.3050039786            0.0001000000      NO
+    83	RMS gradient                       ...    0.0001609333
+    84	          RMS gradient        8.9347850462            0.0001000000      NO
+    85	RMS gradient                       ...    0.0001667300
+    86	          RMS gradient      312.4243018320            0.0001000000      NO
+    87	RMS gradient                       ...    0.0001928189
+    88	          RMS gradient      742.3263123875            0.0001000000      NO
+    89	RMS gradient                       ...    0.0001620796
+    90	          RMS gradient        0.6109035603            0.0001000000      NO
+    91	RMS gradient                       ...    0.0001604493
+    92	          RMS gradient        0.5817315323            0.0001000000      NO
+    93	RMS gradient                       ...    0.0001549313
+    94	          RMS gradient        0.5869442611            0.0001000000      NO
+    95	RMS gradient                       ...    0.0001477023
+    96	          RMS gradient        0.5654118193            0.0001000000      NO
+    97	RMS gradient                       ...    0.0001438393
+    98	          RMS gradient        0.5443961426            0.0001000000      NO
+    99	RMS gradient                       ...    0.0001438781
+   100	          RMS gradient        0.7864905652            0.0001000000      NO
+   101	RMS gradient                       ...    0.0001471934
+   102	          RMS gradient        2.0476063007            0.0001000000      NO
+   103	RMS gradient                       ...    0.0001360557
+   104	          RMS gradient        2.2657085375            0.0001000000      NO
+   105	RMS gradient                       ...    0.0001548394
+   106	          RMS gradient        2.5909980772            0.0001000000      NO
+   107	RMS gradient                       ...    0.0001701998
+   108	          RMS gradient        3.4448716796            0.0001000000      NO
+   109	RMS gradient                       ...    0.0001527507
+   110	          RMS gradient       18.8218560988            0.0001000000      NO
+   111	RMS gradient                       ...    0.0001589027
+   112	          RMS gradient       28.4190043497            0.0001000000      NO
+   113	RMS gradient                       ...    0.0001707089
+   114	          RMS gradient        1.1584333894            0.0001000000      NO
+   115	RMS gradient                       ...    0.0001661438
+   116	          RMS gradient        1.3652838384            0.0001000000      NO
+   117	RMS gradient                       ...    0.0001630111
+   118	          RMS gradient        1.6951917391            0.0001000000      NO
+   119	RMS gradient                       ...    0.0001605987
+   120	          RMS gradient        2.3259514858            0.0001000000      NO
+   121	RMS gradient                       ...    0.0001611183
+   122	          RMS gradient        4.0089836846            0.0001000000      NO
+   123	RMS gradient                       ...    0.0001647285
+   124	          RMS gradient       16.9399863727            0.0001000000      NO
+   125	RMS gradient                       ...    0.0001541079
+   126	          RMS gradient        3.1925077869            0.0001000000      NO
+   127	RMS gradient                       ...    0.0001468641
+   128	          RMS gradient        5.6521044677            0.0001000000      NO
+   129	RMS gradient                       ...    0.0001490688
+   130	          RMS gradient       23.5648746462            0.0001000000      NO
+   131	RMS gradient                       ...    0.0001610278
+   132	          RMS gradient        2.0953545891            0.0001000000      NO
+   133	RMS gradient                       ...    0.0001558854
+   134	          RMS gradient        2.7432486687            0.0001000000      NO
+   135	RMS gradient                       ...    0.0001445365
+   136	          RMS gradient        3.9674995603            0.0001000000      NO
+   137	RMS gradient                       ...    0.0001401106
+   138	          RMS gradient        8.0009886824            0.0001000000      NO
+   139	RMS gradient                       ...    0.0001383774
+   140	          RMS gradient      214.5801449420            0.0001000000      NO
+   141	RMS gradient                       ...    0.0001355671
+   142	          RMS gradient        0.8097229633            0.0001000000      NO
+   143	RMS gradient                       ...    0.0001332498
+   144	          RMS gradient        0.8575371892            0.0001000000      NO
+   145	RMS gradient                       ...    0.0001320061
+   146	          RMS gradient        0.9351553709            0.0001000000      NO
+   147	RMS gradient                       ...    0.0001309974
+   148	          RMS gradient        1.1186935772            0.0001000000      NO
+   149	RMS gradient                       ...    0.0001304423
+   150	          RMS gradient        1.5364885072            0.0001000000      NO
+   151	RMS gradient                       ...    0.0001310717
+   152	          RMS gradient        1.9220894875            0.0001000000      NO
+   153	RMS gradient                       ...    0.0001333488
+   154	          RMS gradient        2.1850189836            0.0001000000      NO
+   155	RMS gradient                       ...    0.0001364445
+   156	          RMS gradient        2.5084765700            0.0001000000      NO
+   157	RMS gradient                       ...    0.0001375402
+   158	          RMS gradient        4.5136832990            0.0001000000      NO
+   159	RMS gradient                       ...    0.0001401542
+   160	          RMS gradient        1.6351240597            0.0001000000      NO
+   161	RMS gradient                       ...    0.0001696984
+   162	          RMS gradient        8.2057109563            0.0001000000      NO
+   163	RMS gradient                       ...    0.0001654277
+   164	          RMS gradient        8.4580238409            0.0001000000      NO
+   165	RMS gradient                       ...    0.0001678678
+   166	          RMS gradient        7.2068809225            0.0001000000      NO
+   167	RMS gradient                       ...    0.0001703361
+   168	          RMS gradient       44.8341428363            0.0001000000      NO
+   169	RMS gradient                       ...    0.0001723161
+   170	          RMS gradient        2.9472453510            0.0001000000      NO
+   171	RMS gradient                       ...    0.0001710729
+   172	          RMS gradient        7.6538407370            0.0001000000      NO
+   173	RMS gradient                       ...    0.0001716094
+   174	          RMS gradient        8.6237931866            0.0001000000      NO
+   175	RMS gradient                       ...    0.0001687384
+   176	          RMS gradient       17.0481675898            0.0001000000      NO
+   177	RMS gradient                       ...    0.0001656000
+   178	          RMS gradient       70.5400474383            0.0001000000      NO
+   179	RMS gradient                       ...    0.0001598537
+   180	          RMS gradient       27.6816717922            0.0001000000      NO
+   181	RMS gradient                       ...    0.0001608218
+   182	          RMS gradient       80.3005420397            0.0001000000      NO
+   183	RMS gradient                       ...    0.0001578895
+   184	          RMS gradient       81.8068195500            0.0001000000      NO
+   185	RMS gradient                       ...    0.0001647811
+   186	          RMS gradient        0.6176155477            0.0001000000      NO
+   187	RMS gradient                       ...    0.0001609892
+   188	          RMS gradient        0.9689020648            0.0001000000      NO
+   189	RMS gradient                       ...    0.0001625011
+   190	          RMS gradient        1.3001898002            0.0001000000      NO
+   191	RMS gradient                       ...    0.0001635164
+   192	          RMS gradient        1.5993897329            0.0001000000      NO
+   193	RMS gradient                       ...    0.0001620239
+   194	          RMS gradient        4.5993519978            0.0001000000      NO
+   195	RMS gradient                       ...    0.0001595727
+   196	          RMS gradient       11.6833381223            0.0001000000      NO
+   197	RMS gradient                       ...    0.0001610273
+   198	          RMS gradient       13.6781964887            0.0001000000      NO
+   199	RMS gradient                       ...    0.0001520544
+   200	          RMS gradient       19.6801824717            0.0001000000      NO
+   201	RMS gradient                       ...    0.0001517612
+   202	          RMS gradient       16.7515839417            0.0001000000      NO
+   203	RMS gradient                       ...    0.0001583494
+   204	          RMS gradient       93.9133126799            0.0001000000      NO
+   205	RMS gradient                       ...    0.0001555458
+   206	          RMS gradient        1.1544693742            0.0001000000      NO
+   207	RMS gradient                       ...    0.0001554161
+   208	          RMS gradient        1.4990635962            0.0001000000      NO
+   209	RMS gradient                       ...    0.0001571047
+   210	          RMS gradient        2.1203520089            0.0001000000      NO
+   211	RMS gradient                       ...    0.0001609793
+   212	          RMS gradient        3.7200281672            0.0001000000      NO
+   213	RMS gradient                       ...    0.0001650463
+   214	          RMS gradient       15.5072288640            0.0001000000      NO
+   215	RMS gradient                       ...    0.0001694748
+   216	          RMS gradient       20.8284949093            0.0001000000      NO
+   217	RMS gradient                       ...    0.0001654838
+   218	          RMS gradient       25.6998602152            0.0001000000      NO
+   219	RMS gradient                       ...    0.0001483096
+   220	          RMS gradient        2.6455607009            0.0001000000      NO
+   221	RMS gradient                       ...    0.0001443813
+   222	          RMS gradient        6.2552514226            0.0001000000      NO
+   223	RMS gradient                       ...    0.0001448515
+   224	          RMS gradient       54.5339745368            0.0001000000      NO
+   225	RMS gradient                       ...    0.0001515659
+   226	          RMS gradient        0.9133750438            0.0001000000      NO
+   227	RMS gradient                       ...    0.0001517838
+   228	          RMS gradient        0.9688762630            0.0001000000      NO
+   229	RMS gradient                       ...    0.0001537827
+   230	          RMS gradient        1.2452674122            0.0001000000      NO
+   231	RMS gradient                       ...    0.0001572196
+   232	          RMS gradient        1.6851979975            0.0001000000      NO
+   233	RMS gradient                       ...    0.0001617338
+   234	          RMS gradient        2.5149726215            0.0001000000      NO
+   235	RMS gradient                       ...    0.0001663794
+   236	          RMS gradient        4.6849748113            0.0001000000      NO
+   237	RMS gradient                       ...    0.0001695439
+   238	          RMS gradient       19.1995338319            0.0001000000      NO
+   239	RMS gradient                       ...    0.0001662737
+   240	          RMS gradient        7.7135519508            0.0001000000      NO
+   241	RMS gradient                       ...    0.0001680072
+   242	          RMS gradient       29.5690493645            0.0001000000      NO
+   243	RMS gradient                       ...    0.0001742173
+   244	          RMS gradient        6.1381427613            0.0001000000      NO
+   245	RMS gradient                       ...    0.0001687295
+   246	          RMS gradient       12.6688913711            0.0001000000      NO
+   247	RMS gradient                       ...    0.0001606132
+   248	          RMS gradient      211.3121427756            0.0001000000      NO
+   249	RMS gradient                       ...    0.0001566435
+   250	          RMS gradient      277.3044753954            0.0001000000      NO
+   251	RMS gradient                       ...    0.0001425180
+   252	          RMS gradient        0.2592872709            0.0001000000      NO
+   253	RMS gradient                       ...    0.0001468494
+   254	          RMS gradient        0.2658261767            0.0001000000      NO
+   255	RMS gradient                       ...    0.0001520752
+   256	          RMS gradient        0.2741586590            0.0001000000      NO
+   257	RMS gradient                       ...    0.0001594019
+   258	          RMS gradient        0.2916988596            0.0001000000      NO
+==geom-table-MAX-step
+   115	          MAX step            0.0294939440            0.0040000000      NO
+   116	          MAX step            0.0295231377            0.0040000000      NO
+   117	          MAX step            0.0298296948            0.0040000000      NO
+   118	          MAX step            0.0307858894            0.0040000000      NO
+   119	          MAX step            0.0283411389            0.0040000000      NO
+   120	          MAX step            0.0294122693            0.0040000000      NO
+   121	          MAX step            0.0333355671            0.0040000000      NO
+   122	          MAX step            0.0282131841            0.0040000000      NO
+   123	          MAX step            0.0304372153            0.0040000000      NO
+   124	          MAX step            0.1256225824            0.0040000000      NO
+   125	          MAX step            0.0757416909            0.0040000000      NO
+   126	          MAX step            0.0610434015            0.0040000000      NO
+   127	          MAX step            0.0413176469            0.0040000000      NO
+   128	          MAX step            0.0486543570            0.0040000000      NO
+   129	          MAX step            0.0692327425            0.0040000000      NO
+==FINAL-energies
+     1	FINAL SINGLE POINT ENERGY     -4042.660884341505
+     2	FINAL SINGLE POINT ENERGY     -4042.665636603983
+     3	FINAL SINGLE POINT ENERGY     -4042.668668105396
+     4	FINAL SINGLE POINT ENERGY     -4042.678732927303
+     5	FINAL SINGLE POINT ENERGY     -4042.703060249248
+     6	FINAL SINGLE POINT ENERGY     -4042.732006056672
+     7	FINAL SINGLE POINT ENERGY     -4042.846319588038
+     8	FINAL SINGLE POINT ENERGY     -4043.020035863657
+     9	FINAL SINGLE POINT ENERGY     -4043.548753251564
+    10	FINAL SINGLE POINT ENERGY     -4042.732570304017
+    11	FINAL SINGLE POINT ENERGY     -4042.846415066734
+    12	FINAL SINGLE POINT ENERGY     -4044.308728754512
+    13	FINAL SINGLE POINT ENERGY     -4042.969223191574
+    14	FINAL SINGLE POINT ENERGY     -4045.917798054312
+    15	FINAL SINGLE POINT ENERGY     -4043.668816437415
+    16	FINAL SINGLE POINT ENERGY     -4044.801869798825
+    17	FINAL SINGLE POINT ENERGY     -4043.861924205873
+    18	FINAL SINGLE POINT ENERGY     -4044.736248905327
+    19	FINAL SINGLE POINT ENERGY     -4044.439645952639
+    20	FINAL SINGLE POINT ENERGY     -4050.153974617716
+    21	FINAL SINGLE POINT ENERGY     -4044.961970783788
+    22	FINAL SINGLE POINT ENERGY     -4045.726590925767
+    23	FINAL SINGLE POINT ENERGY     -4049.226063225012
+    24	FINAL SINGLE POINT ENERGY     -4045.704959094578
+    25	FINAL SINGLE POINT ENERGY     -4046.500375871688
+    26	FINAL SINGLE POINT ENERGY     -4057.354575339759
+    27	FINAL SINGLE POINT ENERGY     -4050.546607881613
+    28	FINAL SINGLE POINT ENERGY     -4047.832908019751
+    29	FINAL SINGLE POINT ENERGY     -4057.535856965363
+    30	FINAL SINGLE POINT ENERGY     -4054.681148070297
+    31	FINAL SINGLE POINT ENERGY     -4055.880634392119
+    32	FINAL SINGLE POINT ENERGY     -4049.668565146007
+    33	FINAL SINGLE POINT ENERGY     -4050.699546106040
+    34	FINAL SINGLE POINT ENERGY     -4047.820567989625
+    35	FINAL SINGLE POINT ENERGY     -4056.348994987847
+    36	FINAL SINGLE POINT ENERGY     -4058.376568632879
+    37	FINAL SINGLE POINT ENERGY     -4048.813539244752
+    38	FINAL SINGLE POINT ENERGY     -4060.817044326890
+    39	FINAL SINGLE POINT ENERGY     -4045.655699240899
+    40	FINAL SINGLE POINT ENERGY     -4045.958785317223
+    41	FINAL SINGLE POINT ENERGY     -4045.952028241727
+    42	FINAL SINGLE POINT ENERGY     -4046.790199846384
+    43	FINAL SINGLE POINT ENERGY     -4075.358681458016
+    44	FINAL SINGLE POINT ENERGY     -4085.730662253875
+    45	FINAL SINGLE POINT ENERGY     -4043.655988630939
+    46	FINAL SINGLE POINT ENERGY     -4043.687678139215
+    47	FINAL SINGLE POINT ENERGY     -4043.732048834994
+    48	FINAL SINGLE POINT ENERGY     -4043.827141349143
+    49	FINAL SINGLE POINT ENERGY     -4043.972898887714
+    50	FINAL SINGLE POINT ENERGY     -4044.199954297491
+    51	FINAL SINGLE POINT ENERGY     -4044.945688859037
+    52	FINAL SINGLE POINT ENERGY     -4044.401962657424
+    53	FINAL SINGLE POINT ENERGY     -4044.548817411584
+    54	FINAL SINGLE POINT ENERGY     -4044.716579179690
+    55	FINAL SINGLE POINT ENERGY     -4053.564182138569
+    56	FINAL SINGLE POINT ENERGY     -4051.142298491850
+    57	FINAL SINGLE POINT ENERGY     -4043.586608711936
+    58	FINAL SINGLE POINT ENERGY     -4043.769934259725
+    59	FINAL SINGLE POINT ENERGY     -4044.013880255877
+    60	FINAL SINGLE POINT ENERGY     -4044.398985306322
+    61	FINAL SINGLE POINT ENERGY     -4045.202683814850
+    62	FINAL SINGLE POINT ENERGY     -4048.763554468992
+    63	FINAL SINGLE POINT ENERGY     -4044.789048138073
+    64	FINAL SINGLE POINT ENERGY     -4045.750108166892
+    65	FINAL SINGLE POINT ENERGY     -4049.887873344906
+    66	FINAL SINGLE POINT ENERGY     -4044.258220446547
+    67	FINAL SINGLE POINT ENERGY     -4044.612382463396
+    68	FINAL SINGLE POINT ENERGY     -4045.180265592973
+    69	FINAL SINGLE POINT ENERGY     -4046.568217972776
+    70	FINAL SINGLE POINT ENERGY     -4066.260924267006
+    71	FINAL SINGLE POINT ENERGY     -4043.295986793345
+    72	FINAL SINGLE POINT ENERGY     -4043.343270654012
+    73	FINAL SINGLE POINT ENERGY     -4043.409213878440
+    74	FINAL SINGLE POINT ENERGY     -4043.540492120667
+    75	FINAL SINGLE POINT ENERGY     -4043.794157305884
+    76	FINAL SINGLE POINT ENERGY     -4044.147026541891
+    77	FINAL SINGLE POINT ENERGY     -4044.811129598362
+    78	FINAL SINGLE POINT ENERGY     -4044.898140115987
+    79	FINAL SINGLE POINT ENERGY     -4046.224539136328
+    80	FINAL SINGLE POINT ENERGY     -4044.033293654561
+    81	FINAL SINGLE POINT ENERGY     -4046.924379385591
+    82	FINAL SINGLE POINT ENERGY     -4047.357684076862
+    83	FINAL SINGLE POINT ENERGY     -4045.932481108770
+    84	FINAL SINGLE POINT ENERGY     -4053.325846436244
+    85	FINAL SINGLE POINT ENERGY     -4044.507289619390
+    86	FINAL SINGLE POINT ENERGY     -4046.160265538241
+    87	FINAL SINGLE POINT ENERGY     -4046.448141154097
+    88	FINAL SINGLE POINT ENERGY     -4048.139048779331
+    89	FINAL SINGLE POINT ENERGY     -4054.917501986422
+    90	FINAL SINGLE POINT ENERGY     -4050.259417966786
+    91	FINAL SINGLE POINT ENERGY     -4055.516610023685
+    92	FINAL SINGLE POINT ENERGY     -4055.710878994002
+    93	FINAL SINGLE POINT ENERGY     -4043.258733624827
+    94	FINAL SINGLE POINT ENERGY     -4043.727692564249
+    95	FINAL SINGLE POINT ENERGY     -4044.357856077412
+    96	FINAL SINGLE POINT ENERGY     -4045.053443508079
+    97	FINAL SINGLE POINT ENERGY     -4045.871288181714
+    98	FINAL SINGLE POINT ENERGY     -4047.431090773090
+    99	FINAL SINGLE POINT ENERGY     -4048.669486503672
+   100	FINAL SINGLE POINT ENERGY     -4049.309176695223
+   101	FINAL SINGLE POINT ENERGY     -4048.507219945908
+   102	FINAL SINGLE POINT ENERGY     -4063.041516958059
+   103	FINAL SINGLE POINT ENERGY     -4043.660167203819
+   104	FINAL SINGLE POINT ENERGY     -4043.913779608858
+   105	FINAL SINGLE POINT ENERGY     -4044.298664103539
+   106	FINAL SINGLE POINT ENERGY     -4045.072146695308
+   107	FINAL SINGLE POINT ENERGY     -4048.321920683536
+   108	FINAL SINGLE POINT ENERGY     -4049.128878646309
+   109	FINAL SINGLE POINT ENERGY     -4049.921626646978
+   110	FINAL SINGLE POINT ENERGY     -4044.506395269636
+   111	FINAL SINGLE POINT ENERGY     -4045.934025884937
+   112	FINAL SINGLE POINT ENERGY     -4055.014430213450
+   113	FINAL SINGLE POINT ENERGY     -4043.434424675579
+   114	FINAL SINGLE POINT ENERGY     -4043.488848457008
+   115	FINAL SINGLE POINT ENERGY     -4043.711684765023
+   116	FINAL SINGLE POINT ENERGY     -4044.018522604958
+   117	FINAL SINGLE POINT ENERGY     -4044.502009274112
+   118	FINAL SINGLE POINT ENERGY     -4045.478199149008
+   119	FINAL SINGLE POINT ENERGY     -4049.321849513247
+   120	FINAL SINGLE POINT ENERGY     -4046.471489475766
+   121	FINAL SINGLE POINT ENERGY     -4050.657374389711
+   122	FINAL SINGLE POINT ENERGY     -4045.988339858400
+   123	FINAL SINGLE POINT ENERGY     -4047.708147917883
+   124	FINAL SINGLE POINT ENERGY     -4065.019330136221
+   125	FINAL SINGLE POINT ENERGY     -4068.223350764366
+   126	FINAL SINGLE POINT ENERGY     -4042.835011842102
+   127	FINAL SINGLE POINT ENERGY     -4042.855291041622
+   128	FINAL SINGLE POINT ENERGY     -4042.875738540785
+   129	FINAL SINGLE POINT ENERGY     -4042.914058798736
+==tail-50
+Angular grid pruning method      GridPruning ... 4 (adaptive)
+Weight generation scheme         WeightScheme... mBecke (2022)
+Basis function cutoff            BFCut       ... 1.0000e-11
+Integration weight cutoff        WCut        ... 1.0000e-14
+Partially contracted basis set               ... on
+Rotationally invariant grid construction     ... off
+Angular grids for H and He will be reduced by one unit
+
+Total number of grid points                  ...   162595
+Total number of batches                      ...     1298
+Average number of points per batch           ...      125
+Average number of grid points per atom       ...     3068
+UseSFitting                                  ... on
+Grids setup in   4.2 sec
+Initializing property integral containers    ... done (  0.0 sec)
+
+SHARK setup successfully completed in   6.0 seconds
+
+Maximum memory used throughout the entire STARTUP-calculation: 84.7 MB
+
+
+           ************************************************************
+           *        Program running with 6 parallel MPI-processes     *
+           *              working on a common directory               *
+           ************************************************************
+             **** ENERGY FILE WAS UPDATED (04a_T1opt_UKS_free_CatB.en.tmp) ****
+Finished Guess after   0.5 sec
+Maximum memory used throughout the entire GUESS-calculation: 43.0 MB
+
+
+           ************************************************************
+           *        Program running with 6 parallel MPI-processes     *
+           *              working on a common directory               *
+           ************************************************************
+----------------------------------------D-I-I-S--------------------------------------------
+Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
+-------------------------------------------------------------------------------------------
+               ***  Starting incremental Fock matrix formation  ***
+    1    -4042.9394375899337319     0.00e+00  9.49e-05  2.03e-03  7.67e-03  0.700  15.8
+    2    -4042.9403808368424507    -9.43e-04  8.18e-05  1.78e-03  6.24e-03  0.700   4.9
+                               ***Turning on AO-DIIS***
+    3    -4042.9411396184568730    -7.59e-04  7.02e-05  1.50e-03  4.91e-03  0.700   4.6
+    4    -4042.9417258873418177    -5.86e-04  1.84e-04  3.48e-03  3.68e-03  0.000   4.6
+                              *** Initializing SOSCF ***
+---------------------------------------S-O-S-C-F--------------------------------------
+Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
+--------------------------------------------------------------------------------------
+    5    -4042.9433800128281291    -1.65e-03  2.12e-05  3.88e-04  4.52e-04     5.5
+               *** Restarting incremental Fock matrix formation ***
+    6    -4042.9434036990060122    -2.37e-05  1.25e-05  2.53e-04  2.08e-04    15.9

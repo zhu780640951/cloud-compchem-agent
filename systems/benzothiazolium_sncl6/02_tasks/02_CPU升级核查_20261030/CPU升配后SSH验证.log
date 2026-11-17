@@ -1,0 +1,30 @@
+HEALTH_JSON {"time_utc": "2026-10-30T12:06:48Z", "hostname": "orca-cpu-16", "logical_cpus": 12, "mem_total_kib": 197872188, "mem_total_GiB": 188.706, "mem_available_GiB": 186.732, "orca_exists": true, "root_disk_total_GiB": 98.186, "root_disk_free_GiB": 68.263, "uptime_seconds": 124.48}
+START h2_hf_1core PID 1622
+MONITOR h2_hf_1core running True
+MONITOR h2_hf_1core running False
+{"name": "h2_hf_1core", "cores": 1, "exit_code": 0, "normal_termination": true, "elapsed_seconds": 1.004, "energy_lines": ["FINAL SINGLE POINT ENERGY        -1.128893619388"], "version_lines": ["Program Version 6.1.1  -  RELEASE   -"], "output_file": "/home/y/codex_calculations/benzothiazolium_sncl6/connection_test_20261030_120648/h2_hf_1core.out"}
+START h2_hf_2core PID 1633
+MONITOR h2_hf_2core running True
+MONITOR h2_hf_2core running True
+MONITOR h2_hf_2core running False
+{"name": "h2_hf_2core", "cores": 2, "exit_code": 0, "normal_termination": true, "elapsed_seconds": 1.501, "energy_lines": ["FINAL SINGLE POINT ENERGY        -1.128893619388"], "version_lines": ["Program Version 6.1.1  -  RELEASE   -"], "output_file": "/home/y/codex_calculations/benzothiazolium_sncl6/connection_test_20261030_120648/h2_hf_2core.out"}
+RESULT_JSON {"remote_directory": "/home/y/codex_calculations/benzothiazolium_sncl6/connection_test_20261030_120648", "hostname": "orca-cpu-16", "logical_cpus": 12, "mpi_candidates": ["/opt/openmpi-4.1.8/bin/mpirun"], "tests": [{"name": "h2_hf_1core", "cores": 1, "exit_code": 0, "normal_termination": true, "elapsed_seconds": 1.004, "energy_lines": ["FINAL SINGLE POINT ENERGY        -1.128893619388"], "version_lines": ["Program Version 6.1.1  -  RELEASE   -"], "output_file": "/home/y/codex_calculations/benzothiazolium_sncl6/connection_test_20261030_120648/h2_hf_1core.out"}, {"name": "h2_hf_2core", "cores": 2, "exit_code": 0, "normal_termination": true, "elapsed_seconds": 1.501, "energy_lines": ["FINAL SINGLE POINT ENERGY        -1.128893619388"], "version_lines": ["Program Version 6.1.1  -  RELEASE   -"], "output_file": "/home/y/codex_calculations/benzothiazolium_sncl6/connection_test_20261030_120648/h2_hf_2core.out"}]}
+
+STDERR:
+Updating project ssh metadata...
+..........Updated [https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>].
+.done.
+Waiting for SSH key to propagate.
+The host key is not cached for this server:
+  34.60.131.232 (port 22)
+You have no guarantee that the server is the computer you
+think it is.
+The server's ssh-ed25519 key fingerprint is:
+  ssh-ed25519 255 SHA256:PPWfPLLQJggofsN/PhvakN0Hj+/aLxMC7u+qNNstFVc
+If you trust this host, enter "y" to add the key to Plink's
+cache and carry on connecting.
+If you want to carry on connecting just once, without adding
+the key to the cache, enter "n".
+If you do not trust this host, press Return to abandon the
+connection.
+Store key in cache? (y/n, Return cancels connection, i for more info) 

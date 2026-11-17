@@ -1,0 +1,140 @@
+{
+  "purpose": "boundary sensitivity, independent initial guess, ground-state SCF only",
+  "qm_atoms_before": 79,
+  "qm_atoms_after": 85,
+  "qm_charge": 2,
+  "multiplicity": 1,
+  "point_charges_before": 1082,
+  "point_charges_after": 1076,
+  "external_charge_after": -2.0000000074000006,
+  "promoted": [
+    [
+      [
+        -0.7016666667,
+        -0.201449909,
+        -2.527730943,
+        -0.465416813
+      ],
+      {
+        "element": "O",
+        "periodic_atom_index": 12,
+        "fragment_group": 3,
+        "translation": [
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ],
+    [
+      [
+        0.3558333333,
+        -1.167958841,
+        -2.404654603,
+        -0.343290797
+      ],
+      {
+        "element": "H",
+        "periodic_atom_index": 14,
+        "fragment_group": 3,
+        "translation": [
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ],
+    [
+      [
+        0.3458333333,
+        0.163904514,
+        -1.627390048,
+        -0.6282885
+      ],
+      {
+        "element": "H",
+        "periodic_atom_index": 16,
+        "fragment_group": 3,
+        "translation": [
+          -1,
+          -1,
+          -1
+        ]
+      }
+    ],
+    [
+      [
+        -0.7016666667,
+        7.383349909,
+        2.527730943,
+        0.465416813
+      ],
+      {
+        "element": "O",
+        "periodic_atom_index": 13,
+        "fragment_group": 4,
+        "translation": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    [
+      [
+        0.3558333333,
+        8.349858841,
+        2.404654603,
+        0.343290797
+      ],
+      {
+        "element": "H",
+        "periodic_atom_index": 15,
+        "fragment_group": 4,
+        "translation": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    [
+      [
+        0.3458333333,
+        7.017995486,
+        1.627390048,
+        0.6282885
+      ],
+      {
+        "element": "H",
+        "periodic_atom_index": 17,
+        "fragment_group": 4,
+        "translation": [
+          1,
+          0,
+          0
+        ]
+      }
+    ]
+  ],
+  "minimum_before_angstrom": [
+    2.2544008778154048,
+    40,
+    7,
+    0.3458333333,
+    "Cl"
+  ],
+  "minimum_after_angstrom": [
+    1.5769629518625339,
+    901,
+    83,
+    0.32186,
+    "O"
+  ],
+  "source_sha256": {
+    "expanded_cluster_79.xyz": "8ec9302960084302127c8889d446bb2f4af35ff94e602f03a9812feb99e7b81f",
+    "expanded79_shell1.pc": "a07b962f4f8714d3a31e494d4c8421d33ec9a2714305829971030b999d9a4a07",
+    "expanded79_metadata.json": "f71deae1a089538f6d852c3dc10a775353bc95f389ef2ebc18b2a61fdf19f364",
+    "periodic_lowdin_shell1_atom_map.json": "e0d4734203e6a1ed8a7697a6bd7cc87e5606463a54c78e2cd2180a23c5c52793"
+  }
+}

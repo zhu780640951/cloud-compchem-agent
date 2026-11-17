@@ -1,0 +1,5 @@
+! wB97X-D3 def2-SVP def2/J RIJCOSX TightSCF
+%pal nprocs 6 end
+%maxcore 12000
+%output Print[P_ReducedOrbPopMO_L] 1 end
+* xyzfile 0 1 qm_cluster.xyz

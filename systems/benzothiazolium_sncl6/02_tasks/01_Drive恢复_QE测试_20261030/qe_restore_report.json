@@ -1,0 +1,135 @@
+{
+  "cache": "/content/drive/MyDrive/QE_build/qe-7.5-gpu-sm80",
+  "local": "/content/qe_drive_restore",
+  "build_info": "QE 7.5 GPU sm_80, NVHPC 2025, CUDA 12.9, built Sat Oct 24 01:37:00 AM UTC 2026\n",
+  "copied_files": [
+    {
+      "name": "bin/bands.x",
+      "bytes": 24800184
+    },
+    {
+      "name": "bin/dos.x",
+      "bytes": 24536448
+    },
+    {
+      "name": "bin/pp.x",
+      "bytes": 24956832
+    },
+    {
+      "name": "bin/projwfc.x",
+      "bytes": 24853344
+    },
+    {
+      "name": "bin/pw.x",
+      "bytes": 30778016
+    },
+    {
+      "name": "lib/libaccdevaux.so",
+      "bytes": 159976
+    },
+    {
+      "name": "lib/libaccdevice.so",
+      "bytes": 2769344
+    },
+    {
+      "name": "lib/libacchost.so",
+      "bytes": 11144632
+    },
+    {
+      "name": "lib/libblas_lp64.so.0",
+      "bytes": 36895168
+    },
+    {
+      "name": "lib/libcublas.so.12",
+      "bytes": 105140976
+    },
+    {
+      "name": "lib/libcublasLt.so.12",
+      "bytes": 749205904
+    },
+    {
+      "name": "lib/libcudadevice.so",
+      "bytes": 200656
+    },
+    {
+      "name": "lib/libcudafor.so",
+      "bytes": 342360
+    },
+    {
+      "name": "lib/libcudafor2.so",
+      "bytes": 52928
+    },
+    {
+      "name": "lib/libcudafor_128.so",
+      "bytes": 45553496
+    },
+    {
+      "name": "lib/libcudaforwrapblas.so",
+      "bytes": 368768
+    },
+    {
+      "name": "lib/libcudaforwrapblas117.so",
+      "bytes": 118224
+    },
+    {
+      "name": "lib/libcudaforwraprand.so",
+      "bytes": 20128
+    },
+    {
+      "name": "lib/libcudart.so.12",
+      "bytes": 741088
+    },
+    {
+      "name": "lib/libcufft.so.11",
+      "bytes": 289566960
+    },
+    {
+      "name": "lib/libcurand.so.10",
+      "bytes": 166965432
+    },
+    {
+      "name": "lib/libcusolver.so.11",
+      "bytes": 301268392
+    },
+    {
+      "name": "lib/libcusparse.so.12",
+      "bytes": 485439480
+    },
+    {
+      "name": "lib/liblapack_lp64.so.0",
+      "bytes": 15140664
+    },
+    {
+      "name": "lib/libnvJitLink.so.12",
+      "bytes": 95935344
+    },
+    {
+      "name": "lib/libnvc.so",
+      "bytes": 508352
+    },
+    {
+      "name": "lib/libnvcpumath.so",
+      "bytes": 2865112
+    },
+    {
+      "name": "lib/libnvf.so",
+      "bytes": 7015816
+    },
+    {
+      "name": "lib/libnvhpcatm.so",
+      "bytes": 45224
+    },
+    {
+      "name": "lib/libnvhpcwrapcufft.so",
+      "bytes": 9024
+    },
+    {
+      "name": "lib/libnvomp.so",
+      "bytes": 3384064
+    }
+  ],
+  "ldd": "\tlinux-vdso.so.1 (0x00007ffff0ba0000)\n\tliblapack_lp64.so.0 => /content/qe_drive_restore/lib/liblapack_lp64.so.0 (0x000078937fe00000)\n\tlibblas_lp64.so.0 => /content/qe_drive_restore/lib/libblas_lp64.so.0 (0x000078937de00000)\n\tlibnvhpcwrapcufft.so => /content/qe_drive_restore/lib/libnvhpcwrapcufft.so (0x000078937da00000)\n\tlibcufft.so.11 => /content/qe_drive_restore/lib/libcufft.so.11 (0x000078936bc00000)\n\tlibcudaforwraprand.so => /content/qe_drive_restore/lib/libcudaforwraprand.so (0x000078936b800000)\n\tlibcurand.so.10 => /content/qe_drive_restore/lib/libcurand.so.10 (0x0000789361000000)\n\tlibcusolver.so.11 => /content/qe_drive_restore/lib/libcusolver.so.11 (0x000078934ee00000)\n\tlibnvJitLink.so.12 => /content/qe_drive_restore/lib/libnvJitLink.so.12 (0x000078934917a000)\n\tlibcublas.so.12 => /content/qe_drive_restore/lib/libcublas.so.12 (0x0000789342a00000)\n\tlibcublasLt.so.12 => /content/qe_drive_restore/lib/libcublasLt.so.12 (0x0000789310600000)\n\tlibcudaforwrapblas.so => /content/qe_drive_restore/lib/libcudaforwrapblas.so (0x0000789310200000)\n\tlibcudaforwrapblas117.so => /content/qe_drive_restore/lib/libcudaforwrapblas117.so (0x000078930fe00000)\n\tlibcudart.so.12 => /content/qe_drive_restore/lib/libcudart.so.12 (0x000078930fa00000)\n\tlibcudafor_128.so => /content/qe_drive_restore/lib/libcudafor_128.so (0x000078930cc00000)\n\tlibcudafor.so => /content/qe_drive_restore/lib/libcudafor.so (0x000078930c800000)\n\tlibacchost.so => /content/qe_drive_restore/lib/libacchost.so (0x000078930c400000)\n\tlibaccdevaux.so => /content/qe_drive_restore/lib/libaccdevaux.so (0x000078930c000000)\n\tlibaccdevice.so => /content/qe_drive_restore/lib/libaccdevice.so (0x000078930bc00000)\n\tlibcudadevice.so => /content/qe_drive_restore/lib/libcudadevice.so (0x000078930b800000)\n\tlibcudafor2.so => /content/qe_drive_restore/lib/libcudafor2.so (0x000078930b400000)\n\tlibnvf.so => /content/qe_drive_restore/lib/libnvf.so (0x000078930ac00000)\n\tlibnvomp.so => /content/qe_drive_restore/lib/libnvomp.so (0x0000789309a00000)\n\tlibnvhpcatm.so => /content/qe_drive_restore/lib/libnvhpcatm.so (0x0000789309600000)\n\tlibnvcpumath.so => /content/qe_drive_restore/lib/libnvcpumath.so (0x0000789309000000)\n\tlibnvc.so => /content/qe_drive_restore/lib/libnvc.so (0x0000789308c00000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007893089ed000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x0000789380c71000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x0000789380b88000)\n\tlibdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x0000789380b81000)\n\tlibpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x0000789380b7c000)\n\tlibrt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x0000789380b77000)\n\t/lib64/ld-linux-x86-64.so.2 (0x0000789380cb9000)\n\tlibcusparse.so.12 => /content/qe_drive_restore/lib/libcusparse.so.12 (0x00007892eb800000)\n",
+  "dependencies_resolved": true,
+  "help_returncode": 1,
+  "startup_output": "\n     Program PWSCF v.7.5 starts on 30Oct2026 at 11: 8:20 \n\n     This program is part of the open-source Quantum ESPRESSO suite\n     for quantum simulation of materials; please cite\n         \"P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);\n         \"P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);\n         \"P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);\n          URL http://www.quantum-espresso.org\", \n     in publications or presentations arising from this work. More details at\n     http://www.quantum-espresso.org/quote\n\n     Serial multi-threaded version, running on    2 processor cores\n     68433 MiB available memory on the printing compute node when the environment starts\n \n     Waiting for input...\n     Reading input from standard input\n\n %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n     Error in routine  read_namelists (2):\n      could not find namelist &control\n %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n\n     stopping ...\nfrom test_input_xml: input file not opened or empty\nWarning: ieee_inexact is signaling\n    1\n"
+}

@@ -1,0 +1,22 @@
+{
+  "irreducible_kpoints": 26,
+  "vbm_k_index": 6,
+  "vbm_k_tpiba": [
+    0.0,
+    -0.4352,
+    -0.0477
+  ],
+  "vbm_ev": 0.8463,
+  "vbm_band": 81,
+  "cbm_k_index": 1,
+  "cbm_k_tpiba": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "cbm_ev": 3.4931,
+  "cbm_band": 82,
+  "gap_eV": 2.6468,
+  "plot_num": 7,
+  "nature": "selected-state pseudo-charge density, not full all-electron density or excited-state NTO"
+}

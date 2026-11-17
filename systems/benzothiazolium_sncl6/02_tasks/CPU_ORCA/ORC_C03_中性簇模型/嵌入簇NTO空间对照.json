@@ -1,0 +1,110 @@
+{
+  "archive_sha256": "4f9fd56e7a3e749d77188f8f0723e767a483c04e2f64f12eac73e0e83389451e",
+  "partitions": {
+    "shell1/resume_shell1.s1.mo222a.cube": {
+      "integral": 1.0003163698065038,
+      "fractions": {
+        "organic": 0.9997937187283811,
+        "inorganic": 0.00011256364279316991,
+        "water": 9.371762882581588e-05
+      }
+    },
+    "shell1/resume_shell1.s1.mo223a.cube": {
+      "integral": 1.0061637873231526,
+      "fractions": {
+        "organic": 0.8223726732888766,
+        "inorganic": 0.00040160329546145635,
+        "water": 0.1772257234156618
+      }
+    },
+    "shell1/resume_shell1.s2.mo222a.cube": {
+      "integral": 1.0016544456609107,
+      "fractions": {
+        "organic": 0.9998058195382992,
+        "inorganic": 5.9174868039717653e-05,
+        "water": 0.00013500559366129428
+      }
+    },
+    "shell1/resume_shell1.s2.mo223a.cube": {
+      "integral": 1.006181318008535,
+      "fractions": {
+        "organic": 0.8219576793626869,
+        "inorganic": 0.000399072588159376,
+        "water": 0.17764324804915385
+      }
+    },
+    "shell1/resume_shell1.s3.mo222a.cube": {
+      "integral": 1.0016344771694634,
+      "fractions": {
+        "organic": 0.8644410048529821,
+        "inorganic": 0.0004500849077650025,
+        "water": 0.13510891023925287
+      }
+    },
+    "shell1/resume_shell1.s3.mo223a.cube": {
+      "integral": 0.9990849387687484,
+      "fractions": {
+        "organic": 0.43378165648625616,
+        "inorganic": 0.000730445357089965,
+        "water": 0.565487898156654
+      }
+    },
+    "shell2/resume_shell1.s1.mo222a.cube": {
+      "integral": 1.0000869901131026,
+      "fractions": {
+        "organic": 0.9998074997351476,
+        "inorganic": 0.00011135961787465341,
+        "water": 8.114064697782285e-05
+      }
+    },
+    "shell2/resume_shell1.s1.mo223a.cube": {
+      "integral": 1.0060843654611389,
+      "fractions": {
+        "organic": 0.8289838345708146,
+        "inorganic": 0.00038126226771192874,
+        "water": 0.17063490316147364
+      }
+    },
+    "shell2/resume_shell1.s2.mo222a.cube": {
+      "integral": 1.0015908306574852,
+      "fractions": {
+        "organic": 0.9998041960343118,
+        "inorganic": 6.763757237891722e-05,
+        "water": 0.00012816639330944036
+      }
+    },
+    "shell2/resume_shell1.s2.mo223a.cube": {
+      "integral": 1.006108008437854,
+      "fractions": {
+        "organic": 0.8285565955545104,
+        "inorganic": 0.0003791959821534063,
+        "water": 0.17106420846333623
+      }
+    },
+    "shell2/resume_shell1.s3.mo222a.cube": {
+      "integral": 1.0014810708645767,
+      "fractions": {
+        "organic": 0.8591587248225285,
+        "inorganic": 0.0004374295361019624,
+        "water": 0.14040384564136965
+      }
+    },
+    "shell2/resume_shell1.s3.mo223a.cube": {
+      "integral": 0.9993562855228162,
+      "fractions": {
+        "organic": 0.4806204804608104,
+        "inorganic": 0.0008041640095450874,
+        "water": 0.5185753555296445
+      }
+    }
+  },
+  "cross_shell_absolute_orbital_overlaps": {
+    "s1_orb222": 0.9973393468739129,
+    "s1_orb223": 0.9985736297167315,
+    "s2_orb222": 0.997760034661461,
+    "s2_orb223": 0.9985747723574673,
+    "s3_orb222": 0.9994909133652173,
+    "s3_orb223": 0.9978148354425913
+  },
+  "limits": "Nearest-nucleus Voronoi partition and finite grid, only dominant NTO pair; overlap is orbital overlap, not full transition-density or state overlap. Embedding has fixed charges, no Pauli repulsion or polarization."
+}

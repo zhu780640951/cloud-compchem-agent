@@ -1,0 +1,10 @@
+{
+  "identity_http_status": 200,
+  "email": "<YOUR_GCP_EMAIL>",
+  "consumption": {
+    "paid_compute_units_balance": 0.0,
+    "consumption_rate_hourly": 0.0,
+    "assignments_count": 0
+  },
+  "notebook_http_status": 403
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "dimer_1",
+    "centroid_distance_A": 3.6523434500564314,
+    "translation": [
+      0,
+      0,
+      0
+    ],
+    "charge": 2,
+    "atoms": 30,
+    "environment": "vacuum diagnostic, not crystal embedded",
+    "source": "fixed-cell optimized geometry"
+  },
+  {
+    "id": "dimer_2",
+    "centroid_distance_A": 3.710662289205709,
+    "translation": [
+      1,
+      0,
+      0
+    ],
+    "charge": 2,
+    "atoms": 30,
+    "environment": "vacuum diagnostic, not crystal embedded",
+    "source": "fixed-cell optimized geometry"
+  }
+]

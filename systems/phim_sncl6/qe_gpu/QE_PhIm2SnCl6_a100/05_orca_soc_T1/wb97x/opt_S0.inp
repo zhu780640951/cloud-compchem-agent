@@ -1,0 +1,11 @@
+! wB97X-D3 def2-SVP def2/J RIJCOSX TightSCF Opt
+%basis
+  NewGTO Sn "def2-TZVP" end
+  NewECP Sn "def2-ECP" end
+end
+%geom MaxIter 200 end
+%pal nprocs 5 end
+%maxcore 4000
+%pointcharges "mm.pc"
+%scf MaxIter 300 end
+* xyzfile 0 1 crystal.xyz

@@ -1,0 +1,5 @@
+PBE (SG15, 70 Ry):  VBM 1.005  CBM 3.204  Eg 2.199 eV
+HSE06 (ecutfock=120 k=3x2x2):  VBM 0.466  CBM 3.422  Eg 2.957 eV
+Delta Eg (HSE06 - PBE) = +0.757 eV ; VBM shift -0.539, CBM shift +0.219 eV
+PBE(PAW, step 2) gap 2.201 eV  ->  HSE06-corrected estimate 2.96 eV
+EXX outer iterations: 6 | wall: ['PWSCF        :  17m25.43s CPU  16m30.81s WALL']

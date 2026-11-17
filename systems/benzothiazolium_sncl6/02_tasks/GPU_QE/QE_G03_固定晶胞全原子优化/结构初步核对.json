@@ -1,0 +1,34 @@
+{
+  "cif_sha256": "ed23e88c8f84151de88f25c1ddd3b617e21a626e7ba6e403d5853217436c7a12",
+  "fixed_cell_43_atoms": true,
+  "qe_verify": {
+    "bfgs_converged": true,
+    "n_atoms": 43,
+    "max_force_component_ry_bohr": 0.00073323,
+    "max_force_component_eV_A": 0.01885210805889,
+    "force_target_eV_A": 0.02,
+    "energy_ry_last_scf": -828.88282551,
+    "last_optimization_lines": [
+      "Gradient error          =      8.8E-04 Ry/Bohr",
+      "Total force =     0.003414     Total SCF correction =     0.000012",
+      "Gradient error          =      8.8E-04 Ry/Bohr",
+      "Total force =     0.003571     Total SCF correction =     0.000018",
+      "Gradient error          =      7.3E-04 Ry/Bohr",
+      "bfgs converged in  35 scf cycles and  34 bfgs steps",
+      "End of BFGS Geometry Optimization"
+    ],
+    "fixed_cell": true,
+    "notes": "Fixed input experimental cell; plane-wave PBE-D3, no SOC. Total forces extracted first force section; validate geometry before electronic structure."
+  },
+  "sn_cl_A": [
+    2.4707976935237563,
+    2.4707976935237563,
+    2.474055577042329,
+    2.474055577042329,
+    2.4866428213615897,
+    2.4866428213615897
+  ],
+  "sn_cl_mean_A": 2.477165363975892,
+  "pairs_below_0_7A": [],
+  "notes": "Geometry screening only; no band structure or excited-state emission assignment."
+}

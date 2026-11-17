@@ -1,0 +1,29 @@
+@echo off
+chcp 65001 >nul
+setlocal
+
+REM 复制为本地 login_colab.cmd，用于为项目独立目录签发 Colab ADC 凭据
+if not defined COLAB_TOOL_DIR set "COLAB_TOOL_DIR=%~dp0local_colab_auth"
+if not defined GCLOUD_CMD set "GCLOUD_CMD=E:\Google cloud\google-cloud-sdk\bin\gcloud.cmd"
+
+set "CLOUDSDK_CONFIG=%COLAB_TOOL_DIR%\gcloud-auth"
+set "GOOGLE_APPLICATION_CREDENTIALS=%CLOUDSDK_CONFIG%\application_default_credentials.json"
+set "PYTHONIOENCODING=utf-8"
+
+echo 请使用你的 Colab Pro 账号完成 Google 官方授权。
+echo 复制下方链接到浏览器完成后，将授权码粘贴回本窗口。
+echo.
+call "%GCLOUD_CMD%" auth application-default login --no-launch-browser --scopes=openid,https://www.googleapis.com/auth/cloud-platform,https://www.googleapis.com/auth/userinfo.email,https://www.googleapis.com/auth/colaboratory
+if errorlevel 1 goto failed
+
+"%COLAB_TOOL_DIR%\venv\Scripts\colab.exe" --auth adc --config "%COLAB_TOOL_DIR%\sessions.json" sessions
+echo.
+echo 授权完成。
+pause
+exit /b 0
+
+:failed
+echo.
+echo 授权未完成，请检查网络与代理设置。
+pause
+exit /b 1

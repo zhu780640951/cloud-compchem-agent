@@ -1,0 +1,63 @@
+# Python / Jupyter / Virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Local secrets, credentials, SSH keys, and runtime state (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+*.pem
+*.ppk
+*.key
+*google_compute_engine*
+gcp_test_key*
+gcloud-auth/
+application_default_credentials.json
+sessions.json
+sessions.json.lock
+*授权链接*.txt
+.claude/settings.local.json
+
+# Large archives & temporary bundles
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+*.part[0-9][0-9]
+
+# Heavy quantum chemistry / DFT binary & grid files
+*.gbw
+*.densities
+*.cis
+*.nto
+*.cube
+*.molden
+*.molden.input
+*.bas[0-9]
+*.carthess
+*.pcgrad
+*.opt
+*.tmp.*
+*.update
+*.wfc*
+*.cistrial.*
+*.cissigma.*
+*.diisao.*
+*.soscfv.*
+*.cpscfdata.*
+*.scfgrad.*
+*.hostnames
+charge-density.dat
+paw.txt
+
+# Local caches & logs
+cache/
+tmp/
+_传输临时文件_可删除/
+*.pid

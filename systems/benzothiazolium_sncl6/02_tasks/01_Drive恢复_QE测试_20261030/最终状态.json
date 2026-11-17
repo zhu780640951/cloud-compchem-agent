@@ -1,0 +1,16 @@
+{
+  "colab_active_assignments": 0,
+  "colab_usage_units_per_hour": 0,
+  "formal_crystal_calculation_started": false,
+  "qe_version": "7.5 GPU",
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "cloud_cpu_status": "TERMINATED",
+  "post_release_new_runtime_readback_completed": true,
+  "checkpoint_roundtrip_in_same_runtime": true,
+  "core_drive_qe_workflow_passed": true,
+  "colab_balance_units": 51.28,
+  "date": "2026-10-30",
+  "model": "H2 smoke test",
+  "automatic_browser_popup_user_confirmed": true,
+  "drive_mount_after_authorization_verified": true
+}

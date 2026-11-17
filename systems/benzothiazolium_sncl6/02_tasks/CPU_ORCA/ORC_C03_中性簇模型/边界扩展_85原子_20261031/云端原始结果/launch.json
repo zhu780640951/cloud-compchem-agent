@@ -1,0 +1,10 @@
+{
+  "pid": 7107,
+  "start_utc": "2026-10-31T08:47:02Z",
+  "files_sha256": {
+    "shell85_scf.inp": "5723e6510fb5e838a068abecccdf318c628f974567c20714c83586f79eccfbeb",
+    "model_metadata.json": "89bc46d1a5a69e8bf4adb2ad695e4bd2e1dbe85e8813aeea97b4bf9c1d1d08c1",
+    "shell85.xyz": "f39f306e5d8a28649ff5b30a7fa66a1cc088879bdae83c8dcce959ed698ec49a",
+    "shell85.pc": "76a215dd1d47409239ab513b5d248056ed9a4228e8a0c624a02c038790c4198a"
+  }
+}

@@ -1,0 +1,111 @@
+﻿==== progress  2026-10-26 23:50:11
+实例状态：RUNNING
+
+>>> 远程执行：cd ~/stage3 2>/dev/null || exit; uptime; echo ==progress; cat progress.log; echo ==running; pgrep -af orca_ || echo none; for f in jobs/*/*.summary.txt; do echo; echo ==== $f; cat $f; done; echo ==run.log-tail; tail -5 run.log
+ 15:50:20 up 54 min,  2 users,  load average: 6.11, 5.99, 4.67
+==progress
+[2026-10-26 15:04:09] 开始 00_basis_check_ZORA_SnCl6
+[2026-10-26 15:05:03] 完成 00_basis_check_ZORA_SnCl6  0 days 0 hours 0 minutes 54 seconds 232 msec
+[2026-10-26 15:05:03] 开始 01a_S0_wB97X_SVP_PC
+[2026-10-26 15:07:53] 完成 01a_S0_wB97X_SVP_PC  0 days 0 hours 2 minutes 49 seconds 893 msec
+[2026-10-26 15:07:53] 开始 01b_S0_wB97X_SVP_gas
+[2026-10-26 15:10:37] 完成 01b_S0_wB97X_SVP_gas  0 days 0 hours 2 minutes 44 seconds 410 msec
+[2026-10-26 15:10:39] 全部结束，结果已打包
+[2026-10-26 15:29:40] 开始 01c_S0_wB97X_TZVP_PC
+[2026-10-26 15:38:42] 完成 01c_S0_wB97X_TZVP_PC  0 days 0 hours 9 minutes 1 seconds 898 msec
+[2026-10-26 15:38:42] 开始 02a_TDA_wB97X_SVP_PC
+==running
+4115 sh -c -- mpirun -np 6  /opt/orca/orca_cis_mpi 02a_TDA_wB97X_SVP_PC.cisinp.tmp 02a_TDA_wB97X_SVP_PC 
+4116 mpirun -np 6 /opt/orca/orca_cis_mpi 02a_TDA_wB97X_SVP_PC.cisinp.tmp 02a_TDA_wB97X_SVP_PC
+4120 /opt/orca/orca_cis_mpi 02a_TDA_wB97X_SVP_PC.cisinp.tmp 02a_TDA_wB97X_SVP_PC
+4121 /opt/orca/orca_cis_mpi 02a_TDA_wB97X_SVP_PC.cisinp.tmp 02a_TDA_wB97X_SVP_PC
+4122 /opt/orca/orca_cis_mpi 02a_TDA_wB97X_SVP_PC.cisinp.tmp 02a_TDA_wB97X_SVP_PC
+4123 /opt/orca/orca_cis_mpi 02a_TDA_wB97X_SVP_PC.cisinp.tmp 02a_TDA_wB97X_SVP_PC
+4124 /opt/orca/orca_cis_mpi 02a_TDA_wB97X_SVP_PC.cisinp.tmp 02a_TDA_wB97X_SVP_PC
+4125 /opt/orca/orca_cis_mpi 02a_TDA_wB97X_SVP_PC.cisinp.tmp 02a_TDA_wB97X_SVP_PC
+4379 bash -c cd ~/stage3 2>/dev/null || exit; uptime; echo ==progress; cat progress.log; echo ==running; pgrep -af orca_ || echo none; for f in jobs/*/*.summary.txt; do echo; echo ==== $f; cat $f; done; echo ==run.log-tail; tail -5 run.log
+
+==== jobs/00_basis_check_ZORA_SnCl6/00_basis_check_ZORA_SnCl6.summary.txt
+==============================================================================
+00_basis_check_ZORA_SnCl6.out
+正常结束: 是
+最终能量: -9036.140379958484 Eh
+
+前线轨道（HOMO = MO 76）
+  MO  72 H-4     -2.976 eV | 
+  MO  73 H-3     -2.931 eV | 
+  MO  74 H-2     -2.476 eV | 
+  MO  75 H-1     -2.470 eV | 
+  MO  76 HOMO    -2.420 eV | 
+  MO  77 LUMO     6.755 eV | 
+  MO  78 L+1      8.443 eV | 
+  MO  79 L+2      8.477 eV | 
+  MO  80 L+3      8.487 eV | 
+  能隙 LUMO-HOMO = 9.174 eV
+
+==== jobs/01a_S0_wB97X_SVP_PC/01a_S0_wB97X_SVP_PC.summary.txt
+==============================================================================
+01a_S0_wB97X_SVP_PC.out
+正常结束: 是
+最终能量: -4042.793703695308 Eh
+
+前线轨道（HOMO = MO 148）
+  MO 144 H-4     -9.827 eV | SnCl6 67%  CatB 32%
+  MO 145 H-3     -9.753 eV | SnCl6 63%  CatB 36%
+  MO 146 H-2     -9.613 eV | CatA 100%
+  MO 147 H-1     -9.047 eV | CatB 100%
+  MO 148 HOMO    -8.760 eV | CatA 100%
+  MO 149 LUMO    -0.520 eV | SnCl6 99%
+  MO 150 L+1     -0.122 eV | CatB 100%
+  MO 151 L+2      0.170 eV | CatA 100%
+  MO 152 L+3      1.383 eV | CatB 100%
+  CatA 最高占据 π: MO 148 (-8.760 eV)
+  CatB 最高占据 π: MO 147 (-9.047 eV)
+  SnCl6 最低空轨道 σ*: MO 149 (-0.520 eV)
+  能隙 LUMO-HOMO = 8.240 eV
+
+==== jobs/01b_S0_wB97X_SVP_gas/01b_S0_wB97X_SVP_gas.summary.txt
+==============================================================================
+01b_S0_wB97X_SVP_gas.out
+正常结束: 是
+最终能量: -4042.520615776143 Eh
+
+前线轨道（HOMO = MO 148）
+  MO 144 H-4     -8.684 eV | SnCl6 74%  H2O 26%
+  MO 145 H-3     -8.557 eV | SnCl6 80%  H2O 20%
+  MO 146 H-2     -8.396 eV | SnCl6 99%
+  MO 147 H-1     -8.335 eV | SnCl6 100%
+  MO 148 HOMO    -8.092 eV | SnCl6 99%
+  MO 149 LUMO    -0.453 eV | CatA 100%
+  MO 150 L+1     -0.442 eV | CatB 100%
+  MO 151 L+2      0.939 eV | SnCl6 87%  CatA 12%
+  MO 152 L+3      1.059 eV | CatA 88%  SnCl6 12%
+  CatA 最高占据 π: MO 135 (-9.415 eV)
+  CatB 最高占据 π: MO 134 (-9.424 eV)
+  SnCl6 最低空轨道 σ*: MO 151 (0.939 eV)
+  能隙 LUMO-HOMO = 7.638 eV
+
+==== jobs/01c_S0_wB97X_TZVP_PC/01c_S0_wB97X_TZVP_PC.summary.txt
+==============================================================================
+01c_S0_wB97X_TZVP_PC.out
+正常结束: 是
+最终能量: -4044.911882448007 Eh
+
+前线轨道（HOMO = MO 148）
+  MO 144 H-4    -10.126 eV | SnCl6 98%
+  MO 145 H-3     -9.823 eV | CatB 95%  SnCl6 5%
+  MO 146 H-2     -9.608 eV | CatA 100%
+  MO 147 H-1     -9.022 eV | CatB 100%
+  MO 148 HOMO    -8.730 eV | CatA 100%
+  MO 149 LUMO    -0.902 eV | SnCl6 99%
+  MO 150 L+1     -0.192 eV | CatB 100%
+  MO 151 L+2      0.108 eV | CatA 100%
+  MO 152 L+3      1.191 eV | CatB 100%
+  CatA 最高占据 π: MO 148 (-8.730 eV)
+  CatB 最高占据 π: MO 147 (-9.022 eV)
+  SnCl6 最低空轨道 σ*: MO 149 (-0.902 eV)
+  能隙 LUMO-HOMO = 7.828 eV
+==run.log-tail
+[2026-10-26 15:29:40] 开始 01c_S0_wB97X_TZVP_PC
+[2026-10-26 15:38:42] 完成 01c_S0_wB97X_TZVP_PC  0 days 0 hours 9 minutes 1 seconds 898 msec
+[2026-10-26 15:38:42] 开始 02a_TDA_wB97X_SVP_PC

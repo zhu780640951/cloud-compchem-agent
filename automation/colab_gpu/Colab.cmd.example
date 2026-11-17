@@ -1,0 +1,17 @@
+@echo off
+chcp 65001 >nul
+setlocal
+
+REM 复制为本地 Colab.cmd 使用（勿提交包含真实 ADC 凭据的目录）
+if not defined COLAB_TOOL_DIR set "COLAB_TOOL_DIR=%~dp0local_colab_auth"
+if not defined COLAB_VENV_PY set "COLAB_VENV_PY=%COLAB_TOOL_DIR%\venv\Scripts\python.exe"
+
+set "CLOUDSDK_CONFIG=%COLAB_TOOL_DIR%\gcloud-auth"
+set "GOOGLE_APPLICATION_CREDENTIALS=%CLOUDSDK_CONFIG%\application_default_credentials.json"
+set "PYTHONIOENCODING=utf-8"
+set "PYTHONUTF8=1"
+set "COLAB_CLI_REQUEST_TIMEOUT=45"
+
+"%COLAB_VENV_PY%" "%~dp0colab_project_cli.py" %*
+set "COLAB_EXIT=%ERRORLEVEL%"
+endlocal & exit /b %COLAB_EXIT%

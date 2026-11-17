@@ -1,0 +1,8 @@
+{
+  "method": "existing gcloud short-lived access token, in memory only",
+  "runtime_created": false,
+  "ok": true,
+  "stage": "list_assignments",
+  "count": 0,
+  "sessions": []
+}

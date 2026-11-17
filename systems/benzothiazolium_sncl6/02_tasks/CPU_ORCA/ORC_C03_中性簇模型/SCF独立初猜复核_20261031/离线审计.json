@@ -1,0 +1,180 @@
+{
+  "resume_results.tar.gz": {
+    "resume_shell1.TDDFTGuess.gbw": {
+      "sha256": "f3ba495424ba88b47ee866e1d64e481a9333ed1eb66a549a1386d8f6c11902f7",
+      "bytes": 12007997
+    },
+    "initial_guess.gbw": {
+      "sha256": "4b1a1341f848a30e4962d2c16a251b6cb0658ba629de63d6c56f5ee8f80339c7",
+      "bytes": 7876691
+    },
+    "expanded79_shell1.pc": {
+      "sha256": "a07b962f4f8714d3a31e494d4c8421d33ec9a2714305829971030b999d9a4a07",
+      "bytes": 59971
+    },
+    "resume_shell1.out": {
+      "sha256": "526d8984a4af7350fb185dd5a135c8192993e55d286920a400c15f0e6dd4f25f",
+      "bytes": 161210,
+      "normal": true,
+      "scf_cycles": [
+        "26"
+      ],
+      "trah_final_macro": [
+        [
+          "-6169.686107037529",
+          "1.013613e-04"
+        ]
+      ],
+      "energy_after_integration": [
+        "-6169.685881768"
+      ],
+      "last_energy_change": [
+        "-3.3888e-09  Tolerance :   1.0000e-08"
+      ],
+      "last_orbital_gradient": [
+        "6.1980e-06  Tolerance :   1.0000e-05"
+      ]
+    },
+    "resume_shell1.gbw": {
+      "sha256": "ab78f0900e54de7c5a081b151484212165a1ecbfabf422d12b8407a756e06222",
+      "bytes": 12007997
+    },
+    "resume_shell1.inp": {
+      "sha256": "2a5b32de4fe5508da30c4c8b08d5a71771ca75308531851ac9f7a70f7642b673",
+      "bytes": 3371
+    }
+  },
+  "shell2_results.tar.gz": {
+    "resume_shell1.TDDFTGuess.gbw": {
+      "sha256": "1ca87eab05bb95f1be28618d58f6f8ffb5fb5adbaf9a1515c5de4e0b3fbe02d7",
+      "bytes": 12007997
+    },
+    "expanded79_shell2.pc": {
+      "sha256": "22a1152fdd9e98c3a02521c8ecb513cec0d687e271d2bff585d192a07e658a53",
+      "bytes": 298663
+    },
+    "initial_guess.gbw": {
+      "sha256": "ab78f0900e54de7c5a081b151484212165a1ecbfabf422d12b8407a756e06222",
+      "bytes": 12007997
+    },
+    "resume_shell1.out": {
+      "sha256": "dbef6e0032f76ff2c3b95318c5959b5436cc955f004d0ff5c7a9deae1afcf88e",
+      "bytes": 162474,
+      "normal": true,
+      "scf_cycles": [
+        "39"
+      ],
+      "trah_final_macro": [
+        [
+          "-6169.702004171502",
+          "1.081434e-04"
+        ]
+      ],
+      "energy_after_integration": [
+        "-6169.701778875"
+      ],
+      "last_energy_change": [
+        "-4.6666e-09  Tolerance :   1.0000e-08"
+      ],
+      "last_orbital_gradient": [
+        "6.9453e-06  Tolerance :   1.0000e-05"
+      ]
+    },
+    "resume_shell1.gbw": {
+      "sha256": "d9ac704cd6236e831325e65deb0ae781f95e13bff078b2d74869618862fb3832",
+      "bytes": 12007997
+    },
+    "resume_shell1.inp": {
+      "sha256": "3fdfccd95d314f0d54848eaa411febea4d9651fa9b410d5f47f99ee85e2d9c27",
+      "bytes": 3371
+    }
+  },
+  "td_residual_audit_results.tar.gz": {
+    "shell2/expanded79_shell2.pc": {
+      "sha256": "22a1152fdd9e98c3a02521c8ecb513cec0d687e271d2bff585d192a07e658a53",
+      "bytes": 298663
+    },
+    "shell2/initial_guess.gbw": {
+      "sha256": "d9ac704cd6236e831325e65deb0ae781f95e13bff078b2d74869618862fb3832",
+      "bytes": 12007997
+    },
+    "shell2/audit.inp": {
+      "sha256": "845211c20eeefb8ae28d66fad66c9e8af7aba9f34ea89f2a4c7e466c7f972718",
+      "bytes": 3414
+    },
+    "shell2/audit.out": {
+      "sha256": "89636fc1ea568488377f9c3416fe2c7e90334f4fc601aee9b10fe2ac4f611591",
+      "bytes": 160299,
+      "normal": true,
+      "scf_cycles": [
+        "1"
+      ],
+      "trah_final_macro": [
+        [
+          "-6169.702004176185",
+          "4.550691e-06"
+        ]
+      ],
+      "energy_after_integration": [
+        "-6169.701778875"
+      ],
+      "last_energy_change": [
+        "-6.1697e+03  Tolerance :   1.0000e-08"
+      ],
+      "last_orbital_gradient": [
+        "4.5507e-06  Tolerance :   1.0000e-05"
+      ]
+    },
+    "shell2/audit.gbw": {
+      "sha256": "42c1c291d93368181a5bfe07d28c6c9a05403be6aef087fab071560a62c5e3bc",
+      "bytes": 12007997
+    },
+    "shell2/audit.TDDFTGuess.gbw": {
+      "sha256": "39982221f1dbf97b3471b5aa78483b662bd8a847ab144471646cf169eaea253b",
+      "bytes": 12007997
+    },
+    "shell1/initial_guess.gbw": {
+      "sha256": "ab78f0900e54de7c5a081b151484212165a1ecbfabf422d12b8407a756e06222",
+      "bytes": 12007997
+    },
+    "shell1/audit.inp": {
+      "sha256": "d7491b19dc43759ef5bb9248f8ba8d0e5ff9bfbc30fd8c20fe69d1e34d64128e",
+      "bytes": 3414
+    },
+    "shell1/audit.out": {
+      "sha256": "efb39e4112d6fff77ba97f9567daea38821aaa634225fe52d653973a8c15fdb8",
+      "bytes": 160922,
+      "normal": true,
+      "scf_cycles": [
+        "1"
+      ],
+      "trah_final_macro": [
+        [
+          "-6169.686107040926",
+          "4.319235e-06"
+        ]
+      ],
+      "energy_after_integration": [
+        "-6169.685881768"
+      ],
+      "last_energy_change": [
+        "-6.1697e+03  Tolerance :   1.0000e-08"
+      ],
+      "last_orbital_gradient": [
+        "4.3192e-06  Tolerance :   1.0000e-05"
+      ]
+    },
+    "shell1/expanded79_shell1.pc": {
+      "sha256": "a07b962f4f8714d3a31e494d4c8421d33ec9a2714305829971030b999d9a4a07",
+      "bytes": 59971
+    },
+    "shell1/audit.gbw": {
+      "sha256": "c1c4de9c53b5804d1d4ee7a205cec162e9c5074d2ea4f482b6f3cb75dc5af042",
+      "bytes": 12007997
+    },
+    "shell1/audit.TDDFTGuess.gbw": {
+      "sha256": "2ee368df242228d5a2870ff0ec1d7f6b19d46ae98eda69b793e82f536e70ed7f",
+      "bytes": 12007997
+    }
+  }
+}

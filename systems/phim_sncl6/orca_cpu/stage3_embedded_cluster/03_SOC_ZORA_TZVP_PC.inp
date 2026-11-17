@@ -1,0 +1,14 @@
+! ZORA wB97X-D3 ZORA-def2-TZVP SARC/J RIJCOSX RI-SOMF(1X) TightSCF DefGrid3
+%pal nprocs 6 end
+%maxcore 12000
+%pointcharges "mm_charges.pc"
+%output Print[P_ReducedOrbPopMO_L] 1 end
+%basis NewGTO Sn "SARC-ZORA-TZVP" end end
+%tddft
+  nroots 10
+  triplets true
+  tda true
+  dosoc true
+  TPrint 1e-4
+end
+* xyzfile 0 1 qm_cluster.xyz

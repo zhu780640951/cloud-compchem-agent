@@ -1,0 +1,13 @@
+&INPUTPP
+  prefix = 'phim_sncl6', outdir = './tmp'
+  filplot = 'psi2_vbm.dat'
+  plot_num = 7
+  kpoint(1) = 1
+  kband(1) = 182
+  lsign = .false.
+/
+&PLOT
+  iflag = 3
+  output_format = 6
+  fileout = 'vbm_band182_Gamma.cube'
+/

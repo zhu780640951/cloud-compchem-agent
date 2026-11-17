@@ -1,0 +1,9 @@
+import pathlib,os,subprocess,time,json,shutil
+w=pathlib.Path('/content/qe_optimized_electronic');d=pathlib.Path('/content/drive/MyDrive/苯并噻唑SnCl4计算/Codex_优化晶胞电子结构_20261031');base=(w/'optimized_scf.in').read_text();before=base.split('K_POINTS automatic')[0];before=before.replace("calculation='scf'","calculation='bands'").replace("occupations='fixed'","occupations='fixed', nbnd=105")
+path="K_POINTS crystal_b\n6\n0.0 0.0 0.0 24\n0.5 0.0 0.0 24\n0.0 0.0 0.0 24\n0.0 0.5 0.0 24\n0.0 0.0 0.0 24\n0.0 0.0 0.5 1\n"
+(w/'exploratory_bands.in').write_text(before+path);shutil.copy2(w/'exploratory_bands.in',d/'exploratory_bands.in');env=os.environ.copy();env['LD_LIBRARY_PATH']='/content/qe_drive_restore/lib:'+env.get('LD_LIBRARY_PATH','');env['OMP_NUM_THREADS']='2';out=w/'exploratory_bands.out';start=time.time()
+with out.open('w') as f:
+ p=subprocess.Popen(['/content/qe_drive_restore/bin/pw.x','-in','exploratory_bands.in'],cwd=w,env=env,stdout=f,stderr=subprocess.STDOUT);print('BANDS_STARTED',p.pid,flush=True)
+ while p.poll() is None:
+  time.sleep(10);f.flush();shutil.copyfile(out,d/'exploratory_bands.live.out');print('MONITOR',round(time.time()-start),out.stat().st_size,flush=True)
+t=out.read_text(errors='replace');shutil.copy2(out,d/out.name);r={'rc':p.returncode,'elapsed_s':round(time.time()-start,1),'job_done':'JOB DONE.' in t,'path':'exploratory reciprocal Gamma-(1/2,0,0)-Gamma-(0,1/2,0)-Gamma-(0,0,1/2); not standardized triclinic path'};(w/'bands_status.json').write_text(json.dumps(r,indent=2));shutil.copy2(w/'bands_status.json',d/'bands_status.json');print('RESULT',json.dumps(r),flush=True)

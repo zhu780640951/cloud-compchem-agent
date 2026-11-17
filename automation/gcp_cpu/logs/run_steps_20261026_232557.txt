@@ -1,0 +1,5 @@
+﻿==== run_steps  2026-10-26 23:25:57
+实例状态：RUNNING
+
+>>> 远程执行：cd ~/stage3 || exit; if pgrep -f run_all.sh >/dev/null; then echo BUSY-run_all-still-running; exit; fi; (setsid nohup bash run_all.sh 01c 02a 02b > run.log 2>&1 < /dev/null &); sleep 5; tail -3 progress.log
+BUSY-run_all-still-running

@@ -1,0 +1,49 @@
+==============================================================================
+04c_TDA_at_T1geom.out
+正常结束: 是
+最终能量: -4042.612334959276 Eh
+
+前线轨道（HOMO = MO 148）
+  MO 144 H-4     -9.828 eV | SnCl6 71%  CatB 21%  CatA 7%
+  MO 145 H-3     -9.808 eV | CatA 91%  SnCl6 8%
+  MO 146 H-2     -9.756 eV | SnCl6 60%  CatB 39%
+  MO 147 H-1     -9.047 eV | CatB 100%
+  MO 148 HOMO    -8.167 eV | CatA 100%
+  MO 149 LUMO    -0.525 eV | SnCl6 87%  CatA 12%
+  MO 150 L+1     -0.410 eV | CatA 88%  SnCl6 12%
+  MO 151 L+2     -0.123 eV | CatB 100%
+  MO 152 L+3      1.382 eV | CatB 100%
+  CatA 最高占据 π: MO 148 (-8.167 eV)
+  CatB 最高占据 π: MO 147 (-9.047 eV)
+  SnCl6 最低空轨道 σ*: MO 149 (-0.525 eV)
+  能隙 LUMO-HOMO = 7.642 eV
+  S1    4.291 eV  288.9 nm | 局域 CatA 83%  CatA→SnCl6 15%
+  S2    4.650 eV  266.6 nm | mix→SnCl6 48%  局域 SnCl6 36%  mix→CatA 6%
+  S3    4.692 eV  264.2 nm | 局域 SnCl6 77%  SnCl6→CatA 10%  CatA→SnCl6 5%
+  S4    4.898 eV  253.1 nm | 局域 CatA 85%  CatA→SnCl6 8%
+  S5    4.968 eV  249.6 nm | 局域 SnCl6 86%  SnCl6→CatA 11%
+  S6    5.083 eV  243.9 nm | 局域 CatB 58%  局域 SnCl6 32%
+  S7    5.111 eV  242.6 nm | 局域 SnCl6 82%  SnCl6→CatA 11%
+  S8    5.118 eV  242.3 nm | 局域 SnCl6 55%  局域 CatB 31%  SnCl6→CatA 7%
+  S9    5.171 eV  239.8 nm | SnCl6→CatB 36%  局域 CatB 33%  mix→CatB 28%
+  S10   5.287 eV  234.5 nm | CatA→SnCl6 81%  局域 CatA 15%
+  S11   5.346 eV  231.9 nm | 局域 SnCl6 82%  SnCl6→CatA 11%
+  S12   5.438 eV  228.0 nm | 局域 SnCl6 80%  SnCl6→CatA 10%
+  S13   5.454 eV  227.3 nm | 局域 SnCl6 83%  SnCl6→CatA 11%
+  S14   5.616 eV  220.8 nm | 局域 SnCl6 82%  SnCl6→CatA 11%
+  S15   6.010 eV  206.3 nm | 局域 SnCl6 77%  SnCl6→CatA 10%  H2O→SnCl6 6%
+  T1    2.399 eV  516.8 nm | 局域 CatA 86%  CatA→SnCl6 13%
+  T2    3.424 eV  362.1 nm | 局域 CatB 94%
+  T3    4.091 eV  303.1 nm | 局域 CatA 80%  CatA→SnCl6 11%  SnCl6→CatA 7%
+  T4    4.348 eV  285.2 nm | SnCl6→CatB 54%  mix→CatB 40%
+  T5    4.367 eV  283.9 nm | mix→SnCl6 46%  局域 SnCl6 38%  mix→CatA 6%  SnCl6→CatA 5%
+  T6    4.414 eV  280.9 nm | 局域 SnCl6 76%  SnCl6→CatA 10%
+  T7    4.422 eV  280.4 nm | 局域 CatA 88%  CatA→SnCl6 9%
+  T8    4.619 eV  268.4 nm | 局域 SnCl6 83%  SnCl6→CatA 11%
+  T9    4.630 eV  267.8 nm | SnCl6→CatB 43%  mix→CatB 32%  局域 CatB 23%
+  T10   4.707 eV  263.4 nm | 局域 SnCl6 85%  SnCl6→CatA 11%
+  T11   4.727 eV  262.3 nm | 局域 SnCl6 83%  SnCl6→CatA 11%
+  T12   4.736 eV  261.8 nm | 局域 SnCl6 84%  SnCl6→CatA 11%
+  T13   4.838 eV  256.3 nm | 局域 CatA 98%
+  T14   4.884 eV  253.9 nm | 局域 SnCl6 83%  SnCl6→CatA 11%
+  T15   4.935 eV  251.2 nm | 局域 SnCl6 82%  SnCl6→CatA 11%

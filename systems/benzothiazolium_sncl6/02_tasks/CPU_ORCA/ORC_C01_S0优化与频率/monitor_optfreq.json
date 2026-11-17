@@ -1,0 +1,16 @@
+{
+  "pid": 6013,
+  "path": "/home/y/codex_calculations/benzothiazolium_sncl6/orc_c01_s0optfreq_20261030",
+  "current_job": "s0_optfreq",
+  "start_utc": "2026-10-30T13:29:31Z",
+  "method": "PBE0/def2-SVP RIJCOSX VeryTightSCF DEFGRID3 TightOpt Freq",
+  "model": "isolated C7H6NS+ charge +1 singlet 15 atoms",
+  "xrd_stability": "passed within tested orbital space",
+  "checked_utc": "2026-10-30T13:30:07Z",
+  "running": true,
+  "normal_termination": false,
+  "optimization_converged": false,
+  "last_geometry_cycle": "1",
+  "frequencies_cm-1": [],
+  "tail": "NS\n------------------------------------------------------------------------------\n\nGBWName                                   ... s0_optfreq.gbw\nNumber of atoms                           ...     15\nNumber of basis functions                 ...    160\nMax core memory                           ...   4000 MB\n\nDipole integrals                          ... YES\nQuadrupole integrals                      ...  NO\nLinear momentum integrals                 ...  NO\nAngular momentum integrals                ...  NO\nHigher moments length integrals           ...  NO\nHigher moments velocity integrals         ...  NO\nKinetic energy integrals                  ...  NO\nGIAO right hand sides                     ...  NO\nGIAO dipole derivative integrals          ...  NO\nSOC integrals                             ...  NO\nEPR diamagnetic integrals (GIAO)          ...  NO\nEPR gauge integrals                       ...  NO\nField gradient integrals                  ...  NO (   0 nuclei)\nSpin-dipole/Fermi contact integrals       ...  NO (   0 nuclei)\nContact density integrals                 ...  NO (   0 nuclei)\nNucleus-orbit integrals                   ...  NO (   0 nuclei)\nGeometric perturbations                   ...  NO (  15 nuclei)\n\nChoice of electric origin   ... Center of mass\nPosition of electric origin ... (  5.5284,  5.9407, 10.0338) \nChoice of magnetic origin   ... GIAO\nPosition of magnetic origin ... (  0.0000,  0.0000,  0.0000) \n\nCalculating integrals                     ... Electric Dipole (Length)     done (  0.0 sec)\n\nProperty integrals calculated in   0.0 sec\n\nMaximum memory used throughout the entire PROPINT-calculation: 9.7 MB\n\n-------------------------   --------------------\nFINAL SINGLE POINT ENERGY      -722.058165230942\n-------------------------   --------------------\n\n\n\n           ************************************************************\n           *        Program running with 12 parallel MPI-processes    *\n           *              working on a common directory               *\n           ************************************************************\n------------------------------------------------------------------------------\n                         ORCA SCF GRADIENT CALCULATION\n------------------------------------------------------------------------------\n\nNuc. rep. gradient        (SHARK) ... done (  0.0 sec)\nHCore & Overlap gradient  (SHARK) ... done (  0.1 sec)\nSplit-RIJ-J gradient      (SHARK) ... done (  0.3 sec)\nCOSX-gradient                     ... "
+}

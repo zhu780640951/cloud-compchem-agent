@@ -1,0 +1,3 @@
+from pathlib import Path
+import re,json
+p=Path('/content/benzothiazole_qe_g02_h_relax');txt=(p/'h_relax.out').read_text(errors='replace');print('TAIL',txt[-8500:]);print('TMP',[(x.name,x.stat().st_size) for x in (p/'tmp').iterdir()]);print('BFGS',[(l.strip()) for l in txt.splitlines() if any(w in l.lower() for w in ['bfgs converged','estimated scf accuracy','total force =','total energy','maximum cpu time','maximum time','end of bfgs','scf correction'])][-20:])

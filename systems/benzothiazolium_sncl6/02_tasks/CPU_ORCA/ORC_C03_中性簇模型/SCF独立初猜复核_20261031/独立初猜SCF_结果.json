@@ -1,0 +1,16 @@
+{
+  "energy_Eh": -6169.688098653297,
+  "reference_Eh": -6169.685881768,
+  "difference_Eh": -0.0022168852965478436,
+  "difference_eV": -0.060324522067415016,
+  "cycles": 273,
+  "orbital_gradient": 8.6062e-07,
+  "normal_termination": true,
+  "hash_verified": {
+    "shell1_independent_scf.out": "0c583c8729e6da9ea8dd25dc646bba24471987fa725c93df7421d53b66219df4",
+    "shell1_independent_scf.gbw": "f71b8ec2d1557b68c8b79a4f4dcc1b8cafbc1dfd0a633c4b24ecf1d3b5059221",
+    "shell1_independent_scf.inp": "9474a9b6ddfa7e44da004940dc2e5e581e99b317f7868bebaacef61033507327",
+    "expanded79_shell1.pc": "a07b962f4f8714d3a31e494d4c8421d33ec9a2714305829971030b999d9a4a07"
+  },
+  "status": "converged_distinct_energy_needs_density_and_stability_review"
+}

@@ -1,0 +1,7 @@
+﻿==== run_steps  2026-10-26 23:29:34
+实例状态：RUNNING
+
+>>> 远程执行：cd ~/stage3 || exit; if pgrep -f '^bash run_all' >/dev/null; then echo BUSY-run_all-still-running; exit; fi; (setsid nohup bash run_all.sh 01c 02a 02b > run.log 2>&1 < /dev/null &); sleep 5; tail -3 progress.log
+[2026-10-26 15:10:37] 完成 01b_S0_wB97X_SVP_gas  0 days 0 hours 2 minutes 44 seconds 410 msec
+[2026-10-26 15:10:39] 全部结束，结果已打包
+[2026-10-26 15:29:40] 开始 01c_S0_wB97X_TZVP_PC

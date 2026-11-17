@@ -1,0 +1,6 @@
+结构优化：已收敛，共 42 次 SCF，最终总能 -1535.820050 Ry = -20895.8963 eV
+02_scf.out：VBM = 0.9548 eV，CBM = 3.1412 eV，带隙 = 2.186 eV
+01_relax.out 用时：34m11.57s CPU  31m25.63s
+02_scf.out 用时：1m17.87s CPU   1m 9.68s
+03_nscf.out 用时：1m28.10s CPU   1m27.06s
+05_bands.out 用时：9m 0.37s CPU   9m46.39s

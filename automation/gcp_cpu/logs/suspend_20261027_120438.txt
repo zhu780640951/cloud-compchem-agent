@@ -1,0 +1,8 @@
+﻿==== suspend  2026-10-27 12:04:38
+
+>>> 远程执行：pgrep -af '^/opt/orca/orca' && echo WARNING-ORCA-STILL-RUNNING || echo no-orca-running
+no-orca-running
+Stopping instance(s) orca-cpu-16...
+.....................done.
+Updated [https://compute.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>/zones/us-central1-a/instances/orca-cpu-16].
+现在状态：TERMINATED

@@ -1,0 +1,6 @@
+! DKH wB97X-D3 ANO-RCC-DZP SARC/J RIJCOSX TightSCF
+%pal nprocs 6 end
+%maxcore 12000
+%pointcharges "mm_charges.pc"
+%output Print[P_ReducedOrbPopMO_L] 1 end
+* xyzfile 0 1 qm_cluster.xyz

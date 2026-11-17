@@ -1,0 +1,57 @@
+==============================================================================
+03_SOC_ZORA_TZVP_PC.out
+正常结束: 是
+最终能量: -10105.795097295970 Eh
+
+前线轨道（HOMO = MO 162）
+  MO 158 H-4    -10.122 eV | SnCl6 98%
+  MO 159 H-3     -9.822 eV | CatB 95%  SnCl6 5%
+  MO 160 H-2     -9.607 eV | CatA 100%
+  MO 161 H-1     -9.021 eV | CatB 100%
+  MO 162 HOMO    -8.729 eV | CatA 100%
+  MO 163 LUMO    -0.878 eV | SnCl6 99%
+  MO 164 L+1     -0.191 eV | CatB 100%
+  MO 165 L+2      0.109 eV | CatA 100%
+  MO 166 L+3      1.187 eV | CatB 99%
+  CatA 最高占据 π: MO 162 (-8.729 eV)
+  CatB 最高占据 π: MO 161 (-9.021 eV)
+  SnCl6 最低空轨道 σ*: MO 163 (-0.878 eV)
+  能隙 LUMO-HOMO = 7.851 eV
+  S1    4.658 eV  266.2 nm | 局域 SnCl6 95%
+  S2    4.687 eV  264.5 nm | 局域 SnCl6 96%
+  S3    4.955 eV  250.2 nm | 局域 SnCl6 73%  局域 CatB 19%  局域 CatA 5%
+  S4    4.969 eV  249.5 nm | 局域 CatB 54%  局域 SnCl6 26%  局域 CatA 17%
+  S5    4.985 eV  248.7 nm | 局域 CatA 71%  局域 CatB 22%
+  S6    5.094 eV  243.4 nm | 局域 CatB 95%
+  S7    5.115 eV  242.4 nm | 局域 CatA 95%
+  S8    5.134 eV  241.5 nm | 局域 SnCl6 94%
+  S9    5.147 eV  240.9 nm | 局域 SnCl6 92%
+  S10   5.379 eV  230.5 nm | 局域 SnCl6 95%
+  T1    3.366 eV  368.3 nm | 局域 CatB 98%
+  T2    3.378 eV  367.0 nm | 局域 CatA 98%
+  T3    4.311 eV  287.6 nm | 局域 CatB 95%
+  T4    4.354 eV  284.8 nm | 局域 CatA 98%
+  T5    4.386 eV  282.7 nm | 局域 SnCl6 94%
+  T6    4.418 eV  280.6 nm | 局域 SnCl6 95%
+  T7    4.545 eV  272.8 nm | 局域 CatA 96%
+  T8    4.564 eV  271.7 nm | 局域 CatB 94%
+  T9    4.629 eV  267.8 nm | 局域 SnCl6 93%
+  T10   4.709 eV  263.3 nm | 局域 SnCl6 98%
+
+SOC 矩阵元 |<T|Hso|S>|（cm^-1，S=0 为基态）
+  T1  S0       0.147
+  T1  S1       0.085
+  T1  S2       0.071
+  T1  S3       0.051
+  T2  S0       0.360
+  T2  S1       0.182
+  T2  S2       0.022
+  T2  S3       0.067
+  T3  S0       5.613
+  T3  S1       2.119
+  T3  S2       2.329
+  T3  S3       1.890
+  T4  S0       1.044
+  T4  S1       0.500
+  T4  S2       0.389
+  T4  S3       0.411

@@ -1,0 +1,6 @@
+band 180: C-p 89%, N-p 9%, Cl-p 2%, O-p 0%, Sn-s 0% | [SnCl6] 2%, cation 98%, water(O) 0%
+band 181: C-p 90%, N-p 9%, Cl-p 1%, O-p 0%, Sn-s 0% | [SnCl6] 1%, cation 99%, water(O) 0%
+band 182: C-p 90%, N-p 9%, Cl-p 1%, Sn-s 0%, O-p 0% | [SnCl6] 1%, cation 99%, water(O) 0%
+band 183: Cl-p 53%, Sn-s 42%, Cl-s 2%, C-p 1%, H-s 1% | [SnCl6] 97%, cation 3%, water(O) 0%
+band 184: Cl-p 53%, Sn-s 42%, Cl-s 2%, C-p 1%, H-s 0% | [SnCl6] 98%, cation 2%, water(O) 0%
+band 185: C-p 76%, N-p 24%, Cl-p 0%, H-s 0%, Sn-p 0% | [SnCl6] 0%, cation 100%, water(O) 0%

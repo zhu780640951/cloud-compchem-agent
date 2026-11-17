@@ -1,0 +1,61 @@
+{
+  "atoms": 43,
+  "formal_charge": 0,
+  "multiplicity": 1,
+  "counts": {
+    "Sn": 1,
+    "Cl": 6,
+    "S": 2,
+    "N": 2,
+    "C": 14,
+    "H": 16,
+    "O": 2
+  },
+  "organic_centroid_distances_A": [
+    6.322996287703042,
+    6.322996287703042
+  ],
+  "water_O_distances_A": [
+    4.253792119434174,
+    4.253792119434174
+  ],
+  "org_sym_and_shifts": [
+    [
+      0,
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      1,
+      [
+        0,
+        -1,
+        -1
+      ]
+    ]
+  ],
+  "water_sym_and_shifts": [
+    [
+      0,
+      [
+        0,
+        -1,
+        -1
+      ]
+    ],
+    [
+      1,
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "coordinates_origin": "fixed-cell relaxed geometry",
+  "embedding": "none; boundary and electrostatic environment require future validation",
+  "short_contacts_lt_0_7_A": []
+}

@@ -1,0 +1,3 @@
+[orca-setup 04:06:17] unpacking ORCA
+[orca-setup 04:07:45] trying system OpenMPI (apt)
+[orca-setup 04:07:55] ORCA parallel test OK (mpirun (Open MPI) 4.1.6)

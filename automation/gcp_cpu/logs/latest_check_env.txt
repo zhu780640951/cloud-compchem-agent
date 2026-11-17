@@ -1,0 +1,97 @@
+﻿==== check_env  2026-10-27 16:23:59
+本地阶段3文件夹：E:\桌面\gcould Claude space\阶段3_嵌入团簇重算_ORCA
+实例状态：RUNNING
+
+>>> 远程执行：echo ==host; hostname; uptime; echo cores: $(nproc); free -g | head -2; df -h /home | tail -1; echo ==orca; ls -l /opt/orca/orca; source /etc/profile.d/orca.sh 2>/dev/null; which mpirun; mpirun --version 2>&1 | head -1; echo ==python; python3 --version; echo ==running; pgrep -af orca || echo none; echo ==home; ls -la ~; echo ==stage3; ls -la ~/stage3 2>/dev/null || echo stage3-not-present
+The host key is not cached for this server:
+  136.116.109.14 (port 22)
+You have no guarantee that the server is the computer you
+think it is.
+The server's ssh-ed25519 key fingerprint is:
+  ssh-ed25519 255 SHA256:PPWfPLLQJggofsN/PhvakN0Hj+/aLxMC7u+qNNstFVc
+If you trust this host, enter "y" to add the key to Plink's
+cache and carry on connecting.
+If you want to carry on connecting just once, without adding
+the key to the cache, enter "n".
+If you do not trust this host, press Return to abandon the
+connection.
+==host
+orca-cpu-16
+ 08:24:01 up 20 min,  2 users,  load average: 0.08, 0.04, 0.01
+cores: 12
+               total        used        free      shared  buff/cache   available
+Mem:              94           1          92           0           1          92
+/dev/sda1        99G   25G   70G  26% /
+==orca
+-rwxrwxr-x 1 <YOUR_GCP_USER> docker 43498672 Nov 25  2025 /opt/orca/orca
+/opt/openmpi-4.1.8/bin/mpirun
+mpirun (Open MPI) 4.1.8
+==python
+Python 3.13.5
+==running
+2501 bash -c echo ==host; hostname; uptime; echo cores: $(nproc); free -g | head -2; df -h /home | tail -1; echo ==orca; ls -l /opt/orca/orca; source /etc/profile.d/orca.sh 2>/dev/null; which mpirun; mpirun --version 2>&1 | head -1; echo ==python; python3 --version; echo ==running; pgrep -af orca || echo none; echo ==home; ls -la ~; echo ==stage3; ls -la ~/stage3 2>/dev/null || echo stage3-not-present
+==home
+total 887384
+drwxr-xr-x 13 y          y               4096 Oct 27 07:57 .
+drwxr-xr-x  4 root       root            4096 Oct 24 10:50 ..
+-rw-------  1 y          y                 17 Oct 24 11:31 .bash_history
+-rw-r--r--  1 y          y                220 Jul 12 16:58 .bash_logout
+-rw-r--r--  1 y          y               3526 Jul 12 16:58 .bashrc
+drwxrwxr-x  3 y          y               4096 Oct 25 12:01 .cache
+drwx------  3 y          y               4096 Oct 26 17:05 .config
+drwxrwxr-x  5 y          y               4096 Oct 25 12:01 .local
+-rw-r--r--  1 y          y                807 Jul 12 16:58 .profile
+drwx------  2 y          y               4096 Oct 27 08:10 .ssh
+-rw-rw-r--  1 y          y               1803 Oct 25 12:09 aug-cc-pvdz.bas
+-rw-rw-r--  1 y          y               6988 Oct 25 12:02 build_cluster.py
+drwxrwxr-x  2 y          y               4096 Oct 25 12:04 cluster
+-rw-rw-r--  1 y          y               3669 Oct 25 12:09 def2-svp.bas
+-rw-rw-r--  1 y          y               2298 Oct 25 12:09 old-zora-svp.bas
+-rw-rw-r--  1 y          y          471531860 Oct 24 11:03 orca_6_1_1_linux_x86-64_shared_openmpi418.tar.xz
+-rw-rw-r--  1 y          y               8938 Oct 25 12:02 relaxed_structure.cif
+-rw-rw-r--  1 y          y               2820 Oct 25 12:09 sapporo-dzp-2012.bas
+drwxrwxr-x  2 y          y              12288 Oct 25 15:05 stage2_calc
+drwxrwxr-x  2 y          y               4096 Oct 25 14:38 stage2_package
+-rw-rw-r--  1 y          y            7357742 Oct 25 14:38 stage2_package.tar.gz
+-rw-rw-r--  1 y          y             357435 Oct 25 14:12 stage2_soc_results.tar.gz
+drwxrwxr-x  3 y          y              12288 Oct 25 17:00 stage2_task2
+drwxrwxr-x  3 y          y               4096 Oct 27 07:16 stage3
+drwxrwxr-x  2 y          y               4096 Oct 26 15:00 stage3_bak_1026_1501
+drwxrwxr-x  2 y          y               4096 Oct 26 15:01 stage3_bak_1026_1503
+-rw-rw-r--  2 <YOUR_GCP_USER> <YOUR_GCP_USER> 429291688 Oct 27 07:18 stage3_dl.tar.gz
+-rw-rw-r--  1 y          y               2426 Oct 25 12:09 x2c-svpall.bas
+-rw-rw-r--  1 y          y               2980 Oct 25 12:09 x2c-tzvpall.bas
+==stage3
+total 1511532
+drwxrwxr-x  3 y y      4096 Oct 27 07:16 .
+drwxr-xr-x 13 y y      4096 Oct 27 07:57 ..
+-rw-rw-r--  1 y y       521 Oct 26 15:04 00_basis_check_ZORA_SnCl6.inp
+-rw-rw-r--  1 y y       177 Oct 26 15:04 01a_S0_wB97X_SVP_PC.inp
+-rw-rw-r--  1 y y       147 Oct 26 15:04 01b_S0_wB97X_SVP_gas.inp
+-rw-rw-r--  1 y y       178 Oct 26 15:04 01c_S0_wB97X_TZVP_PC.inp
+-rw-rw-r--  1 y y       184 Oct 26 15:04 01d_diag_DKH_ANO_PC.inp
+-rw-rw-r--  1 y y       154 Oct 26 15:04 01e_diag_DKH_ANO_gas.inp
+-rw-rw-r--  1 y y       272 Oct 26 15:04 02a_TDA_wB97X_SVP_PC.inp
+-rw-rw-r--  1 y y       273 Oct 26 15:04 02b_TDA_wB97X_TZVP_PC.inp
+-rw-rw-r--  1 y y       328 Oct 26 15:04 03_SOC_ZORA_TZVP_PC.inp
+-rw-rw-r--  1 y y      1319 Oct 26 15:04 03b_SOC_control_CatA_gas.inp
+-rw-rw-r--  1 y y      1319 Oct 26 15:04 03b_SOC_control_CatB_gas.inp
+-rw-rw-r--  1 y y       615 Oct 27 04:49 04a2_T1opt_UKS_free_CatA.inp
+-rw-rw-r--  1 y y       582 Oct 26 15:04 04a_T1opt_UKS_free_CatA.inp
+-rw-rw-r--  1 y y       579 Oct 26 15:04 04a_T1opt_UKS_free_CatB.inp
+-rw-rw-r--  1 y y       174 Oct 26 15:04 04b_S0_at_T1geom.inp
+-rw-rw-r--  1 y y       269 Oct 26 15:04 04c_TDA_at_T1geom.inp
+-rw-rw-r--  1 y y      1973 Oct 26 15:03 README.md
+-rw-rw-r--  1 y y      4050 Oct 27 07:06 T1_geom_CatA.xyz
+-rw-rw-r--  1 y y      6226 Oct 26 15:04 analyze_orca.py
+drwxrwxr-x 15 y y      4096 Oct 27 07:09 jobs
+-rw-rw-r--  1 y y    553856 Oct 26 15:03 mm_charges.pc
+-rw-rw-r--  1 y y      2054 Oct 27 07:16 progress.log
+-rw-rw-r--  1 y y      2908 Oct 26 15:03 qm_cluster.xyz
+-rw-rw-r--  1 y y  18674834 Oct 26 15:10 results_20261026_1510.tar.gz
+-rw-rw-r--  1 y y 229178543 Oct 26 16:23 results_20261026_1623.tar.gz
+-rw-rw-r--  1 y y 622880092 Oct 27 05:56 results_20261027_0556.tar.gz
+-rw-rw-r--  1 y y 676385205 Oct 27 07:16 results_20261027_0716.tar.gz
+-rw-rw-r--  1 y y       349 Oct 27 07:16 run.log
+-rw-rw-r--  1 y y      1926 Oct 26 15:04 run_all.sh
+Store key in cache? (y/n, Return cancels connection, i for more info) 

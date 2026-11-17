@@ -1,0 +1,9 @@
+{
+  "pid": 6013,
+  "path": "/home/y/codex_calculations/benzothiazolium_sncl6/orc_c01_s0optfreq_20261030",
+  "current_job": "s0_optfreq",
+  "start_utc": "2026-10-30T13:29:31Z",
+  "method": "PBE0/def2-SVP RIJCOSX VeryTightSCF DEFGRID3 TightOpt Freq",
+  "model": "isolated C7H6NS+ charge +1 singlet 15 atoms",
+  "xrd_stability": "passed within tested orbital space"
+}

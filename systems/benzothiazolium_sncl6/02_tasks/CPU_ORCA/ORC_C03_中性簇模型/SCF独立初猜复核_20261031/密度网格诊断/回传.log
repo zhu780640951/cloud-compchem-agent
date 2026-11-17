@@ -1,0 +1,14 @@
+
+density_grid_diagnostics_ | 32 kB |  32.0 kB/s | ETA: 00:09:04 |   0%
+density_grid_diagnostics_ | 96 kB |  96.0 kB/s | ETA: 00:03:00 |   0%
+density_grid_diagnostics_ | 992 kB | 496.0 kB/s | ETA: 00:00:33 |   5%
+density_grid_diagnostics_ | 3328 kB | 1109.3 kB/s | ETA: 00:00:12 |  19%
+density_grid_diagnostics_ | 7296 kB | 1824.0 kB/s | ETA: 00:00:05 |  41%
+density_grid_diagnostics_ | 11296 kB | 2259.2 kB/s | ETA: 00:00:02 |  64%
+density_grid_diagnostics_ | 15296 kB | 2549.3 kB/s | ETA: 00:00:00 |  87%
+density_grid_diagnostics_ | 17468 kB | 2911.5 kB/s | ETA: 00:00:00 | 100%
+
+Updating project ssh metadata...
+..........Updated [https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>].
+.done.
+Waiting for SSH key to propagate.

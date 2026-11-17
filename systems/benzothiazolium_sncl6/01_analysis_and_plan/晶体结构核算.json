@@ -1,0 +1,672 @@
+{
+  "source": "E:\\桌面\\(C₇H₆NS)₂[SnCl₆]·2H₂O计算\\00_原始结构\\苯并噻唑SnCl4.cif",
+  "sha256": "ed23e88c8f84151de88f25c1ddd3b617e21a626e7ba6e403d5853217436c7a12",
+  "method": "Standard-library parser for this CIF atom-site loop; P -1 identity/inversion explicitly expanded and deduplicated; neighboring cells searched over [-2,2]^3; not a checkCIF or electronic-structure calculation.",
+  "formula": "C14 H16 Cl6 N2 O2 S2 Sn",
+  "space_group": "P -1",
+  "cell_A_deg": {
+    "a": 7.1819,
+    "b": 8.3759,
+    "c": 10.386,
+    "alpha": 92.458,
+    "beta": 109.798,
+    "gamma": 99.87
+  },
+  "cell_vectors_A": [
+    [
+      7.1819,
+      0,
+      0
+    ],
+    [
+      -1.4357404475455238,
+      8.25193008800255,
+      0
+    ],
+    [
+      -3.5177909308058126,
+      -1.0641713838708606,
+      9.71399414416597
+    ]
+  ],
+  "volume_A3": 575.695362451043,
+  "Z": 1,
+  "temperature_K": 275.0,
+  "asymmetric_unit_sites": 22,
+  "expanded_counts": {
+    "Sn": 1,
+    "Cl": 6,
+    "S": 2,
+    "N": 2,
+    "O": 2,
+    "H": 16,
+    "C": 14
+  },
+  "expanded_natoms": 43,
+  "all_occupancy_one": true,
+  "sn_cl_distances_A": [
+    2.427811082427118,
+    2.427811082427118,
+    2.4286731772774024,
+    2.4286731772774024,
+    2.4326585857139795,
+    2.4326585857139795
+  ],
+  "sn_cl_mean_A": 2.429714281806167,
+  "sn_cl_distortion_delta": 7.551997957878814e-07,
+  "cis_angles_deg": [
+    89.35478878629401,
+    89.35478878629401,
+    89.5778948552513,
+    89.5778948552513,
+    89.90209021561249,
+    89.90209021561249,
+    90.09790978438753,
+    90.09790978438753,
+    90.42210514474871,
+    90.42210514474871,
+    90.645211213706,
+    90.645211213706
+  ],
+  "cis_angle_variance_deg2": 0.21965694159785587,
+  "trans_angles_deg": [
+    180.0,
+    180.0,
+    180.0
+  ],
+  "nearest_sn_sn_A": 7.1819,
+  "sn_NOS_within_4A": [],
+  "sn_cl_beyond_first_six_A": [
+    5.447786484423319,
+    5.447786484423319
+  ],
+  "hydrogen_bond_candidates": [
+    {
+      "donor": "N006",
+      "H": "H006",
+      "acceptor": "O007",
+      "acceptor_shift_relative_to_H_cell": [
+        0,
+        0,
+        0
+      ],
+      "D_H_Angstrom": 0.9037999083598798,
+      "H_A_Angstrom": 1.7876785019423527,
+      "D_A_Angstrom": 2.68938325262228,
+      "D_H_A_angle_deg": 175.21257049351277
+    },
+    {
+      "donor": "N006_inv",
+      "H": "H006_inv",
+      "acceptor": "O007_inv",
+      "acceptor_shift_relative_to_H_cell": [
+        0,
+        0,
+        0
+      ],
+      "D_H_Angstrom": 0.9037999083598796,
+      "H_A_Angstrom": 1.7876785019423527,
+      "D_A_Angstrom": 2.68938325262228,
+      "D_H_A_angle_deg": 175.21257049351263
+    },
+    {
+      "donor": "O007",
+      "H": "H00F",
+      "acceptor": "Cl02",
+      "acceptor_shift_relative_to_H_cell": [
+        0,
+        0,
+        0
+      ],
+      "D_H_Angstrom": 0.8495714931642203,
+      "H_A_Angstrom": 2.7646706376255445,
+      "D_A_Angstrom": 3.598915586068441,
+      "D_H_A_angle_deg": 167.5450716639967
+    },
+    {
+      "donor": "O007",
+      "H": "H00G",
+      "acceptor": "Cl04_inv",
+      "acceptor_shift_relative_to_H_cell": [
+        1,
+        1,
+        0
+      ],
+      "D_H_Angstrom": 0.8501494693423788,
+      "H_A_Angstrom": 2.7103575135745075,
+      "D_A_Angstrom": 3.4587571143829554,
+      "D_H_A_angle_deg": 147.67415836487734
+    },
+    {
+      "donor": "O007_inv",
+      "H": "H00F_inv",
+      "acceptor": "Cl02_inv",
+      "acceptor_shift_relative_to_H_cell": [
+        0,
+        0,
+        0
+      ],
+      "D_H_Angstrom": 0.8495714931642203,
+      "H_A_Angstrom": 2.7646706376255445,
+      "D_A_Angstrom": 3.598915586068441,
+      "D_H_A_angle_deg": 167.5450716639967
+    },
+    {
+      "donor": "O007_inv",
+      "H": "H00G_inv",
+      "acceptor": "Cl04",
+      "acceptor_shift_relative_to_H_cell": [
+        -1,
+        -1,
+        0
+      ],
+      "D_H_Angstrom": 0.8501494693423788,
+      "H_A_Angstrom": 2.710357513574508,
+      "D_A_Angstrom": 3.458757114382956,
+      "D_H_A_angle_deg": 147.67415836487734
+    }
+  ],
+  "ring_plane_max_deviation_least_squares_A": 0.017500137904083522,
+  "ring_centroid_contacts": [
+    {
+      "symmetry": "inversion",
+      "shift": [
+        1,
+        1,
+        1
+      ],
+      "centroid_distance_A": 3.6526168768850984,
+      "plane_distance_A": 3.5557628160973698,
+      "lateral_offset_A": 0.8355601982892386
+    },
+    {
+      "symmetry": "inversion",
+      "shift": [
+        2,
+        1,
+        1
+      ],
+      "centroid_distance_A": 3.708944189218691,
+      "plane_distance_A": 3.487249389805248,
+      "lateral_offset_A": 1.2630750935878758
+    }
+  ],
+  "expanded_atoms": [
+    {
+      "label": "Sn01",
+      "element": "Sn",
+      "frac": [
+        0.5,
+        0.0,
+        0.0
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "Cl02",
+      "element": "Cl",
+      "frac": [
+        0.4140600000000001,
+        0.70608,
+        0.99564
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "Cl02_inv",
+      "element": "Cl",
+      "frac": [
+        0.5859399999999999,
+        0.29391999999999996,
+        0.0043600000000000305
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "Cl03",
+      "element": "Cl",
+      "frac": [
+        0.4065700000000001,
+        0.03699000000000008,
+        0.2020200000000001
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "Cl03_inv",
+      "element": "Cl",
+      "frac": [
+        0.5934299999999999,
+        0.9630099999999999,
+        0.7979799999999999
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "Cl04",
+      "element": "Cl",
+      "frac": [
+        0.8426100000000001,
+        0.99832,
+        0.14998
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "Cl04_inv",
+      "element": "Cl",
+      "frac": [
+        0.15738999999999992,
+        0.0016800000000000148,
+        0.85002
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "S005",
+      "element": "S",
+      "frac": [
+        0.76367,
+        0.22205,
+        0.57389
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "S005_inv",
+      "element": "S",
+      "frac": [
+        0.23633000000000004,
+        0.77795,
+        0.42611
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "N006",
+      "element": "N",
+      "frac": [
+        0.8277,
+        0.4753,
+        0.7322
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "N006_inv",
+      "element": "N",
+      "frac": [
+        0.1723,
+        0.5246999999999999,
+        0.26780000000000004
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "O007",
+      "element": "O",
+      "frac": [
+        0.8862,
+        0.6828,
+        0.9535
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "O007_inv",
+      "element": "O",
+      "frac": [
+        0.11380000000000001,
+        0.31720000000000004,
+        0.046499999999999986
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "H00F",
+      "element": "H",
+      "frac": [
+        0.775769,
+        0.67292,
+        0.968425
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "H00F_inv",
+      "element": "H",
+      "frac": [
+        0.22423099999999996,
+        0.32708000000000004,
+        0.03157500000000002
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "H00G",
+      "element": "H",
+      "frac": [
+        0.928425,
+        0.78234,
+        0.947212
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "H00G_inv",
+      "element": "H",
+      "frac": [
+        0.07157500000000006,
+        0.21765999999999996,
+        0.052787999999999946
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "C008",
+      "element": "C",
+      "frac": [
+        0.7874,
+        0.5317,
+        0.6032
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "C008_inv",
+      "element": "C",
+      "frac": [
+        0.2126,
+        0.46830000000000005,
+        0.39680000000000004
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "C009",
+      "element": "C",
+      "frac": [
+        0.7505,
+        0.4052,
+        0.5024
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "C009_inv",
+      "element": "C",
+      "frac": [
+        0.24950000000000006,
+        0.5948,
+        0.49760000000000004
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "C00A",
+      "element": "C",
+      "frac": [
+        0.7083,
+        0.4341,
+        0.3654
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "C00A_inv",
+      "element": "C",
+      "frac": [
+        0.29169999999999996,
+        0.5659000000000001,
+        0.6346
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "H00A",
+      "element": "H",
+      "frac": [
+        0.684653,
+        0.349692,
+        0.297152
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "H00A_inv",
+      "element": "H",
+      "frac": [
+        0.31534700000000004,
+        0.650308,
+        0.7028479999999999
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "C00B",
+      "element": "C",
+      "frac": [
+        0.7813,
+        0.6909,
+        0.5713
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "C00B_inv",
+      "element": "C",
+      "frac": [
+        0.2187,
+        0.30910000000000004,
+        0.42869999999999997
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "H00B",
+      "element": "H",
+      "frac": [
+        0.805427,
+        0.776064,
+        0.639041
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "H00B_inv",
+      "element": "H",
+      "frac": [
+        0.194573,
+        0.22393600000000002,
+        0.36095900000000003
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "C00C",
+      "element": "C",
+      "frac": [
+        0.8203,
+        0.3195,
+        0.7305
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "C00C_inv",
+      "element": "C",
+      "frac": [
+        0.17969999999999997,
+        0.6805,
+        0.26949999999999996
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "H00C",
+      "element": "H",
+      "frac": [
+        0.844406,
+        0.266323,
+        0.80966
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "H00C_inv",
+      "element": "H",
+      "frac": [
+        0.155594,
+        0.733677,
+        0.19033999999999995
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "C00D",
+      "element": "C",
+      "frac": [
+        0.7028,
+        0.5906,
+        0.3345
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "C00D_inv",
+      "element": "C",
+      "frac": [
+        0.2972,
+        0.4094,
+        0.6655
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "H00D",
+      "element": "H",
+      "frac": [
+        0.674789,
+        0.612825,
+        0.243676
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "H00D_inv",
+      "element": "H",
+      "frac": [
+        0.32521100000000003,
+        0.38717500000000005,
+        0.756324
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "C00E",
+      "element": "C",
+      "frac": [
+        0.7382,
+        0.7167,
+        0.4358
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "C00E_inv",
+      "element": "C",
+      "frac": [
+        0.26180000000000003,
+        0.2833,
+        0.5642
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "H00E",
+      "element": "H",
+      "frac": [
+        0.732573,
+        0.821637,
+        0.41114
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "H00E_inv",
+      "element": "H",
+      "frac": [
+        0.26742699999999997,
+        0.17836300000000005,
+        0.5888599999999999
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    },
+    {
+      "label": "H006",
+      "element": "H",
+      "frac": [
+        0.852,
+        0.549,
+        0.805
+      ],
+      "occupancy": 1.0,
+      "symmetry": "identity"
+    },
+    {
+      "label": "H006_inv",
+      "element": "H",
+      "frac": [
+        0.14800000000000002,
+        0.45099999999999996,
+        0.19499999999999995
+      ],
+      "occupancy": 1.0,
+      "symmetry": "inversion"
+    }
+  ],
+  "R1_gt": 0.0325,
+  "wR2_all": 0.0736,
+  "GoF": 1.064
+}

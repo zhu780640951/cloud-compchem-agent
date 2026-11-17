@@ -1,0 +1,144 @@
+{
+  "test_kind": "H2 single-point GPU and Drive checkpoint roundtrip, not a crystal calculation",
+  "run_directory": "/content/codex_qe_h2_20261030T110920Z",
+  "drive_directory": "/content/drive/MyDrive/苯并噻唑SnCl4计算/Codex_连接恢复测试/20261030T110920Z",
+  "pseudo_source": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/H.pbe-rrkjus_psl.1.0.0.UPF",
+  "qe_executable": "/content/qe_drive_restore/bin/pw.x",
+  "started_utc": "2026-10-30T11:09:20.885367+00:00",
+  "runs": [
+    {
+      "label": "h2_initial",
+      "exit_code": 0,
+      "job_done": true,
+      "scf_converged": true,
+      "gpu_active": true,
+      "gpu_process_observed": true,
+      "energy_Ry": -2.33309878,
+      "elapsed_seconds": 6.372,
+      "monitor_samples": [
+        {
+          "elapsed_s": 0.001,
+          "processes": ""
+        },
+        {
+          "elapsed_s": 0.43,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 416 MiB"
+        },
+        {
+          "elapsed_s": 0.85,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 520 MiB"
+        },
+        {
+          "elapsed_s": 1.27,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 1200 MiB"
+        },
+        {
+          "elapsed_s": 1.691,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 1870 MiB"
+        },
+        {
+          "elapsed_s": 2.111,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 2636 MiB"
+        },
+        {
+          "elapsed_s": 2.532,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 2636 MiB"
+        },
+        {
+          "elapsed_s": 2.953,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 2636 MiB"
+        },
+        {
+          "elapsed_s": 3.374,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 2636 MiB"
+        },
+        {
+          "elapsed_s": 3.803,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 2636 MiB"
+        },
+        {
+          "elapsed_s": 4.225,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 2636 MiB"
+        },
+        {
+          "elapsed_s": 4.646,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 2636 MiB"
+        },
+        {
+          "elapsed_s": 5.067,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 2636 MiB"
+        },
+        {
+          "elapsed_s": 5.488,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 2636 MiB"
+        },
+        {
+          "elapsed_s": 5.909,
+          "processes": "8898, /content/qe_drive_restore/bin/pw.x, 2640 MiB"
+        }
+      ]
+    },
+    {
+      "label": "h2_from_drive_checkpoint",
+      "exit_code": 0,
+      "job_done": true,
+      "scf_converged": true,
+      "gpu_active": true,
+      "gpu_process_observed": true,
+      "energy_Ry": -2.33309878,
+      "elapsed_seconds": 2.971,
+      "monitor_samples": [
+        {
+          "elapsed_s": 0.001,
+          "processes": ""
+        },
+        {
+          "elapsed_s": 0.428,
+          "processes": "8956, /content/qe_drive_restore/bin/pw.x, 416 MiB"
+        },
+        {
+          "elapsed_s": 0.849,
+          "processes": "8956, /content/qe_drive_restore/bin/pw.x, 530 MiB"
+        },
+        {
+          "elapsed_s": 1.269,
+          "processes": "8956, /content/qe_drive_restore/bin/pw.x, 1854 MiB"
+        },
+        {
+          "elapsed_s": 1.69,
+          "processes": "8956, /content/qe_drive_restore/bin/pw.x, 2540 MiB"
+        },
+        {
+          "elapsed_s": 2.11,
+          "processes": "8956, /content/qe_drive_restore/bin/pw.x, 2540 MiB"
+        },
+        {
+          "elapsed_s": 2.53,
+          "processes": ""
+        }
+      ]
+    }
+  ],
+  "checkpoint_files": [
+    {
+      "path": "H.pbe-rrkjus_psl.1.0.0.UPF",
+      "bytes": 227296
+    },
+    {
+      "path": "data-file-schema.xml",
+      "bytes": 42472
+    },
+    {
+      "path": "wfc1.dat",
+      "bytes": 1138568
+    },
+    {
+      "path": "charge-density.dat",
+      "bytes": 25838152
+    }
+  ],
+  "energy_difference_Ry": 0.0,
+  "checkpoint_roundtrip_ok": true,
+  "all_passed": true,
+  "finished_utc": "2026-10-30T11:09:30.393807+00:00"
+}

@@ -1,0 +1,36 @@
+[2026-10-26 15:04:09] 开始 00_basis_check_ZORA_SnCl6
+[2026-10-26 15:05:03] 完成 00_basis_check_ZORA_SnCl6  0 days 0 hours 0 minutes 54 seconds 232 msec
+[2026-10-26 15:05:03] 开始 01a_S0_wB97X_SVP_PC
+[2026-10-26 15:07:53] 完成 01a_S0_wB97X_SVP_PC  0 days 0 hours 2 minutes 49 seconds 893 msec
+[2026-10-26 15:07:53] 开始 01b_S0_wB97X_SVP_gas
+[2026-10-26 15:10:37] 完成 01b_S0_wB97X_SVP_gas  0 days 0 hours 2 minutes 44 seconds 410 msec
+[2026-10-26 15:10:39] 全部结束，结果已打包
+[2026-10-26 15:29:40] 开始 01c_S0_wB97X_TZVP_PC
+[2026-10-26 15:38:42] 完成 01c_S0_wB97X_TZVP_PC  0 days 0 hours 9 minutes 1 seconds 898 msec
+[2026-10-26 15:38:42] 开始 02a_TDA_wB97X_SVP_PC
+[2026-10-26 15:50:27] 完成 02a_TDA_wB97X_SVP_PC  0 days 0 hours 11 minutes 44 seconds 883 msec
+[2026-10-26 15:50:27] 开始 02b_TDA_wB97X_TZVP_PC
+[2026-10-26 16:23:17] 完成 02b_TDA_wB97X_TZVP_PC  0 days 0 hours 32 minutes 50 seconds 24 msec
+[2026-10-26 16:23:28] 全部结束，结果已打包
+[2026-10-26 16:31:19] 开始 03_SOC_ZORA_TZVP_PC
+[2026-10-26 17:31:15] 完成 03_SOC_ZORA_TZVP_PC  0 days 0 hours 59 minutes 55 seconds 814 msec
+[2026-10-26 17:31:15] 开始 03b_SOC_control_CatA_gas
+[2026-10-26 17:36:38] 完成 03b_SOC_control_CatA_gas  0 days 0 hours 5 minutes 23 seconds 205 msec
+[2026-10-26 17:36:39] 开始 03b_SOC_control_CatB_gas
+[2026-10-26 17:42:06] 完成 03b_SOC_control_CatB_gas  0 days 0 hours 5 minutes 27 seconds 422 msec
+[2026-10-26 17:42:06] 开始 04a_T1opt_UKS_free_CatB
+[2026-10-27 04:49:36] 开始 04a2_T1opt_UKS_free_CatA
+[2026-10-27 05:56:08] 完成 04a2_T1opt_UKS_free_CatA  0 days 1 hours 6 minutes 31 seconds 462 msec
+[2026-10-27 05:56:35] 全部结束，结果已打包
+[2026-10-27 07:07:02] 开始 04b_S0_at_T1geom_CatA
+[2026-10-27 07:09:04] 完成 04b_S0_at_T1geom_CatA  0 days 0 hours 2 minutes 1 seconds 550 msec
+[2026-10-27 07:09:04] 开始 04c_TDA_at_T1geom_CatA
+[2026-10-27 07:16:17] 完成 04c_TDA_at_T1geom_CatA  0 days 0 hours 7 minutes 13 seconds 80 msec
+[2026-10-27 07:16:46] 全部结束，结果已打包
+[2026-10-27 08:24:52] 开始 04c2_SOC_ZORA_at_T1geom_CatA
+[2026-10-27 09:25:24] 完成 04c2_SOC_ZORA_at_T1geom_CatA  0 days 1 hours 0 minutes 31 seconds 642 msec
+[2026-10-27 09:25:24] 开始 01d_diag_DKH_ANO_PC
+[2026-10-27 10:04:23] 完成 01d_diag_DKH_ANO_PC  0 days 0 hours 38 minutes 58 seconds 553 msec
+[2026-10-27 10:04:23] 开始 01e_diag_DKH_ANO_gas
+[2026-10-27 10:33:20] 完成 01e_diag_DKH_ANO_gas  0 days 0 hours 28 minutes 56 seconds 283 msec
+[2026-10-27 10:33:58] 全部结束，结果已打包

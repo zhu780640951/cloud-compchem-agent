@@ -1,0 +1,30 @@
+S0 start: E = -4042.52542045 Eh, converged=True, 31 s, AO=604
+Mulliken fragment charges: {'SnCl6': -1.596, 'cation1': 0.843, 'cation2': 0.859, 'water': -0.107, 'Sn': 0.35}
+analytic |grad| max over free atoms (Eh/bohr): 0.00766 ; frozen atoms: 0.02060
+FD check Sn x: analytic -0.003583  FD -0.003582  diff -1.67e-06 Eh/bohr
+FD check Cl1 z: analytic -0.000439  FD -0.000464  diff +2.55e-05 Eh/bohr
+FD check cation2 atom y (frozen-region atom): analytic +0.007804  FD +0.007796  diff +7.11e-06 Eh/bohr
+  opt step  1: E = -4042.52542045  (dE vs start +0.000 mEh)
+  opt step  2: E = -4042.52639503  (dE vs start -0.975 mEh)
+  opt step  3: E = -4042.52520604  (dE vs start +0.214 mEh)
+  opt step  4: E = -4042.52785573  (dE vs start -2.435 mEh)
+  opt step  5: E = -4042.52744875  (dE vs start -2.028 mEh)
+  opt step  6: E = -4042.52845793  (dE vs start -3.037 mEh)
+  opt step  7: E = -4042.52893306  (dE vs start -3.513 mEh)
+  opt step  8: E = -4042.52948513  (dE vs start -4.065 mEh)
+  opt step  9: E = -4042.53013624  (dE vs start -4.716 mEh)
+  opt step 10: E = -4042.53045369  (dE vs start -5.033 mEh)
+  opt step 11: E = -4042.53085644  (dE vs start -5.436 mEh)
+  opt step 12: E = -4042.53107792  (dE vs start -5.657 mEh)
+  opt step 13: E = -4042.53119368  (dE vs start -5.773 mEh)
+  opt step 14: E = -4042.53122787  (dE vs start -5.807 mEh)
+  opt step 15: E = -4042.53123889  (dE vs start -5.818 mEh)
+  opt step 16: E = -4042.53124448  (dE vs start -5.824 mEh)
+  opt step 17: E = -4042.53124887  (dE vs start -5.828 mEh)
+  opt step 18: E = -4042.53125075  (dE vs start -5.830 mEh)
+  opt step 19: E = -4042.53125104  (dE vs start -5.831 mEh)
+  opt step 20: E = -4042.53125108  (dE vs start -5.831 mEh)
+S0 relaxed: E = -4042.53125108 Eh  (dE -5.831 mEh, 20 steps, 278 s)
+fragment charges after: {'SnCl6': -1.602, 'cation1': 0.858, 'cation2': 0.853, 'water': -0.109, 'Sn': 0.391}
+Sn-Cl before: [2.499 2.441 2.49  2.484 2.494 2.443]  after: [2.477 2.409 2.477 2.471 2.44  2.417]
+DONE

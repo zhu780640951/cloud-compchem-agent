@@ -1,0 +1,57 @@
+{
+  "models": [
+    {
+      "shell": 1,
+      "qm_atoms": 79,
+      "qm_charge": 2,
+      "embedding_net_charge": -2.0000000076000006,
+      "pointcharges": 1082,
+      "nearest_A": 2.2544008778154048,
+      "nearest_positive_A": 2.2544008778154048
+    },
+    {
+      "shell": 2,
+      "qm_atoms": 79,
+      "qm_charge": 2,
+      "embedding_net_charge": -2.000000037000003,
+      "pointcharges": 5296,
+      "nearest_A": 2.2544008778154048,
+      "nearest_positive_A": 2.2544008778154048
+    }
+  ],
+  "promoted_fragment_keys": [
+    [
+      1,
+      [
+        0,
+        -1,
+        -1
+      ]
+    ],
+    [
+      2,
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      3,
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      4,
+      [
+        0,
+        -1,
+        -1
+      ]
+    ]
+  ],
+  "boundary_warning": "No Pauli repulsion for external charges; further near contacts may remain. Diagnostic only."
+}

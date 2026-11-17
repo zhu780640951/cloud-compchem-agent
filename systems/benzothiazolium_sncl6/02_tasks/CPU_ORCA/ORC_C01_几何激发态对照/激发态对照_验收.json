@@ -1,0 +1,104 @@
+{
+  "checked_Hong_Kong": "2026-10-30T22:21:32.330534+08:00",
+  "archive_sha256_local_and_remote": "b4ab5c2912d0808c59e49542699e04c8a459c8e61e9d28107a6bfceac0be92af",
+  "archive_bytes": 8088841,
+  "status": {
+    "state": "completed",
+    "stages": [
+      {
+        "label": "xrd_pair",
+        "exit_code": 0,
+        "normal": true,
+        "scf": true,
+        "residual_converged_count": 2
+      },
+      {
+        "label": "opt_pair",
+        "exit_code": 0,
+        "normal": true,
+        "scf": true,
+        "residual_converged_count": 2
+      }
+    ],
+    "started_utc": "2026-10-30T13:59:23Z",
+    "current": "opt_pair",
+    "finished_utc": "2026-10-30T14:01:02Z"
+  },
+  "results": {
+    "xrd_pair": {
+      "singlets_eV": [
+        4.341,
+        4.947,
+        5.996,
+        6.286,
+        6.531,
+        6.692,
+        6.931,
+        7.209,
+        7.483,
+        7.557
+      ],
+      "triplets_eV": [
+        3.415,
+        3.597,
+        4.476,
+        5.079,
+        5.157,
+        5.415,
+        5.817,
+        6.03,
+        6.481,
+        6.632
+      ],
+      "nto_singlets": 10,
+      "nto_triplets": 0,
+      "scf_metrics": [
+        "Last Energy change         ...   -1.1210e-10  Tolerance :   1.0000e-09",
+        "Last MAX-Density change    ...    2.2312e-08  Tolerance :   1.0000e-08",
+        "Last RMS-Density change    ...    3.0024e-09  Tolerance :   1.0000e-09",
+        "Last DIIS Error            ...    1.5597e-03  Tolerance :   1.0000e-08",
+        "Last Orbital Gradient      ...    2.1284e-09  Tolerance :   2.0000e-06",
+        "Last Orbital Rotation      ...    4.8451e-09  Tolerance :   2.0000e-06"
+      ]
+    },
+    "opt_pair": {
+      "singlets_eV": [
+        4.287,
+        4.822,
+        5.886,
+        6.182,
+        6.437,
+        6.508,
+        6.61,
+        7.054,
+        7.119,
+        7.305
+      ],
+      "triplets_eV": [
+        3.337,
+        3.451,
+        4.405,
+        4.922,
+        5.022,
+        5.334,
+        5.762,
+        5.932,
+        6.292,
+        6.398
+      ],
+      "nto_singlets": 10,
+      "nto_triplets": 0,
+      "scf_metrics": [
+        "Last Energy change         ...   -5.2296e-12  Tolerance :   1.0000e-09",
+        "Last MAX-Density change    ...    1.5648e-08  Tolerance :   1.0000e-08",
+        "Last RMS-Density change    ...    2.9814e-09  Tolerance :   1.0000e-09",
+        "Last DIIS Error            ...    1.7968e-03  Tolerance :   1.0000e-08",
+        "Last Orbital Gradient      ...    2.2855e-09  Tolerance :   2.0000e-06",
+        "Last Orbital Rotation      ...    6.6665e-09  Tolerance :   2.0000e-06"
+      ]
+    }
+  },
+  "scientific_status": "completed_with_scf_review_and_nto_interpretation_pending",
+  "s1_delta_eV": -0.054,
+  "t1_delta_eV": -0.078
+}

@@ -1,0 +1,21 @@
+{
+  "vbm": {
+    "k_tpiba": [
+      0.0,
+      -0.4352,
+      -0.0477
+    ],
+    "vbm": 0.8463,
+    "cbm": 3.7303
+  },
+  "cbm": {
+    "k_tpiba": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vbm": 0.7921,
+    "cbm": 3.4931
+  },
+  "scope": "QE k coordinates in 2pi/alat, unrounded output 4 decimals"
+}

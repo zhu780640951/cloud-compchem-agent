@@ -1,0 +1,1 @@
+ecutfock=120 k=3x2x2

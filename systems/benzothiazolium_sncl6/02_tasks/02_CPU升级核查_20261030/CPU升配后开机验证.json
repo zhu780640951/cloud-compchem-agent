@@ -1,0 +1,65 @@
+{
+  "time_utc": "2026-10-30T12:07:02.915217+00:00",
+  "ssh_exit_code": 0,
+  "health": {
+    "time_utc": "2026-10-30T12:06:48Z",
+    "hostname": "orca-cpu-16",
+    "logical_cpus": 12,
+    "mem_total_kib": 197872188,
+    "mem_total_GiB": 188.706,
+    "mem_available_GiB": 186.732,
+    "orca_exists": true,
+    "root_disk_total_GiB": 98.186,
+    "root_disk_free_GiB": 68.263,
+    "uptime_seconds": 124.48
+  },
+  "orca_tests": {
+    "remote_directory": "/home/y/codex_calculations/benzothiazolium_sncl6/connection_test_20261030_120648",
+    "hostname": "orca-cpu-16",
+    "logical_cpus": 12,
+    "mpi_candidates": [
+      "/opt/openmpi-4.1.8/bin/mpirun"
+    ],
+    "tests": [
+      {
+        "name": "h2_hf_1core",
+        "cores": 1,
+        "exit_code": 0,
+        "normal_termination": true,
+        "elapsed_seconds": 1.004,
+        "energy_lines": [
+          "FINAL SINGLE POINT ENERGY        -1.128893619388"
+        ],
+        "version_lines": [
+          "Program Version 6.1.1  -  RELEASE   -"
+        ],
+        "output_file": "/home/y/codex_calculations/benzothiazolium_sncl6/connection_test_20261030_120648/h2_hf_1core.out"
+      },
+      {
+        "name": "h2_hf_2core",
+        "cores": 2,
+        "exit_code": 0,
+        "normal_termination": true,
+        "elapsed_seconds": 1.501,
+        "energy_lines": [
+          "FINAL SINGLE POINT ENERGY        -1.128893619388"
+        ],
+        "version_lines": [
+          "Program Version 6.1.1  -  RELEASE   -"
+        ],
+        "output_file": "/home/y/codex_calculations/benzothiazolium_sncl6/connection_test_20261030_120648/h2_hf_2core.out"
+      }
+    ]
+  },
+  "cloud_instance": {
+    "machineType": "https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>/zones/us-central1-a/machineTypes/n2-custom-12-196608-ext",
+    "name": "orca-cpu-16",
+    "status": "RUNNING"
+  },
+  "copy_exit_code": 0,
+  "local_test_outputs": [
+    "cpu_postboot_remote_files\\connection_test_20261030_120648\\h2_hf_1core.out",
+    "cpu_postboot_remote_files\\connection_test_20261030_120648\\h2_hf_2core.out"
+  ],
+  "postboot_checks_passed": true
+}

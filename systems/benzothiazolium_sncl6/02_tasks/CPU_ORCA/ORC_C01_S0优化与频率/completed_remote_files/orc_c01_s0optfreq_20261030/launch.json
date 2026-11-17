@@ -1,0 +1,7 @@
+{
+  "pid": 5634,
+  "path": "/home/y/codex_calculations/benzothiazolium_sncl6/orc_c01_s0optfreq_20261030",
+  "current_job": "xrd_stability",
+  "start_utc": "2026-10-30T13:27:42Z",
+  "scope": "isolated cation +1 singlet; PBE0/def2-SVP VeryTightSCF DEFGRID3"
+}

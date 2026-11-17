@@ -1,0 +1,73 @@
+﻿==== batch1  2026-10-26 23:03:25
+实例状态：RUNNING
+
+>>> 远程执行：if [ -d ~/stage3 ]; then mv ~/stage3 ~/stage3_bak_$(date +%m%d_%H%M); echo old-stage3-moved; fi
+old-stage3-moved
+
+>>> 上传 E:\桌面\gcould Claude space\阶段3_嵌入团簇重算_ORCA -> /home/y/stage3
+
+00_basis_check_ZORA_SnCl6 | 0 kB |   0.5 kB/s | ETA: 00:00:00 | 100%
+
+01a_S0_wB97X_SVP_PC.inp   | 0 kB |   0.2 kB/s | ETA: 00:00:00 | 100%
+
+01b_S0_wB97X_SVP_gas.inp  | 0 kB |   0.1 kB/s | ETA: 00:00:00 | 100%
+
+01c_S0_wB97X_TZVP_PC.inp  | 0 kB |   0.2 kB/s | ETA: 00:00:00 | 100%
+
+01d_diag_DKH_ANO_PC.inp   | 0 kB |   0.2 kB/s | ETA: 00:00:00 | 100%
+
+01e_diag_DKH_ANO_gas.inp  | 0 kB |   0.2 kB/s | ETA: 00:00:00 | 100%
+
+02a_TDA_wB97X_SVP_PC.inp  | 0 kB |   0.3 kB/s | ETA: 00:00:00 | 100%
+
+02b_TDA_wB97X_TZVP_PC.inp | 0 kB |   0.3 kB/s | ETA: 00:00:00 | 100%
+
+03b_SOC_control_CatA_gas. | 1 kB |   1.3 kB/s | ETA: 00:00:00 | 100%
+
+03b_SOC_control_CatB_gas. | 1 kB |   1.3 kB/s | ETA: 00:00:00 | 100%
+
+03_SOC_ZORA_TZVP_PC.inp   | 0 kB |   0.3 kB/s | ETA: 00:00:00 | 100%
+
+04a_T1opt_UKS_free_CatA.i | 0 kB |   0.6 kB/s | ETA: 00:00:00 | 100%
+
+04a_T1opt_UKS_free_CatB.i | 0 kB |   0.6 kB/s | ETA: 00:00:00 | 100%
+
+04b_S0_at_T1geom.inp      | 0 kB |   0.2 kB/s | ETA: 00:00:00 | 100%
+
+04c_TDA_at_T1geom.inp     | 0 kB |   0.3 kB/s | ETA: 00:00:00 | 100%
+
+analyze_orca.py           | 4 kB |   4.0 kB/s | ETA: 00:00:00 |  65%
+analyze_orca.py           | 6 kB |   6.1 kB/s | ETA: 00:00:00 | 100%
+
+mm_charges.pc             | 4 kB |   4.0 kB/s | ETA: 00:02:14 |   0%
+mm_charges.pc             | 452 kB | 452.0 kB/s | ETA: 00:00:00 |  83%
+mm_charges.pc             | 540 kB | 540.9 kB/s | ETA: 00:00:00 | 100%
+
+qm_cluster.xyz            | 2 kB |   2.8 kB/s | ETA: 00:00:00 | 100%
+
+README.md                 | 1 kB |   1.9 kB/s | ETA: 00:00:00 | 100%
+
+run_all.sh                | 1 kB |   1.9 kB/s | ETA: 00:00:00 | 100%
+
+>>> 远程执行：cd ~/stage3 && sed -i s/\\r$// run_all.sh *.inp analyze_orca.py && ls && (setsid nohup bash run_all.sh 00 01a 01b > run.log 2>&1 < /dev/null &) ; sleep 5; cat ~/stage3/progress.log
+00_basis_check_ZORA_SnCl6.inp
+01a_S0_wB97X_SVP_PC.inp
+01b_S0_wB97X_SVP_gas.inp
+01c_S0_wB97X_TZVP_PC.inp
+01d_diag_DKH_ANO_PC.inp
+01e_diag_DKH_ANO_gas.inp
+02a_TDA_wB97X_SVP_PC.inp
+02b_TDA_wB97X_TZVP_PC.inp
+03_SOC_ZORA_TZVP_PC.inp
+03b_SOC_control_CatA_gas.inp
+03b_SOC_control_CatB_gas.inp
+04a_T1opt_UKS_free_CatA.inp
+04a_T1opt_UKS_free_CatB.inp
+04b_S0_at_T1geom.inp
+04c_TDA_at_T1geom.inp
+README.md
+analyze_orca.py
+mm_charges.pc
+qm_cluster.xyz
+run_all.sh
+[2026-10-26 15:04:09] 开始 00_basis_check_ZORA_SnCl6

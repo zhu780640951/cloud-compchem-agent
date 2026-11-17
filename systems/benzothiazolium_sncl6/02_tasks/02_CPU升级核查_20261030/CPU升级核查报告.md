@@ -1,0 +1,47 @@
+# CPU 实例升级核查（只读）
+
+日期：2026-10-30。未启动实例、未修改机型、未提交配额申请。
+
+## 结论
+
+现有 N2 实例支持在停机状态修改 CPU/内存，当前账号的 compute.instances.setMachineType 权限测试通过。增加 vCPU 的实际阻碍是项目 CPUS_ALL_REGIONS 只有 12；us-central1 的 N2_CPUS 为 32。实例当前已关机，所以 CPU 配额 usage 为 0。
+
+## 当前配置
+
+- 实例：orca-cpu-16，项目 <YOUR_GCP_PROJECT_ID>，可用区 us-central1-a。
+- 实际机型：n2-custom-12-98304，即 12 vCPU / 96 GiB；名称中的 16 不代表当前 CPU 数量。
+- 启动盘：100 GB 持久盘。状态 TERMINATED。
+- 只读机型查询已确认 12/128 扩展内存、12/192 扩展内存、16/128 和 32/256 机型定义可用。
+- 查询到机型定义并不代表已预留该可用区的实时库存，本次没有通过改配置/开机验证资源分配。
+
+## 候选方案与费用
+
+| CPU / 内存 | 机型 | 开机计算费用约 USD/小时 | 当前限制 |
+|---|---|---:|---|
+| 12 vCPU / 96 GiB | n2-custom-12-98304 | $0.83 | 当前配置 |
+| 12 vCPU / 128 GiB | n2-custom-12-131072-ext | $1.13 | CPU 配额不变，使用扩展内存 |
+| 12 vCPU / 192 GiB | n2-custom-12-196608-ext | $1.74 | CPU 配额不变，使用扩展内存 |
+| 16 vCPU / 128 GiB | n2-highmem-16 | $1.05 | 先把总 CPU 配额提高到至少 16 |
+| 32 vCPU / 256 GiB | n2-highmem-32 | $2.10 | 先把总 CPU 配额提高到至少 32 |
+
+以上按 Iowa/us-central1、Linux 标准按需公开单价计算，未计磁盘、外部 IP、网络、税费或折扣/赠金。扩展内存方案中，12 vCPU 对应的前 96 GiB 按普通自定义内存计费，超出的内存按 extended memory 计费。16/128 和 32/256 使用官方预定义 highmem 机型单价。价格证据保存于 official_pricing_visible_text.txt。
+
+## 建议
+
+优先申请把项目级 CPUs (All Regions)，即 CPUS_ALL_REGIONS，从 12 提高到 32。该区域 N2_CPUS 当前已有 32，选择 16/128 或 32/256 不需要再提高这一项区域配额。
+按当前公开价格，16/128 的费用比 12/128 扩展内存低，资源也更多。只有需要马上增加内存且尚未获得 CPU 总配额时，才考虑 12/128 或 12/192。
+目前只有 ORCA 微型算例的运行证据，没有正式任务的性能或内存峰值，因此这里不承诺升级后的加速倍数，也不将升配作为正式计算的必要条件。
+
+## 升级方式与数据
+
+同 N2 系列可以停机后直接调整规格，保留持久盘中的操作系统、ORCA 和数据。本次已经是停机状态，无需为了检查而开机。
+下一步实际变更需要确定目标规格；增加 vCPU 前先提高总配额。本次没有执行任何配额申请或实例变更。
+
+## 来源
+
+- 实时 CLI：compute instances describe、compute regions describe、compute project-info describe、compute machine-types describe。
+- 实例 IAM 权限 API：instances.testIamPermissions；响应保存于 iam_upgrade_check.json。
+- [Google 机型变更文档](https://docs.cloud.google.com/compute/docs/instances/changing-machine-type-of-stopped-instance)。
+- [Google 自定义与扩展内存文档](https://docs.cloud.google.com/compute/docs/instances/creating-instance-with-custom-machine-type)。
+- [Google 配额规则](https://docs.cloud.google.com/compute/resource-usage#cpu_quota)。
+- [Google 公开价目表](https://cloud.google.com/products/compute/pricing/general-purpose?hl=en)。

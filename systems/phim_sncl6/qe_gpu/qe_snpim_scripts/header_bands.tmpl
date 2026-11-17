@@ -1,0 +1,29 @@
+&CONTROL
+  calculation = 'bands'
+  prefix = 'snpim'
+  outdir = './tmp'
+  pseudo_dir = './pseudo'
+  verbosity = 'high'
+/
+&SYSTEM
+  ibrav = 0
+  nat = 106
+  ntyp = 6
+  ecutwfc = 50.0          ! 波函数截断能 / Ry（pslibrary 超软赝势的常用值）
+  ecutrho = 400.0         ! 电荷密度截断能 / Ry（超软赝势取 8 倍）
+  occupations = 'fixed'   ! 绝缘体：电子占据固定，不用展宽
+  vdw_corr = 'dft-d3'     ! DFT-D3 色散校正
+  dftd3_version = 4       ! 4 = D3(BJ) 阻尼
+  nbnd = 200
+/
+&ELECTRONS
+  conv_thr = 1.0d-8
+  mixing_beta = 0.4
+/
+ATOMIC_SPECIES
+  Sn 118.710  Sn.pbe-dn-rrkjus_psl.1.0.0.UPF
+  Cl  35.453  Cl.pbe-n-rrkjus_psl.1.0.0.UPF
+  O   15.999  O.pbe-n-rrkjus_psl.1.0.0.UPF
+  N   14.007  N.pbe-n-rrkjus_psl.1.0.0.UPF
+  C   12.011  C.pbe-n-rrkjus_psl.1.0.0.UPF
+  H    1.008  H.pbe-rrkjus_psl.1.0.0.UPF

@@ -1,0 +1,5 @@
+&BANDS
+  prefix = 'phim_sncl6', outdir = './tmp'
+  filband = 'bands.dat'
+  lsym = .false.
+/

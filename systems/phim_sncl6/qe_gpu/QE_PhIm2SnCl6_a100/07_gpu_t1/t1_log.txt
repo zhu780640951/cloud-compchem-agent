@@ -1,0 +1,18 @@
+S0 @ R_S0: E = -4042.53125108 Eh  converged=True
+T1 @ R_S0 (vertical): E = -4042.40309866 Eh  converged=True
+   <S^2> = 2.0360  spin pops: {'SnCl6': 0.0009797907191177464, 'Sn': 0.0007948766689946259, 'Cl_each': [0.001, 0.0, 0.0, -0.001, 0.0, 0.0], 'cations': 1.998975934084597, 'water': 4.427519622054309e-05}
+vertical S0->T1 (R_S0): 3.487 eV
+  T1 opt step  1: E = -4042.40309866  (-0.000 mEh vs T1@R_S0)
+  T1 opt step  2: E = -4042.40308925  (+0.009 mEh vs T1@R_S0)
+  T1 opt step  3: E = -4042.40311637  (-0.018 mEh vs T1@R_S0)
+  T1 opt step  4: E = -4042.40311911  (-0.020 mEh vs T1@R_S0)
+  T1 opt step  5: E = -4042.40312350  (-0.025 mEh vs T1@R_S0)
+  T1 opt step  6: E = -4042.40312424  (-0.026 mEh vs T1@R_S0)
+  T1 opt step  7: E = -4042.40312426  (-0.026 mEh vs T1@R_S0)
+  T1 opt step  8: E = -4042.40312427  (-0.026 mEh vs T1@R_S0)
+T1 @ R_T1: E = -4042.40312427 Eh  converged=True
+   <S^2> = 2.0360  spin pops: {'SnCl6': 0.0009457408635562624, 'Sn': 0.000777205730935261, 'Cl_each': [0.001, 0.0, 0.0, -0.0, 0.0, 0.0], 'cations': 1.9990129023669363, 'water': 4.1356769532361934e-05}
+S0 @ R_T1: E = -4042.53123135 Eh  converged=True
+Sn-Cl  S0: [2.477, 2.409, 2.477, 2.471, 2.44, 2.417]  T1: [2.477, 2.41, 2.478, 2.467, 2.441, 2.418]
+RESULT eV: vertical 3.487 | emission 3.486 | E00 3.487 | lambda_S0 0.001 | lambda_T1 0.001 | Stokes 0.001
+DONE in 273 s

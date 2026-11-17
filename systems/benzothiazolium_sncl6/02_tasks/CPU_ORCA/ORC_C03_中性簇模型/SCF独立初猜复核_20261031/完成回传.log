@@ -1,0 +1,51 @@
+
+shell1_independent_scf.ou | 32 kB |  32.0 kB/s | ETA: 00:00:04 |  19%
+shell1_independent_scf.ou | 96 kB |  96.0 kB/s | ETA: 00:00:00 |  58%
+shell1_independent_scf.ou | 164 kB | 164.6 kB/s | ETA: 00:00:00 | 100%
+
+shell1_independent_scf_at | 32 kB |  32.0 kB/s | ETA: 00:00:00 |  65%
+shell1_independent_scf_at | 49 kB |  49.1 kB/s | ETA: 00:00:00 | 100%
+
+expanded79_shell1.pc      | 32 kB |  32.0 kB/s | ETA: 00:00:00 |  54%
+expanded79_shell1.pc      | 58 kB |  58.6 kB/s | ETA: 00:00:00 | 100%
+
+shell1_independent_scf.de | 1 kB |   1.8 kB/s | ETA: 00:00:00 | 100%
+
+shell1_independent_scf_at | 1 kB |   1.8 kB/s | ETA: 00:00:00 | 100%
+
+shell1_independent_scf_at | 3 kB |   3.1 kB/s | ETA: 00:00:00 | 100%
+
+shell1_independent_scf.bi | 3 kB |   3.6 kB/s | ETA: 00:00:00 | 100%
+
+launch.json               | 0 kB |   0.2 kB/s | ETA: 00:00:00 | 100%
+
+shell1_independent_scf.pr | 32 kB |  32.0 kB/s | ETA: 00:00:01 |  39%
+shell1_independent_scf.pr | 81 kB |  81.4 kB/s | ETA: 00:00:00 | 100%
+
+shell1_independent_scf_at | 3 kB |   3.8 kB/s | ETA: 00:00:00 | 100%
+
+shell1_independent_scf_at | 21 kB |  21.1 kB/s | ETA: 00:00:00 | 100%
+
+shell1_independent_scf.in | 3 kB |   3.2 kB/s | ETA: 00:00:00 | 100%
+
+shell1_independent_scf.gb | 32 kB |  32.0 kB/s | ETA: 00:03:59 |   0%
+shell1_independent_scf.gb | 352 kB | 352.0 kB/s | ETA: 00:00:20 |   4%
+shell1_independent_scf.gb | 1248 kB | 624.0 kB/s | ETA: 00:00:10 |  16%
+shell1_independent_scf.gb | 2848 kB | 949.3 kB/s | ETA: 00:00:05 |  37%
+shell1_independent_scf.gb | 4640 kB | 1160.0 kB/s | ETA: 00:00:02 |  60%
+shell1_independent_scf.gb | 6528 kB | 1305.6 kB/s | ETA: 00:00:00 |  84%
+shell1_independent_scf.gb | 7692 kB | 1538.4 kB/s | ETA: 00:00:00 | 100%
+
+shell1_independent_scf.de | 32 kB |  32.0 kB/s | ETA: 00:06:08 |   0%
+shell1_independent_scf.de | 608 kB | 608.0 kB/s | ETA: 00:00:18 |   5%
+shell1_independent_scf.de | 2944 kB | 1472.0 kB/s | ETA: 00:00:06 |  24%
+shell1_independent_scf.de | 5056 kB | 1685.3 kB/s | ETA: 00:00:04 |  42%
+shell1_independent_scf.de | 7104 kB | 1776.0 kB/s | ETA: 00:00:02 |  60%
+shell1_independent_scf.de | 9120 kB | 1824.0 kB/s | ETA: 00:00:01 |  77%
+shell1_independent_scf.de | 11232 kB | 1872.0 kB/s | ETA: 00:00:00 |  94%
+shell1_independent_scf.de | 11826 kB | 1971.1 kB/s | ETA: 00:00:00 | 100%
+
+Updating project ssh metadata...
+..........Updated [https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>].
+done.
+Waiting for SSH key to propagate.

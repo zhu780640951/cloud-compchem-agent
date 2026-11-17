@@ -1,0 +1,638 @@
+{
+  "drive_mounted": true,
+  "root_directories": [
+    "Colab Notebooks",
+    "QE_build",
+    "QE_PhIm2SnCl6",
+    "QE计算结果",
+    "苯并噻唑SnCl4计算"
+  ],
+  "root_files": [],
+  "candidates": [
+    {
+      "path": "/content/drive/MyDrive/Colab Notebooks/01_relax_PhIm2SnCl6_PBE-D3.ipynb",
+      "bytes": 796281
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_build/qe-7.5-gpu-sm80/bin/pw.x",
+      "bytes": 30778016
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/run_relax.sh",
+      "bytes": 2747
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/setup_qe_gpu.sh",
+      "bytes": 3573
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/pseudo/C.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 858332
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/pseudo/Cl.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 1711486
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/pseudo/H.pbe-kjpaw_psl.1.0.0.UPF",
+      "bytes": 337027
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/pseudo/N.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 867018
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/pseudo/O.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 875299
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/pseudo/Sn.pbe-dn-kjpaw_psl.1.0.0.UPF",
+      "bytes": 2017125
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/tmp/phim_sncl6.save/C.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 858332
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/tmp/phim_sncl6.save/Cl.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 1711486
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/tmp/phim_sncl6.save/H.pbe-kjpaw_psl.1.0.0.UPF",
+      "bytes": 337027
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/tmp/phim_sncl6.save/N.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 867018
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/tmp/phim_sncl6.save/O.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 875299
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/tmp/phim_sncl6.save/Sn.pbe-dn-kjpaw_psl.1.0.0.UPF",
+      "bytes": 2017125
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo/Sn.pbe-dn-kjpaw_psl.1.0.0.UPF",
+      "bytes": 2017125
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo/Cl.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 1711486
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo/O.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 875299
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo/N.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 867018
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo/C.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 858332
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo/H.pbe-kjpaw_psl.1.0.0.UPF",
+      "bytes": 337027
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/02_bands_pdos/pseudo/C.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 858332
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/02_bands_pdos/pseudo/Cl.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 1711486
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/02_bands_pdos/pseudo/H.pbe-kjpaw_psl.1.0.0.UPF",
+      "bytes": 337027
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/02_bands_pdos/pseudo/N.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 867018
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/02_bands_pdos/pseudo/O.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 875299
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/02_bands_pdos/pseudo/Sn.pbe-dn-kjpaw_psl.1.0.0.UPF",
+      "bytes": 2017125
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/wave1_logs/run_qe_step2.sh",
+      "bytes": 1286
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/wave1_logs/setup_qe_gpu.sh",
+      "bytes": 3858
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/wave2_logs/setup_qe_gpu.sh",
+      "bytes": 3858
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/04_hse06/pseudo_sg15/C_ONCV_PBE-1.2.upf",
+      "bytes": 90153
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/04_hse06/pseudo_sg15/Cl_ONCV_PBE-1.2.upf",
+      "bytes": 90193
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/04_hse06/pseudo_sg15/H_ONCV_PBE-1.2.upf",
+      "bytes": 64999
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/04_hse06/pseudo_sg15/N_ONCV_PBE-1.2.upf",
+      "bytes": 90153
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/04_hse06/pseudo_sg15/O_ONCV_PBE-1.2.upf",
+      "bytes": 90153
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/04_hse06/pseudo_sg15/Sn_ONCV_PBE-1.2.upf",
+      "bytes": 115585
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo_sg15/Sn_ONCV_PBE-1.2.upf",
+      "bytes": 115585
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo_sg15/Cl_ONCV_PBE-1.2.upf",
+      "bytes": 90193
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo_sg15/O_ONCV_PBE-1.2.upf",
+      "bytes": 90153
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo_sg15/N_ONCV_PBE-1.2.upf",
+      "bytes": 90153
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo_sg15/C_ONCV_PBE-1.2.upf",
+      "bytes": 90153
+    },
+    {
+      "path": "/content/drive/MyDrive/QE_PhIm2SnCl6/pseudo_sg15/H_ONCV_PBE-1.2.upf",
+      "bytes": 64999
+    },
+    {
+      "path": "/content/drive/MyDrive/QE计算结果/2-苯基咪唑SnCl6/run_after_relax.sh",
+      "bytes": 1625
+    },
+    {
+      "path": "/content/drive/MyDrive/QE计算结果/2-苯基咪唑SnCl6/setup_qe_gpu.sh",
+      "bytes": 2491
+    },
+    {
+      "path": "/content/drive/MyDrive/QE计算结果/2-苯基咪唑SnCl6/snpim_qe_results.zip",
+      "bytes": 6645790
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/README.md",
+      "bytes": 4559
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/03_分子激发态/阶段2_GPU_Antigravity任务书.md",
+      "bytes": 9070
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/03_分子激发态/scripts/run_stage2_gpu.sh",
+      "bytes": 9082
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/03_分子激发态/scripts/run_stage2_gpu_safe.sh",
+      "bytes": 7962
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/阶段1_GPU补充任务书.md",
+      "bytes": 5370
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Cd.pbe-dn-rrkjus_psl.0.3.1.UPF",
+      "bytes": 1439999
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Fr.paw.z_19.ld1.psl.v1.0.0-high.upf",
+      "bytes": 2264031
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ca_pbe_v1.uspp.F.UPF",
+      "bytes": 575920
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ba.pbe-spn-kjpaw_psl.1.0.0.UPF",
+      "bytes": 2456498
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Dy.paw.z_20.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3360165
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Md.paw.z_23.ld1.uni-marburg.v0.upf",
+      "bytes": 3608795
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Al.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 1762723
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ac.us.z_11.ld1.psl.v1.0.0-high.upf",
+      "bytes": 3446688
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/No.paw.z_24.ld1.uni-marburg.v0.upf",
+      "bytes": 3613248
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Pa.paw.z_13.ld1.uni-marburg.v0.upf",
+      "bytes": 3591720
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Co_pbe_v1.2.uspp.F.UPF",
+      "bytes": 606524
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ir_pbe_v1.2.uspp.F.UPF",
+      "bytes": 827810
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ar_ONCV_PBE-1.1.oncvpsp.upf",
+      "bytes": 129889
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Gd.paw.z_18.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3354147
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Es.paw.z_21.ld1.uni-marburg.v0.upf",
+      "bytes": 3604829
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Cu.paw.z_11.ld1.psl.v1.0.0-low.upf",
+      "bytes": 1855080
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/La.paw.z_11.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3327308
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Nb.pbe-spn-kjpaw_psl.0.3.0.UPF",
+      "bytes": 2052531
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Pb.pbe-dn-kjpaw_psl.0.2.2.UPF",
+      "bytes": 2296427
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Mo_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 278626
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Fm.paw.z_22.ld1.uni-marburg.v0.upf",
+      "bytes": 3603610
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Bk.paw.z_19.ld1.uni-marburg.v0.upf",
+      "bytes": 3600254
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Cs_pbe_v1.uspp.F.UPF",
+      "bytes": 633805
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Hg_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 263618
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Am.paw.z_17.ld1.uni-marburg.v0.upf",
+      "bytes": 3597881
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Fe.pbe-spn-kjpaw_psl.0.2.1.UPF",
+      "bytes": 1935534
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Hf-sp.oncvpsp.upf",
+      "bytes": 351874
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Pm.paw.z_15.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3342221
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Mg.pbe-n-kjpaw_psl.0.3.0.UPF",
+      "bytes": 1013584
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Er.paw.z_22.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3366184
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ce.paw.z_12.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3330358
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ag_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 259210
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Cm.paw.z_18.ld1.uni-marburg.v0.upf",
+      "bytes": 3600176
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/He_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 73456
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/As.pbe-n-rrkjus_psl.0.2.UPF",
+      "bytes": 703927
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/K.pbe-spn-kjpaw_psl.1.0.0.UPF",
+      "bytes": 1865359
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Kr_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 156438
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Pd_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 258698
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/I.pbe-n-kjpaw_psl.0.2.UPF",
+      "bytes": 1298984
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Eu.paw.z_17.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3351197
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Bi_pbe_v1.uspp.F.UPF",
+      "bytes": 605013
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Np.paw.z_15.ld1.uni-marburg.v0.upf",
+      "bytes": 3595011
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Lr.paw.z_25.ld1.uni-marburg.v0.upf",
+      "bytes": 3615077
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ne_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 109285
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/At.us.z_17.ld1.psl.v1.0.0-high.upf",
+      "bytes": 2041023
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Cf.paw.z_20.ld1.uni-marburg.v0.upf",
+      "bytes": 3605692
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Po.pbe-dn-rrkjus_psl.1.0.0.UPF",
+      "bytes": 1490674
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ho.paw.z_21.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3366173
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Au_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 264670
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Os_pbe_v1.2.uspp.F.UPF",
+      "bytes": 1030749
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/P.pbe-n-rrkjus_psl.1.0.0.UPF",
+      "bytes": 1306148
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Nd.paw.z_14.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3339268
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ga.pbe-dn-kjpaw_psl.1.0.0.UPF",
+      "bytes": 1957674
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Lu.paw.z_25.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3378071
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/In.pbe-dn-rrkjus_psl.0.2.2.UPF",
+      "bytes": 1442304
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Tm.paw.z_23.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3372084
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Yb.paw.z_24.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3375153
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/li_pbe_v1.4.uspp.F.UPF",
+      "bytes": 382791
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Tb.paw.z_19.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3357215
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ru_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 268070
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Rn.pbe-dn-kjpaw_psl.1.0.0.UPF",
+      "bytes": 2303441
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Re_pbe_v1.2.uspp.F.UPF",
+      "bytes": 1028073
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/W_pbe_v1.2.uspp.F.UPF",
+      "bytes": 955949
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/mn_pbe_v1.5.uspp.F.UPF",
+      "bytes": 601365
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Xe_ONCV_PBE-1.1.oncvpsp.upf",
+      "bytes": 192806
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Sc_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 304171
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Zn_pbe_v1.uspp.F.UPF",
+      "bytes": 645094
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Th.paw.z_12.ld1.uni-marburg.v0.upf",
+      "bytes": 3591174
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/U.paw.z_14.ld1.uni-marburg.v0.upf",
+      "bytes": 3590882
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Rb_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 363876
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/cr_pbe_v1.5.uspp.F.UPF",
+      "bytes": 584698
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Rh_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 265082
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Tl_pbe_v1.2.uspp.F.UPF",
+      "bytes": 605013
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Y_pbe_v1.uspp.F.UPF",
+      "bytes": 617250
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ta_pbe_v1.uspp.F.UPF",
+      "bytes": 792110
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Se_pbe_v1.uspp.F.UPF",
+      "bytes": 565664
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Tc_ONCV_PBE-1.0.oncvpsp.upf",
+      "bytes": 273954
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/be_pbe_v1.4.uspp.F.UPF",
+      "bytes": 501716
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Pu.paw.z_16.ld1.uni-marburg.v0.upf",
+      "bytes": 3594876
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Sm.paw.z_16.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3345179
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/ni_pbe_v1.4.uspp.F.UPF",
+      "bytes": 612014
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Te_pbe_v1.uspp.F.UPF",
+      "bytes": 459469
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Pr.paw.z_13.atompaw.wentzcovitch.v1.2.upf",
+      "bytes": 3333250
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/na_pbe_v1.5.uspp.F.UPF",
+      "bytes": 425627
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Si.pbe-n-rrkjus_psl.1.0.0.UPF",
+      "bytes": 1299382
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/ti_pbe_v1.4.uspp.F.UPF",
+      "bytes": 577420
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Sr_pbe_v1.uspp.F.UPF",
+      "bytes": 616041
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/ge_pbe_v1.4.uspp.F.UPF",
+      "bytes": 579995
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/pt_pbe_v1.4.uspp.F.UPF",
+      "bytes": 675946
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/v_pbe_v1.4.uspp.F.UPF",
+      "bytes": 582160
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Zr_pbe_v1.uspp.F.UPF",
+      "bytes": 618662
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/b_pbe_v1.4.uspp.F.UPF",
+      "bytes": 306486
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/f_pbe_v1.4.uspp.F.UPF",
+      "bytes": 294351
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/sb_pbe_v1.4.uspp.F.UPF",
+      "bytes": 601579
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Ra.paw.z_20.ld1.psl.v1.0.0-high.upf",
+      "bytes": 2565671
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/br_pbe_v1.4.uspp.F.UPF",
+      "bytes": 566956
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/O.pbe-n-kjpaw_psl.0.1.UPF",
+      "bytes": 930566
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/s_pbe_v1.4.uspp.F.UPF",
+      "bytes": 582972
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/N.pbe-n-radius_5.UPF",
+      "bytes": 632448
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/Sn_pbe_v1.uspp.F.UPF",
+      "bytes": 597547
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/cl_pbe_v1.4.uspp.F.UPF",
+      "bytes": 584526
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/C.pbe-n-kjpaw_psl.1.0.0.UPF",
+      "bytes": 911843
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/pseudo/H.pbe-rrkjus_psl.1.0.0.UPF",
+      "bytes": 227296
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/02_QE周期性DFT/scripts/setup_qe_gpu.sh",
+      "bytes": 2088
+    },
+    {
+      "path": "/content/drive/MyDrive/苯并噻唑SnCl4计算/backup_oom_investigation_20261029/03_分子激发态/scripts/run_stage2_gpu.sh",
+      "bytes": 9082
+    }
+  ],
+  "gpu": "NVIDIA A100-SXM4-40GB, 40960 MiB, 580.82.07"
+}

@@ -1,0 +1,14 @@
+! PBE0 D3BJ def2-SVP def2/J RIJCOSX TightSCF
+%pal nprocs 6 end
+%maxcore 6000
+%plots
+ Format Gaussian_Cube
+ dim1 64
+ dim2 64
+ dim3 64
+ MO("mo147.cube",147,0);
+ MO("mo148.cube",148,0);
+ MO("mo149.cube",149,0);
+ MO("mo150.cube",150,0);
+end
+* xyzfile 0 1 phim_opt.xyz

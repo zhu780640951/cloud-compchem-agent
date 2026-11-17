@@ -1,0 +1,50 @@
+{
+  "started_utc": "2026-10-30T05:41:53.291294+00:00",
+  "notebook_request_id": "29e9479c-b359-47cd-b81a-c70763c89371",
+  "requested_gpu": "T4",
+  "runtime_created": true,
+  "assignments_before": 0,
+  "consumption_before": {
+    "paid_compute_units_balance": 53.63585989227649,
+    "consumption_rate_hourly": 0.0,
+    "assignments_count": 0
+  },
+  "stage": "Releasing the temporary test runtime",
+  "endpoint": "gpu-t4-s-usw1b1-24jfrgr1w3gtq",
+  "upload_ok": true,
+  "execution_output": [
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "{\n  \"time_utc\": \"2026-10-30T05:41:53Z\",\n  \"hostname\": \"c704708da4d2\",\n  \"python_execution\": \"ok\",\n  \"gpu_returncode\": 0,\n  \"gpu_info\": \"Tesla T4, 15360 MiB, 0 MiB, 0 %, 580.82.07\",\n  \"gpu_processes\": \"\",\n  \"qe_candidates\": []\n}\n"
+    },
+    {
+      "output_type": "stream",
+      "name": "stdout",
+      "text": "GPU_DIAGNOSTICS {\"time_utc\": \"2026-10-30T05:41:53Z\", \"hostname\": \"c704708da4d2\", \"python_execution\": \"ok\", \"gpu_returncode\": 0, \"gpu_info\": \"Tesla T4, 15360 MiB, 0 MiB, 0 %, 580.82.07\", \"gpu_processes\": \"\", \"qe_candidates\": [], \"torch_cuda_available\": true, \"cuda_sum_0_to_1023\": 523776, \"connection_test_nonce\": \"1adf078e-67d5-4006-9650-e87428e36397\"}\n"
+    }
+  ],
+  "python_execution_ok": true,
+  "download_ok": true,
+  "roundtrip_ok": true,
+  "remote_diagnostics": {
+    "time_utc": "2026-10-30T05:41:53Z",
+    "hostname": "c704708da4d2",
+    "python_execution": "ok",
+    "gpu_returncode": 0,
+    "gpu_info": "Tesla T4, 15360 MiB, 0 MiB, 0 %, 580.82.07",
+    "gpu_processes": "",
+    "qe_candidates": [],
+    "torch_cuda_available": true,
+    "cuda_sum_0_to_1023": 523776,
+    "connection_test_nonce": "1adf078e-67d5-4006-9650-e87428e36397"
+  },
+  "test_runtime_released": true,
+  "assignments_after": 0,
+  "consumption_after": {
+    "paid_compute_units_balance": 53.63585989227649,
+    "consumption_rate_hourly": 0.0,
+    "assignments_count": 0
+  },
+  "finished_utc": "2026-10-30T05:42:10.150217+00:00"
+}

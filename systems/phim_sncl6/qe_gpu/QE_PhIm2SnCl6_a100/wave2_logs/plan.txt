@@ -1,0 +1,1 @@
+cores 12, RAM 85477 MB -> QE 2 threads, ORCA 2 x 5 ranks, maxcore 4000 MB

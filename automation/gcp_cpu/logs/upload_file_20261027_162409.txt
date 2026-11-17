@@ -1,0 +1,10 @@
+﻿==== upload_file  2026-10-27 16:24:09
+实例状态：RUNNING
+
+04c2_SOC_ZORA_at_T1geom.i | 0 kB |   0.3 kB/s | ETA: 00:00:00 | 100%
+
+>>> 远程执行：sed -i s/\\r$// ~/stage3/04c2_SOC_ZORA_at_T1geom.inp; ls -l ~/stage3/04c2_SOC_ZORA_at_T1geom.inp; head -3 ~/stage3/04c2_SOC_ZORA_at_T1geom.inp
+-rw-rw-r-- 1 y y 325 Oct 27 08:24 /home/y/stage3/04c2_SOC_ZORA_at_T1geom.inp
+! ZORA wB97X-D3 ZORA-def2-TZVP SARC/J RIJCOSX RI-SOMF(1X) TightSCF DefGrid3
+%pal nprocs 6 end
+%maxcore 12000

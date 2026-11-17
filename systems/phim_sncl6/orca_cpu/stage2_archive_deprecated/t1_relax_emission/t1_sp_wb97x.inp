@@ -1,0 +1,4 @@
+! UKS wB97X-D3 def2-SVP def2/J RIJCOSX TightSCF
+%pal nprocs 6 end
+%maxcore 6000
+* xyzfile 1 3 cation_t1_opt.xyz

@@ -1,0 +1,69 @@
+{
+  "checked_date_Hong_Kong": "2026-10-30",
+  "project": "<YOUR_GCP_PROJECT_ID>",
+  "instance": "orca-cpu-16",
+  "zone": "us-central1-a",
+  "instance_status": "TERMINATED",
+  "current_machine_type": "n2-custom-12-98304",
+  "boot_disk_GB": 100,
+  "quotas": {
+    "CPUS_ALL_REGIONS": {
+      "limit": 12,
+      "usage": 0
+    },
+    "us-central1_N2_CPUS": {
+      "limit": 32,
+      "usage": 0
+    }
+  },
+  "permission_check_file": "iam_upgrade_check.json",
+  "prices": {
+    "region": "us-central1",
+    "currency": "USD",
+    "basis": "Linux on-demand VM compute only; excludes disks, IP, network, tax and discounts/credits",
+    "custom_vcpu_per_hour": "0.03319155",
+    "custom_memory_per_GiB_hour": "0.00444885",
+    "extended_memory_per_GiB_hour": "0.00955",
+    "source": "https://cloud.google.com/products/compute/pricing/general-purpose?hl=en"
+  },
+  "options": [
+    {
+      "machine_type": "n2-custom-12-98304",
+      "vcpus": 12,
+      "memory_GiB": 96,
+      "hourly_usd": "0.82538820",
+      "condition": "current"
+    },
+    {
+      "machine_type": "n2-custom-12-131072-ext",
+      "vcpus": 12,
+      "memory_GiB": 128,
+      "hourly_usd": "1.13098820",
+      "condition": "memory-only; no additional CPU quota required; not applied or boot-tested"
+    },
+    {
+      "machine_type": "n2-custom-12-196608-ext",
+      "vcpus": 12,
+      "memory_GiB": 192,
+      "hourly_usd": "1.74218820",
+      "condition": "memory-only; no additional CPU quota required; not applied or boot-tested"
+    },
+    {
+      "machine_type": "n2-highmem-16",
+      "vcpus": 16,
+      "memory_GiB": 128,
+      "hourly_usd": "1.048112",
+      "condition": "requires CPUS_ALL_REGIONS >=16"
+    },
+    {
+      "machine_type": "n2-highmem-32",
+      "vcpus": 32,
+      "memory_GiB": 256,
+      "hourly_usd": "2.096224",
+      "condition": "requires CPUS_ALL_REGIONS >=32"
+    }
+  ],
+  "instance_modified": false,
+  "instance_started": false,
+  "quota_increase_submitted": false
+}

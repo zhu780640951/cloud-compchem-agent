@@ -1,0 +1,6 @@
+&INPUTPP
+ prefix='optimized_scf', outdir='./tmp', filplot='VBM.dat', plot_num=7, kpoint=6, kband=81,
+/
+&PLOT
+ nfile=1, filepp(1)='VBM.dat', weight(1)=1.0, iflag=3, output_format=6, fileout='VBM.cube',
+/

@@ -1,0 +1,112 @@
+[
+  {
+    "path": "launch.json",
+    "bytes": 257,
+    "sha256": "dba059f05e972e77d78c9a6b9afe45c9f6f1b3d0dfcc044877e65b4619200061"
+  },
+  {
+    "path": "launch_optfreq.json",
+    "bytes": 364,
+    "sha256": "788ddd4776bbbf1a55456fc86fa00d49bd178c6b2f6e97a3fb046e7e62300d4d"
+  },
+  {
+    "path": "monitor_optfreq.json",
+    "bytes": 3659,
+    "sha256": "d4892bc0253b419a75c6d0826cb4b3500d4e9cb05aea2c59556fbc65e7cd35c0"
+  },
+  {
+    "path": "s0_optfreq.bibtex",
+    "bytes": 4102,
+    "sha256": "5e6c85b66d0e63fa90c9f2aa4caf541a22d413574c4da6ffa8bfde6dd2a6297c"
+  },
+  {
+    "path": "s0_optfreq.densities",
+    "bytes": 409600,
+    "sha256": "c16cc6bd5922f10f59ac79e0dda138f95453dc4cfc2ab50ad9a9dbb77cabd060"
+  },
+  {
+    "path": "s0_optfreq.densitiesinfo",
+    "bytes": 1838,
+    "sha256": "6ef83af194d8782f199ac06a9245a77af53c2588300fd326155ce8fef5b2292d"
+  },
+  {
+    "path": "s0_optfreq.engrad",
+    "bytes": 1859,
+    "sha256": "449fb620eaca69292590da85acabc106d5be9811cf8a3d2cdcac6c12f0a31cde"
+  },
+  {
+    "path": "s0_optfreq.gbw",
+    "bytes": 1342652,
+    "sha256": "8b6f0bcd2f3cd970f2d588e2c80b7b53f08a59451a61e2a2c9584300dc8d49d8"
+  },
+  {
+    "path": "s0_optfreq.hess",
+    "bytes": 95253,
+    "sha256": "2ee609e1cf31fe93572d5952008e33579842c57fdc62f91a639525b2389fcb7c"
+  },
+  {
+    "path": "s0_optfreq.inp",
+    "bytes": 743,
+    "sha256": "2e55e9471929523fc1c1147284bb8152047ec139bca6ea8aa701921146c42bd5"
+  },
+  {
+    "path": "s0_optfreq.opt",
+    "bytes": 11404,
+    "sha256": "dbe8ef4b28deb9a5f20d719792d86dc5151959eb6629d230e1bd346051f0d2d9"
+  },
+  {
+    "path": "s0_optfreq.out",
+    "bytes": 443235,
+    "sha256": "4e06fdf660382cda2771426bc0114ec3dccacba15bf2c0e117138ec0bed24e60"
+  },
+  {
+    "path": "s0_optfreq.property.txt",
+    "bytes": 249344,
+    "sha256": "455288e2a6df0b11ee9ec436328677255a5ef69fc8c5d2b52ab6083392376093"
+  },
+  {
+    "path": "s0_optfreq.xyz",
+    "bytes": 1185,
+    "sha256": "9317926c5dc03d28371f4d0d25f1d443f4e20752a7a00e19a4957f3b0f79dda4"
+  },
+  {
+    "path": "s0_optfreq_trj.xyz",
+    "bytes": 7650,
+    "sha256": "1909d6fd9d4e1d1ae69e35228f74437eae76f158c24b8affa58c1096b69313fd"
+  },
+  {
+    "path": "xrd_stability.bibtex",
+    "bytes": 3674,
+    "sha256": "fd8d09d4fe45735da78b33e4f6fa87b4af3431cd029a0d127117da3c5f0bd4f5"
+  },
+  {
+    "path": "xrd_stability.densities",
+    "bytes": 409600,
+    "sha256": "e27c8bd4988623ec2196acab61c3829e207b6b60345f5b65b6a78c406a74cfd7"
+  },
+  {
+    "path": "xrd_stability.densitiesinfo",
+    "bytes": 1838,
+    "sha256": "70b9a23e76476b2b4ae37cc56c85d2af8253dcd33988df876a3f06c15d19d99f"
+  },
+  {
+    "path": "xrd_stability.gbw",
+    "bytes": 1342652,
+    "sha256": "f3bd2a794c4cd6f6420e936f33a22daed9834bbbd07d0602cc4d20d84ea98bf3"
+  },
+  {
+    "path": "xrd_stability.inp",
+    "bytes": 722,
+    "sha256": "2db33b1bd9eee54a89c638d3f0e3ed96d1ecd63c6aac883dd7da65350c9158e9"
+  },
+  {
+    "path": "xrd_stability.out",
+    "bytes": 67606,
+    "sha256": "b737c294cf5fccb85721445a29c094c7e74084991d7e9ed541dbfdb9b3ebd0d0"
+  },
+  {
+    "path": "xrd_stability.property.txt",
+    "bytes": 22304,
+    "sha256": "1e0d943c2fc435d85689eaf205898bac32e867386a9ffd77a69967773ca8e035"
+  }
+]

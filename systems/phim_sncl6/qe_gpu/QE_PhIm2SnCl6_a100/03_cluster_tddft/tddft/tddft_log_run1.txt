@@ -1,0 +1,59 @@
+QM atoms 53, electrons 298, AO 604, GPU=yes
+point charges 11077, embedded hcore built in 11 s
+
+== b3lyp: E_SCF = -4052.738907 Ha (29 s); HOMO -6.59 eV [SnCl6 0%, cation 100%, water 0%], LUMO -2.42 eV [SnCl6 98%, cation 2%, water 0%]
+  S on GPU failed (CUDARuntimeError: cudaErrorMemoryAllocation: out of memory), using CPU
+QM atoms 53, electrons 298, AO 604, GPU=yes
+point charges 11077, embedded hcore built in 11 s
+
+== b3lyp: E_SCF = -4052.738907 Ha (15 s); HOMO -6.59 eV [SnCl6 0%, cation 100%, water 0%], LUMO -2.42 eV [SnCl6 98%, cation 2%, water 0%]
+  S (gpu, TDDFT) failed: CUDARuntimeError: cudaErrorMemoryAllocation: out of memory
+  S: 10 states in 44 s (gpu, TDA)
+  S1   3.70 eV   335 nm f=0.0002 NTO1 1.00 | hole SnCl6   2% cat  98% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   0% LE(cat)   1% LE(SnCl6)   2%
+  S2   3.86 eV   321 nm f=0.0005 NTO1 1.00 | hole SnCl6  97% cat   2% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  96%
+  S3   3.91 eV   317 nm f=0.0002 NTO1 1.00 | hole SnCl6  97% cat   3% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  96%
+  S4   4.01 eV   309 nm f=0.0006 NTO1 1.00 | hole SnCl6   2% cat  98% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   0% LE(cat)   1% LE(SnCl6)   2%
+  S5   4.14 eV   300 nm f=0.0001 NTO1 1.00 | hole SnCl6  97% cat   2% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  96%
+  S6   4.25 eV   292 nm f=0.0000 NTO1 1.00 | hole SnCl6   0% cat 100% | elec SnCl6   0% cat 100% | CT(SnCl6->cat)   0% LE(cat)   0% LE(SnCl6)   0%
+  S7   4.33 eV   286 nm f=0.0060 NTO1 1.00 | hole SnCl6  96% cat   2% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  94%
+  S8   4.34 eV   286 nm f=0.0195 NTO1 1.00 | hole SnCl6  96% cat   2% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  95%
+  S9   4.47 eV   277 nm f=0.0030 NTO1 1.00 | hole SnCl6   1% cat  99% | elec SnCl6  98% cat   2% | CT(SnCl6->cat)   0% LE(cat)   1% LE(SnCl6)   1%
+  S10  4.48 eV   276 nm f=0.0002 NTO1 1.00 | hole SnCl6  79% cat  18% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  78%
+  T: 10 states in 27 s (gpu, TDA)
+  T1   3.21 eV   387 nm f=0.0000 NTO1 0.95 | hole SnCl6   0% cat 100% | elec SnCl6   0% cat 100% | CT(SnCl6->cat)   0% LE(cat) 100% LE(SnCl6)   0%
+  T2   3.21 eV   386 nm f=0.0000 NTO1 0.95 | hole SnCl6   0% cat 100% | elec SnCl6   0% cat 100% | CT(SnCl6->cat)   0% LE(cat) 100% LE(SnCl6)   0%
+  T3   3.62 eV   342 nm f=0.0000 NTO1 0.99 | hole SnCl6  94% cat   5% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  93%
+  T4   3.68 eV   337 nm f=0.0000 NTO1 0.99 | hole SnCl6  76% cat  24% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  75%
+  T5   3.72 eV   333 nm f=0.0000 NTO1 1.00 | hole SnCl6  28% cat  72% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   0% LE(cat)   1% LE(SnCl6)  28%
+  T6   3.93 eV   316 nm f=0.0000 NTO1 0.99 | hole SnCl6  98% cat   1% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  97%
+  T7   3.99 eV   310 nm f=0.0000 NTO1 0.92 | hole SnCl6   1% cat  99% | elec SnCl6   4% cat  96% | CT(SnCl6->cat)   1% LE(cat)  95% LE(SnCl6)   0%
+  T8   4.01 eV   309 nm f=0.0000 NTO1 0.96 | hole SnCl6   4% cat  96% | elec SnCl6  95% cat   5% | CT(SnCl6->cat)   0% LE(cat)   4% LE(SnCl6)   4%
+  T9   4.01 eV   309 nm f=0.0000 NTO1 0.99 | hole SnCl6  97% cat   2% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  96%
+  T10  4.06 eV   305 nm f=0.0000 NTO1 0.97 | hole SnCl6  94% cat   5% | elec SnCl6  97% cat   3% | CT(SnCl6->cat)   2% LE(cat)   0% LE(SnCl6)  91%
+== b3lyp done in 96 s
+
+== camb3lyp: E_SCF = -4052.096409 Ha (18 s); HOMO -7.95 eV [SnCl6 0%, cation 100%, water 0%], LUMO -1.22 eV [SnCl6 98%, cation 2%, water 0%]
+  S (gpu, TDDFT) failed: CUDARuntimeError: cudaErrorMemoryAllocation: out of memory
+  S: 10 states in 67 s (gpu, TDA)
+  S1   4.50 eV   276 nm f=0.0006 NTO1 0.99 | hole SnCl6  99% cat   0% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  98%
+  S2   4.55 eV   272 nm f=0.0003 NTO1 0.99 | hole SnCl6  99% cat   1% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  98%
+  S3   4.80 eV   258 nm f=0.0002 NTO1 0.98 | hole SnCl6  98% cat   2% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  97%
+  S4   4.98 eV   249 nm f=0.1415 NTO1 0.84 | hole SnCl6  84% cat  16% | elec SnCl6  85% cat  15% | CT(SnCl6->cat)  13% LE(cat)   1% LE(SnCl6)  71%
+  S5   5.00 eV   248 nm f=0.0214 NTO1 0.66 | hole SnCl6  66% cat  34% | elec SnCl6  66% cat  33% | CT(SnCl6->cat)  22% LE(cat)   6% LE(SnCl6)  44%
+  S6   5.01 eV   247 nm f=0.0664 NTO1 0.47 | hole SnCl6  34% cat  66% | elec SnCl6  35% cat  65% | CT(SnCl6->cat)  22% LE(cat)  26% LE(SnCl6)  12%
+  S7   5.04 eV   246 nm f=0.9927 NTO1 0.57 | hole SnCl6  17% cat  83% | elec SnCl6  19% cat  81% | CT(SnCl6->cat)  13% LE(cat)  40% LE(SnCl6)   3%
+  S8   5.08 eV   244 nm f=0.0977 NTO1 0.71 | hole SnCl6   1% cat  99% | elec SnCl6   1% cat  99% | CT(SnCl6->cat)   1% LE(cat)  97% LE(SnCl6)   0%
+  S9   5.10 eV   243 nm f=0.0323 NTO1 0.67 | hole SnCl6   0% cat 100% | elec SnCl6   2% cat  98% | CT(SnCl6->cat)   0% LE(cat)  97% LE(SnCl6)   0%
+  S10  5.20 eV   239 nm f=0.0127 NTO1 0.96 | hole SnCl6  55% cat  44% | elec SnCl6  96% cat   4% | CT(SnCl6->cat)   2% LE(cat)   2% LE(SnCl6)  53%
+  T: 10 states in 66 s (gpu, TDA)
+  T1   3.31 eV   374 nm f=0.0000 NTO1 0.90 | hole SnCl6   0% cat 100% | elec SnCl6   0% cat 100% | CT(SnCl6->cat)   0% LE(cat) 100% LE(SnCl6)   0%
+  T2   3.32 eV   373 nm f=0.0000 NTO1 0.90 | hole SnCl6   0% cat 100% | elec SnCl6   0% cat 100% | CT(SnCl6->cat)   0% LE(cat) 100% LE(SnCl6)   0%
+  T3   4.22 eV   294 nm f=0.0000 NTO1 0.97 | hole SnCl6  99% cat   1% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  98%
+  T4   4.24 eV   292 nm f=0.0000 NTO1 0.95 | hole SnCl6   0% cat 100% | elec SnCl6   0% cat 100% | CT(SnCl6->cat)   0% LE(cat)  99% LE(SnCl6)   0%
+  T5   4.28 eV   290 nm f=0.0000 NTO1 0.97 | hole SnCl6  99% cat   1% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  98%
+  T6   4.30 eV   289 nm f=0.0000 NTO1 0.94 | hole SnCl6   0% cat 100% | elec SnCl6   0% cat 100% | CT(SnCl6->cat)   0% LE(cat) 100% LE(SnCl6)   0%
+  T7   4.50 eV   275 nm f=0.0000 NTO1 0.73 | hole SnCl6   0% cat 100% | elec SnCl6   0% cat 100% | CT(SnCl6->cat)   0% LE(cat)  99% LE(SnCl6)   0%
+  T8   4.52 eV   275 nm f=0.0000 NTO1 0.97 | hole SnCl6  99% cat   1% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  97%
+  T9   4.52 eV   274 nm f=0.0000 NTO1 0.75 | hole SnCl6   0% cat 100% | elec SnCl6   0% cat 100% | CT(SnCl6->cat)   0% LE(cat)  99% LE(SnCl6)   0%
+  T10  4.55 eV   273 nm f=0.0000 NTO1 0.97 | hole SnCl6  98% cat   1% | elec SnCl6  99% cat   1% | CT(SnCl6->cat)   1% LE(cat)   0% LE(SnCl6)  98%
+== camb3lyp done in 152 s

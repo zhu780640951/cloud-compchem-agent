@@ -1,0 +1,7 @@
+﻿==== run_steps  2026-10-27 12:49:32
+实例状态：RUNNING
+
+>>> 远程执行：cd ~/stage3 || exit; if pgrep -f '^bash run_all' >/dev/null; then echo BUSY-run_all-still-running; exit; fi; (setsid nohup bash run_all.sh 04a2 > run.log 2>&1 < /dev/null &); sleep 5; tail -3 progress.log
+[2026-10-26 17:42:06] 完成 03b_SOC_control_CatB_gas  0 days 0 hours 5 minutes 27 seconds 422 msec
+[2026-10-26 17:42:06] 开始 04a_T1opt_UKS_free_CatB
+[2026-10-27 04:49:36] 开始 04a2_T1opt_UKS_free_CatA

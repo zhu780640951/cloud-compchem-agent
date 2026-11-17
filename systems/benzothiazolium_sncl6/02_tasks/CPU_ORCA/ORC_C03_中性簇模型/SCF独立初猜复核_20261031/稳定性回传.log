@@ -1,0 +1,48 @@
+
+stability.inp             | 3 kB |   3.3 kB/s | ETA: 00:00:00 | 100%
+
+stability.gbw             | 32 kB |  32.0 kB/s | ETA: 00:03:59 |   0%
+stability.gbw             | 320 kB | 160.0 kB/s | ETA: 00:00:46 |   4%
+stability.gbw             | 864 kB | 288.0 kB/s | ETA: 00:00:23 |  11%
+stability.gbw             | 1696 kB | 424.0 kB/s | ETA: 00:00:14 |  22%
+stability.gbw             | 2624 kB | 524.8 kB/s | ETA: 00:00:09 |  34%
+stability.gbw             | 3648 kB | 608.0 kB/s | ETA: 00:00:06 |  47%
+stability.gbw             | 4704 kB | 672.0 kB/s | ETA: 00:00:04 |  61%
+stability.gbw             | 5760 kB | 720.0 kB/s | ETA: 00:00:02 |  74%
+stability.gbw             | 6784 kB | 753.8 kB/s | ETA: 00:00:01 |  88%
+stability.gbw             | 7692 kB | 854.7 kB/s | ETA: 00:00:00 | 100%
+
+stability.bibtex          | 3 kB |   3.6 kB/s | ETA: 00:00:00 | 100%
+
+expanded79_shell1.pc      | 32 kB |  32.0 kB/s | ETA: 00:00:00 |  54%
+expanded79_shell1.pc      | 58 kB |  58.6 kB/s | ETA: 00:00:00 | 100%
+
+stability.densities       | 32 kB |  32.0 kB/s | ETA: 00:06:08 |   0%
+stability.densities       | 544 kB | 544.0 kB/s | ETA: 00:00:20 |   4%
+stability.densities       | 1664 kB | 832.0 kB/s | ETA: 00:00:12 |  14%
+stability.densities       | 2912 kB | 970.7 kB/s | ETA: 00:00:09 |  24%
+stability.densities       | 4288 kB | 1072.0 kB/s | ETA: 00:00:07 |  36%
+stability.densities       | 5920 kB | 1184.0 kB/s | ETA: 00:00:04 |  50%
+stability.densities       | 7840 kB | 1306.7 kB/s | ETA: 00:00:03 |  66%
+stability.densities       | 10176 kB | 1453.7 kB/s | ETA: 00:00:01 |  86%
+stability.densities       | 11826 kB | 1689.5 kB/s | ETA: 00:00:00 | 100%
+
+stability.densitiesinfo   | 1 kB |   1.8 kB/s | ETA: 00:00:00 | 100%
+
+launch.json               | 0 kB |   0.3 kB/s | ETA: 00:00:00 | 100%
+
+independent_initial.gbw   | 32 kB |  32.0 kB/s | ETA: 00:03:59 |   0%
+independent_initial.gbw   | 2496 kB | 2496.0 kB/s | ETA: 00:00:02 |  32%
+independent_initial.gbw   | 6400 kB | 3200.0 kB/s | ETA: 00:00:00 |  83%
+independent_initial.gbw   | 7692 kB | 3846.0 kB/s | ETA: 00:00:00 | 100%
+
+stability.property.txt    | 32 kB |  32.0 kB/s | ETA: 00:00:01 |  39%
+stability.property.txt    | 81 kB |  81.4 kB/s | ETA: 00:00:00 | 100%
+
+stability.out             | 32 kB |  32.0 kB/s | ETA: 00:00:03 |  23%
+stability.out             | 136 kB | 136.0 kB/s | ETA: 00:00:00 | 100%
+
+Updating project ssh metadata...
+.........Updated [https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>].
+done.
+Waiting for SSH key to propagate.

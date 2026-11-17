@@ -1,0 +1,41 @@
+
+STDERR:
+Updating project ssh metadata...
+............Updated [https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>].
+.done.
+Waiting for SSH key to propagate.
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create directory
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+pscp: E:\����\(C?H?NS)?[SnCl?]��2H?O����\02_��������\02_CPU�����˲�_20261030\cpu_postboot_remote_files: Cannot create file
+
+ERROR: (gcloud.compute.scp) [E:\Google cloud\google-cloud-sdk\bin\sdk\pscp.exe] exited with return code [1].

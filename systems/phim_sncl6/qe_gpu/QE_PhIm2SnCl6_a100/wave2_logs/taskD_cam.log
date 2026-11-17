@@ -1,0 +1,3 @@
+[D-cam 04:07:57] start soc_S0geom (soc, 5 procs, maxcore 4000)
+[D-cam 04:31:58] end   soc_S0geom (1441 s) OK
+[D-cam 04:31:58] start opt_S0 (opt_S0, 5 procs, maxcore 4000)

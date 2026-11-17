@@ -1,0 +1,12 @@
+{
+  "time_utc": "2026-10-30T12:06:48Z",
+  "hostname": "orca-cpu-16",
+  "logical_cpus": 12,
+  "mem_total_kib": 197872188,
+  "mem_total_GiB": 188.706,
+  "mem_available_GiB": 186.732,
+  "orca_exists": true,
+  "root_disk_total_GiB": 98.186,
+  "root_disk_free_GiB": 68.263,
+  "uptime_seconds": 124.48
+}

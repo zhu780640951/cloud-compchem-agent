@@ -1,0 +1,11 @@
+ionic steps: 38
+E_start = -2946.204108 Ry   E_final = -2946.295682 Ry   dE = -1.246 eV
+E_final = -40086.3945 eV
+final total force = 0.005069 Ry/Bohr;  max |F| component = 0.0181 eV/A (target 0.02)
+converged: True
+Sn-Cl  2.441-2.499 A
+N-H    1.028-1.055 A
+O-H    0.979-0.984 A
+C-H    1.082-1.090 A
+H...Cl 2.145-2.965 A (< 3.0)
+heavy-atom RMSD vs experiment = 0.071 A (max 0.219 A)

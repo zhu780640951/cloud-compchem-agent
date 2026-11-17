@@ -1,0 +1,62 @@
+{
+  "VBM": {
+    "k_state": "VBM",
+    "grid": [
+      120,
+      128,
+      160
+    ],
+    "classification": "nearest atomic center in periodic cartesian distance, assigned by component; no chemical partition",
+    "values": {
+      "3": {
+        "fractions": {
+          "organic": 0.8640068967004563,
+          "inorganic": 0.13319290676589968,
+          "water": 0.002800196533644253
+        },
+        "samples": 92880,
+        "sampled_density_sum": 22.99837263843679
+      },
+      "2": {
+        "fractions": {
+          "organic": 0.8676453061035297,
+          "inorganic": 0.12968687431673398,
+          "water": 0.0026678195797364456
+        },
+        "samples": 307200,
+        "sampled_density_sum": 77.28853890030658
+      }
+    },
+    "caveats": "approximate real-space Voronoi partition of pseudo-state density, individual k/band; grid subsampling and choice of boundary affect quantitative fractions; not excited electron/hole"
+  },
+  "CBM": {
+    "k_state": "CBM",
+    "grid": [
+      120,
+      128,
+      160
+    ],
+    "classification": "nearest atomic center in periodic cartesian distance, assigned by component; no chemical partition",
+    "values": {
+      "3": {
+        "fractions": {
+          "organic": 0.08634177624711406,
+          "inorganic": 0.8969711743867773,
+          "water": 0.016687049366108514
+        },
+        "samples": 92880,
+        "sampled_density_sum": 25.183724344711
+      },
+      "2": {
+        "fractions": {
+          "organic": 0.09182577246919928,
+          "inorganic": 0.8909918147074455,
+          "water": 0.017182412823355284
+        },
+        "samples": 307200,
+        "sampled_density_sum": 78.95653327711324
+      }
+    },
+    "caveats": "approximate real-space Voronoi partition of pseudo-state density, individual k/band; grid subsampling and choice of boundary affect quantitative fractions; not excited electron/hole"
+  }
+}

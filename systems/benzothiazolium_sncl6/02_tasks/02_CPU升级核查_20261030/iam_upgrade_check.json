@@ -1,0 +1,11 @@
+{
+  "iam_http_status": 200,
+  "iam": {
+    "permissions": [
+      "compute.instances.get",
+      "compute.instances.setMachineType",
+      "compute.instances.start",
+      "compute.instances.stop"
+    ]
+  }
+}

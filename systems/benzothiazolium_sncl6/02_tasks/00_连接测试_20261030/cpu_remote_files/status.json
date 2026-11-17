@@ -1,0 +1,38 @@
+{
+  "remote_directory": "/home/y/codex_calculations/benzothiazolium_sncl6/connection_test_20261030_052107",
+  "hostname": "orca-cpu-16",
+  "logical_cpus": 12,
+  "mpi_candidates": [
+    "/opt/openmpi-4.1.8/bin/mpirun"
+  ],
+  "tests": [
+    {
+      "name": "h2_hf_1core",
+      "cores": 1,
+      "exit_code": 0,
+      "normal_termination": true,
+      "elapsed_seconds": 0.501,
+      "energy_lines": [
+        "FINAL SINGLE POINT ENERGY        -1.128893619388"
+      ],
+      "version_lines": [
+        "Program Version 6.1.1  -  RELEASE   -"
+      ],
+      "output_file": "/home/y/codex_calculations/benzothiazolium_sncl6/connection_test_20261030_052107/h2_hf_1core.out"
+    },
+    {
+      "name": "h2_hf_2core",
+      "cores": 2,
+      "exit_code": 0,
+      "normal_termination": true,
+      "elapsed_seconds": 1.501,
+      "energy_lines": [
+        "FINAL SINGLE POINT ENERGY        -1.128893619388"
+      ],
+      "version_lines": [
+        "Program Version 6.1.1  -  RELEASE   -"
+      ],
+      "output_file": "/home/y/codex_calculations/benzothiazolium_sncl6/connection_test_20261030_052107/h2_hf_2core.out"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+
+h2_hf_2core.densities     | 1 kB |   1.6 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_1core.gbw           | 32 kB |  32.0 kB/s | ETA: 00:00:29 |   3%
+h2_hf_1core.gbw           | 192 kB |  96.0 kB/s | ETA: 00:00:08 |  19%
+h2_hf_1core.gbw           | 963 kB | 481.6 kB/s | ETA: 00:00:00 | 100%
+
+health.json               | 0 kB |   0.3 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_2core.densitiesinfo | 1 kB |   1.8 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_2core.out           | 32 kB |  32.0 kB/s | ETA: 00:00:00 |  78%
+h2_hf_2core.out           | 40 kB |  40.7 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_1core.densities     | 1 kB |   1.6 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_1core.out           | 32 kB |  32.0 kB/s | ETA: 00:00:00 |  80%
+h2_hf_1core.out           | 39 kB |  39.6 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_2core.inp           | 0 kB |   0.1 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_2core.bibtex        | 1 kB |   1.8 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_2core.property.txt  | 8 kB |   8.0 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_1core.bibtex        | 1 kB |   1.8 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_2core.gbw           | 32 kB |  32.0 kB/s | ETA: 00:00:29 |   3%
+h2_hf_2core.gbw           | 963 kB | 963.2 kB/s | ETA: 00:00:00 | 100%
+
+status.json               | 1 kB |   1.1 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_1core.inp           | 0 kB |   0.1 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_1core.densitiesinfo | 1 kB |   1.8 kB/s | ETA: 00:00:00 | 100%
+
+h2_hf_1core.property.txt  | 8 kB |   8.0 kB/s | ETA: 00:00:00 | 100%
+
+STDERR:
+Updating project ssh metadata...
+.........Updated [https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>].
+done.
+Waiting for SSH key to propagate.

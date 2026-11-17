@@ -1,0 +1,2 @@
+import os,json
+print(json.dumps({'drive_mounted':os.path.isdir('/content/drive/MyDrive'),'top_level':os.listdir('/content/drive/MyDrive')[:60] if os.path.isdir('/content/drive/MyDrive') else []},ensure_ascii=False))

@@ -1,0 +1,19 @@
+==============================================================================
+01e_diag_DKH_ANO_gas.out
+正常结束: 是
+最终能量: -10014.794052095303 Eh
+
+前线轨道（HOMO = MO 162）
+  MO 158 H-4     -9.142 eV | SnCl6 93%  H2O 5%
+  MO 159 H-3     -9.027 eV | SnCl6 92%  H2O 7%
+  MO 160 H-2     -8.820 eV | SnCl6 97%
+  MO 161 H-1     -8.756 eV | SnCl6 99%
+  MO 162 HOMO    -8.532 eV | SnCl6 98%
+  MO 163 LUMO    -0.466 eV | CatB 51%  CatA 49%
+  MO 164 L+1     -0.461 eV | CatA 50%  CatB 50%
+  MO 165 L+2      0.275 eV | SnCl6 91%  CatB 4%  CatA 3%
+  MO 166 L+3      0.562 eV | CatB 99%
+  CatA 最高占据 π: MO 154 (-9.351 eV)
+  CatB 最高占据 π: MO 153 (-9.371 eV)
+  SnCl6 最低空轨道 σ*: MO 165 (0.275 eV)
+  能隙 LUMO-HOMO = 8.066 eV

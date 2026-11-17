@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-10-30T05:40:22.476934+00:00",
+  "runtime_created": false,
+  "identity_http_status": 200,
+  "email": "<YOUR_COLAB_EMAIL>",
+  "sessions": [],
+  "connection_ok": true,
+  "consumption": {
+    "paid_compute_units_balance": 53.63585989227649,
+    "consumption_rate_hourly": 0.0,
+    "assignments_count": 0
+  }
+}

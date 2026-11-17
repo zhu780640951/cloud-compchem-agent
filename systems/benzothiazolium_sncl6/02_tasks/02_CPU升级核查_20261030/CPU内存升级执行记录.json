@@ -1,0 +1,73 @@
+{
+  "time_utc": "2026-10-30T12:00:54.997737+00:00",
+  "instance": "orca-cpu-16",
+  "account": "<YOUR_GCP_EMAIL>",
+  "before": {
+    "status": "TERMINATED",
+    "machine_type": "n2-custom-12-98304",
+    "vcpus": 12,
+    "memory_GiB": 96,
+    "boot_disk_GB": 100,
+    "boot_disk_source": "https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>/zones/us-central1-a/disks/orca-cpu-16"
+  },
+  "requested_machine_type": "n2-custom-12-196608-ext",
+  "requested_vcpus": 12,
+  "requested_memory_GiB": 192,
+  "start_requested": false,
+  "change": {
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "Updated [https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>/zones/us-central1-a/instances/orca-cpu-16].\n"
+  },
+  "verification_returncode": 0,
+  "after": {
+    "disks": [
+      {
+        "architecture": "X86_64",
+        "autoDelete": true,
+        "boot": true,
+        "deviceName": "orca-cpu-16",
+        "diskSizeGb": "100",
+        "guestOsFeatures": [
+          {
+            "type": "UEFI_COMPATIBLE"
+          },
+          {
+            "type": "VIRTIO_SCSI_MULTIQUEUE"
+          },
+          {
+            "type": "GVNIC"
+          },
+          {
+            "type": "SEV_CAPABLE"
+          },
+          {
+            "type": "SEV_SNP_CAPABLE"
+          },
+          {
+            "type": "SEV_LIVE_MIGRATABLE_V2"
+          },
+          {
+            "type": "IDPF"
+          },
+          {
+            "type": "SUSPEND_SAFE_FPR"
+          }
+        ],
+        "index": 0,
+        "interface": "SCSI",
+        "kind": "compute#attachedDisk",
+        "licenses": [
+          "https://www.googleapis.com/compute/v1/projects/debian-cloud/global/licenses/debian-13-trixie"
+        ],
+        "mode": "READ_WRITE",
+        "source": "https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>/zones/us-central1-a/disks/orca-cpu-16",
+        "type": "PERSISTENT"
+      }
+    ],
+    "machineType": "https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>/zones/us-central1-a/machineTypes/n2-custom-12-196608-ext",
+    "name": "orca-cpu-16",
+    "status": "TERMINATED"
+  },
+  "verified": true
+}

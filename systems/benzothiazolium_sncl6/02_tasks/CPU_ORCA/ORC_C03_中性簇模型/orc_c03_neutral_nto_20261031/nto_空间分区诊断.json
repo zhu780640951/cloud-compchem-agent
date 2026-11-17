@@ -1,0 +1,143 @@
+{
+  "results": {
+    "neutral_cluster_nto.s1.mo142a.cube": {
+      "orbital": 142,
+      "grid": [
+        80,
+        80,
+        80
+      ],
+      "integral_full_grid": 0.9882106004366574,
+      "partitions": {
+        "2": {
+          "inorganic": 0.8436634440968868,
+          "cation_1": 0.0022341170694717273,
+          "cation_2": 0.0024973590624286198,
+          "water": 0.15160507977121285
+        },
+        "1": {
+          "inorganic": 0.8411897643447922,
+          "cation_1": 0.002384379288394564,
+          "cation_2": 0.0023842594952280254,
+          "water": 0.15404159687158528
+        }
+      }
+    },
+    "neutral_cluster_nto.s1.mo143a.cube": {
+      "orbital": 143,
+      "grid": [
+        80,
+        80,
+        80
+      ],
+      "integral_full_grid": 0.9976013648152602,
+      "partitions": {
+        "2": {
+          "inorganic": 0.001230419919067568,
+          "cation_1": 0.49963956185482095,
+          "cation_2": 0.49909074612931537,
+          "water": 3.927209679610312e-05
+        },
+        "1": {
+          "inorganic": 0.001232368606660275,
+          "cation_1": 0.4994183365603038,
+          "cation_2": 0.4993097522760488,
+          "water": 3.954255698703901e-05
+        }
+      }
+    },
+    "neutral_cluster_nto.s2.mo142a.cube": {
+      "orbital": 142,
+      "grid": [
+        80,
+        80,
+        80
+      ],
+      "integral_full_grid": 0.9883551929455824,
+      "partitions": {
+        "2": {
+          "inorganic": 0.8429866314867611,
+          "cation_1": 0.002225880289162714,
+          "cation_2": 0.0024936928006700247,
+          "water": 0.15229379542340607
+        },
+        "1": {
+          "inorganic": 0.8405137810708831,
+          "cation_1": 0.0023777186857486614,
+          "cation_2": 0.0023779586264183277,
+          "water": 0.15473054161695002
+        }
+      }
+    },
+    "neutral_cluster_nto.s2.mo143a.cube": {
+      "orbital": 143,
+      "grid": [
+        80,
+        80,
+        80
+      ],
+      "integral_full_grid": 0.9975882153051072,
+      "partitions": {
+        "2": {
+          "inorganic": 0.0017979851391018266,
+          "cation_1": 0.49924717257392187,
+          "cation_2": 0.4989120617601831,
+          "water": 4.278052679334746e-05
+        },
+        "1": {
+          "inorganic": 0.001788731795607863,
+          "cation_1": 0.4990298083574789,
+          "cation_2": 0.4991384067736784,
+          "water": 4.305307323496696e-05
+        }
+      }
+    },
+    "neutral_cluster_nto.s3.mo142a.cube": {
+      "orbital": 142,
+      "grid": [
+        80,
+        80,
+        80
+      ],
+      "integral_full_grid": 1.0123667025645566,
+      "partitions": {
+        "2": {
+          "inorganic": 0.9716345312156917,
+          "cation_1": 0.0014565311332369309,
+          "cation_2": 0.002327087041412534,
+          "water": 0.0245818506096591
+        },
+        "1": {
+          "inorganic": 0.9731672432863029,
+          "cation_1": 0.001844921650950263,
+          "cation_2": 0.0018444282424330603,
+          "water": 0.023143406820314055
+        }
+      }
+    },
+    "neutral_cluster_nto.s3.mo143a.cube": {
+      "orbital": 143,
+      "grid": [
+        80,
+        80,
+        80
+      ],
+      "integral_full_grid": 0.9975931764413491,
+      "partitions": {
+        "2": {
+          "inorganic": 0.001827193130949744,
+          "cation_1": 0.49961047311076107,
+          "cation_2": 0.4985193802326379,
+          "water": 4.29535256510553e-05
+        },
+        "1": {
+          "inorganic": 0.0018179540040285198,
+          "cation_1": 0.4994025684212859,
+          "cation_2": 0.498736242812009,
+          "water": 4.323476267638951e-05
+        }
+      }
+    }
+  },
+  "interpretation": "Each grid is the square of one dominant NTO orbital, partitioned by nearest nucleus. Finite box and grid, Voronoi boundaries, unembedded model, and other NTO pairs limit interpretation. This is not a transition density population or validated crystal mechanism."
+}

@@ -1,0 +1,49 @@
+==============================================================================
+02b_TDA_wB97X_TZVP_PC.out
+正常结束: 是
+最终能量: -4044.741556109330 Eh
+
+前线轨道（HOMO = MO 148）
+  MO 144 H-4    -10.126 eV | SnCl6 98%
+  MO 145 H-3     -9.823 eV | CatB 95%  SnCl6 5%
+  MO 146 H-2     -9.608 eV | CatA 100%
+  MO 147 H-1     -9.022 eV | CatB 100%
+  MO 148 HOMO    -8.730 eV | CatA 100%
+  MO 149 LUMO    -0.902 eV | SnCl6 99%
+  MO 150 L+1     -0.192 eV | CatB 100%
+  MO 151 L+2      0.108 eV | CatA 100%
+  MO 152 L+3      1.191 eV | CatB 100%
+  CatA 最高占据 π: MO 148 (-8.730 eV)
+  CatB 最高占据 π: MO 147 (-9.022 eV)
+  SnCl6 最低空轨道 σ*: MO 149 (-0.902 eV)
+  能隙 LUMO-HOMO = 7.828 eV
+  S1    4.635 eV  267.5 nm | 局域 SnCl6 95%
+  S2    4.664 eV  265.8 nm | 局域 SnCl6 95%
+  S3    4.935 eV  251.2 nm | 局域 SnCl6 95%
+  S4    4.969 eV  249.5 nm | 局域 CatB 72%  局域 CatA 20%
+  S5    4.988 eV  248.6 nm | 局域 CatA 71%  局域 CatB 20%
+  S6    5.096 eV  243.3 nm | 局域 CatB 93%
+  S7    5.111 eV  242.6 nm | 局域 SnCl6 87%  局域 CatA 8%
+  S8    5.118 eV  242.3 nm | 局域 CatA 70%  局域 SnCl6 25%
+  S9    5.127 eV  241.8 nm | 局域 SnCl6 72%  局域 CatA 21%
+  S10   5.355 eV  231.5 nm | 局域 SnCl6 95%
+  S11   5.435 eV  228.1 nm | 局域 SnCl6 66%  CatA→SnCl6 29%
+  S12   5.449 eV  227.5 nm | 局域 SnCl6 86%  CatA→SnCl6 9%
+  S13   5.480 eV  226.2 nm | CatA→SnCl6 65%  局域 SnCl6 31%
+  S14   5.575 eV  222.4 nm | 局域 SnCl6 97%
+  S15   5.793 eV  214.0 nm | CatB→SnCl6 97%
+  T1    3.372 eV  367.7 nm | 局域 CatB 98%
+  T2    3.384 eV  366.4 nm | 局域 CatA 97%
+  T3    4.316 eV  287.3 nm | 局域 CatB 95%
+  T4    4.361 eV  284.3 nm | 局域 CatA 98%
+  T5    4.363 eV  284.2 nm | 局域 SnCl6 94%
+  T6    4.395 eV  282.1 nm | 局域 SnCl6 94%
+  T7    4.555 eV  272.2 nm | 局域 CatA 95%
+  T8    4.574 eV  271.1 nm | 局域 CatB 94%
+  T9    4.610 eV  268.9 nm | 局域 SnCl6 92%
+  T10   4.685 eV  264.6 nm | 局域 SnCl6 97%
+  T11   4.736 eV  261.8 nm | 局域 SnCl6 95%
+  T12   4.752 eV  260.9 nm | 局域 SnCl6 94%
+  T13   4.863 eV  255.0 nm | 局域 SnCl6 95%
+  T14   4.942 eV  250.9 nm | 局域 CatA 89%  局域 SnCl6 5%
+  T15   4.948 eV  250.6 nm | 局域 CatB 71%  局域 SnCl6 24%

@@ -1,0 +1,10 @@
+﻿==== upload_file  2026-10-27 12:49:14
+实例状态：RUNNING
+
+04a2_T1opt_UKS_free_CatA. | 0 kB |   0.6 kB/s | ETA: 00:00:00 | 100%
+
+>>> 远程执行：sed -i s/\\r$// ~/stage3/04a2_T1opt_UKS_free_CatA.inp; ls -l ~/stage3/04a2_T1opt_UKS_free_CatA.inp; head -3 ~/stage3/04a2_T1opt_UKS_free_CatA.inp
+-rw-rw-r-- 1 y y 615 Oct 27 04:49 /home/y/stage3/04a2_T1opt_UKS_free_CatA.inp
+! UKS wB97X-D3 def2-SVP def2/J RIJCOSX TightSCF Opt
+%pal nprocs 6 end
+%maxcore 12000

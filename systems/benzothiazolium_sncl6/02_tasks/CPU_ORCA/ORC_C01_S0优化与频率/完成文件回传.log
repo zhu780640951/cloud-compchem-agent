@@ -1,0 +1,100 @@
+
+s0_optfreq_trj.xyz        | 7 kB |   7.5 kB/s | ETA: 00:00:00 | 100%
+
+xrd_stability.gbw         | 32 kB |  32.0 kB/s | ETA: 00:00:39 |   2%
+xrd_stability.gbw         | 224 kB | 112.0 kB/s | ETA: 00:00:09 |  17%
+xrd_stability.gbw         | 448 kB | 149.3 kB/s | ETA: 00:00:05 |  34%
+xrd_stability.gbw         | 704 kB | 176.0 kB/s | ETA: 00:00:03 |  53%
+xrd_stability.gbw         | 896 kB | 179.2 kB/s | ETA: 00:00:02 |  68%
+xrd_stability.gbw         | 1056 kB | 176.0 kB/s | ETA: 00:00:01 |  80%
+xrd_stability.gbw         | 1280 kB | 182.9 kB/s | ETA: 00:00:00 |  97%
+xrd_stability.gbw         | 1311 kB | 187.3 kB/s | ETA: 00:00:00 | 100%
+
+s0_optfreq.densitiesinfo  | 1 kB |   1.8 kB/s | ETA: 00:00:00 | 100%
+
+s0_optfreq.engrad         | 1 kB |   1.8 kB/s | ETA: 00:00:00 | 100%
+
+xrd_stability.out         | 32 kB |  32.0 kB/s | ETA: 00:00:01 |  48%
+xrd_stability.out         | 66 kB |  66.0 kB/s | ETA: 00:00:00 | 100%
+
+xrd_stability.densities   | 32 kB |  32.0 kB/s | ETA: 00:00:11 |   8%
+xrd_stability.densities   | 96 kB |  48.0 kB/s | ETA: 00:00:06 |  24%
+xrd_stability.densities   | 192 kB |  64.0 kB/s | ETA: 00:00:03 |  48%
+xrd_stability.densities   | 288 kB |  72.0 kB/s | ETA: 00:00:01 |  72%
+xrd_stability.densities   | 352 kB |  70.4 kB/s | ETA: 00:00:00 |  88%
+xrd_stability.densities   | 400 kB |  80.0 kB/s | ETA: 00:00:00 | 100%
+
+xrd_stability.bibtex      | 3 kB |   3.6 kB/s | ETA: 00:00:00 | 100%
+
+s0_optfreq.opt            | 11 kB |  11.1 kB/s | ETA: 00:00:00 | 100%
+
+s0_optfreq.out            | 32 kB |  32.0 kB/s | ETA: 00:00:12 |   7%
+s0_optfreq.out            | 128 kB |  64.0 kB/s | ETA: 00:00:04 |  29%
+s0_optfreq.out            | 224 kB |  74.7 kB/s | ETA: 00:00:02 |  51%
+s0_optfreq.out            | 288 kB |  72.0 kB/s | ETA: 00:00:02 |  66%
+s0_optfreq.out            | 352 kB |  70.4 kB/s | ETA: 00:00:01 |  81%
+s0_optfreq.out            | 416 kB |  69.3 kB/s | ETA: 00:00:00 |  96%
+s0_optfreq.out            | 432 kB |  72.1 kB/s | ETA: 00:00:00 | 100%
+
+xrd_stability.densitiesin | 1 kB |   1.8 kB/s | ETA: 00:00:00 | 100%
+
+s0_optfreq.xyz            | 1 kB |   1.2 kB/s | ETA: 00:00:00 | 100%
+
+launch.json               | 0 kB |   0.3 kB/s | ETA: 00:00:00 | 100%
+
+s0_optfreq.gbw            | 32 kB |  32.0 kB/s | ETA: 00:00:39 |   2%
+s0_optfreq.gbw            | 96 kB |  48.0 kB/s | ETA: 00:00:25 |   7%
+s0_optfreq.gbw            | 160 kB |  53.3 kB/s | ETA: 00:00:21 |  12%
+s0_optfreq.gbw            | 224 kB |  56.0 kB/s | ETA: 00:00:19 |  17%
+s0_optfreq.gbw            | 288 kB |  57.6 kB/s | ETA: 00:00:17 |  21%
+s0_optfreq.gbw            | 320 kB |  53.3 kB/s | ETA: 00:00:18 |  24%
+s0_optfreq.gbw            | 384 kB |  54.9 kB/s | ETA: 00:00:16 |  29%
+s0_optfreq.gbw            | 480 kB |  60.0 kB/s | ETA: 00:00:13 |  36%
+s0_optfreq.gbw            | 544 kB |  60.4 kB/s | ETA: 00:00:12 |  41%
+s0_optfreq.gbw            | 608 kB |  60.8 kB/s | ETA: 00:00:11 |  46%
+s0_optfreq.gbw            | 672 kB |  61.1 kB/s | ETA: 00:00:10 |  51%
+s0_optfreq.gbw            | 704 kB |  58.7 kB/s | ETA: 00:00:10 |  53%
+s0_optfreq.gbw            | 800 kB |  61.5 kB/s | ETA: 00:00:08 |  61%
+s0_optfreq.gbw            | 864 kB |  61.7 kB/s | ETA: 00:00:07 |  65%
+s0_optfreq.gbw            | 896 kB |  59.7 kB/s | ETA: 00:00:06 |  68%
+s0_optfreq.gbw            | 960 kB |  60.0 kB/s | ETA: 00:00:05 |  73%
+s0_optfreq.gbw            | 992 kB |  58.4 kB/s | ETA: 00:00:05 |  75%
+s0_optfreq.gbw            | 1056 kB |  58.7 kB/s | ETA: 00:00:04 |  80%
+s0_optfreq.gbw            | 1088 kB |  57.3 kB/s | ETA: 00:00:03 |  82%
+s0_optfreq.gbw            | 1152 kB |  57.6 kB/s | ETA: 00:00:02 |  87%
+s0_optfreq.gbw            | 1184 kB |  56.4 kB/s | ETA: 00:00:02 |  90%
+s0_optfreq.gbw            | 1248 kB |  56.7 kB/s | ETA: 00:00:01 |  95%
+s0_optfreq.gbw            | 1311 kB |  57.0 kB/s | ETA: 00:00:00 | 100%
+
+xrd_stability.property.tx | 21 kB |  21.8 kB/s | ETA: 00:00:00 | 100%
+
+s0_optfreq.property.txt   | 32 kB |  32.0 kB/s | ETA: 00:00:06 |  13%
+s0_optfreq.property.txt   | 96 kB |  48.0 kB/s | ETA: 00:00:03 |  39%
+s0_optfreq.property.txt   | 160 kB |  53.3 kB/s | ETA: 00:00:01 |  65%
+s0_optfreq.property.txt   | 224 kB |  56.0 kB/s | ETA: 00:00:00 |  91%
+s0_optfreq.property.txt   | 243 kB |  60.9 kB/s | ETA: 00:00:00 | 100%
+
+s0_optfreq.bibtex         | 4 kB |   4.0 kB/s | ETA: 00:00:00 | 100%
+
+launch_optfreq.json       | 0 kB |   0.4 kB/s | ETA: 00:00:00 | 100%
+
+s0_optfreq.hess           | 32 kB |  32.0 kB/s | ETA: 00:00:01 |  34%
+s0_optfreq.hess           | 64 kB |  64.0 kB/s | ETA: 00:00:00 |  68%
+s0_optfreq.hess           | 93 kB |  93.0 kB/s | ETA: 00:00:00 | 100%
+
+s0_optfreq.inp            | 0 kB |   0.7 kB/s | ETA: 00:00:00 | 100%
+
+s0_optfreq.densities      | 32 kB |  32.0 kB/s | ETA: 00:00:11 |   8%
+s0_optfreq.densities      | 64 kB |  32.0 kB/s | ETA: 00:00:10 |  16%
+s0_optfreq.densities      | 224 kB |  74.7 kB/s | ETA: 00:00:02 |  56%
+s0_optfreq.densities      | 320 kB |  80.0 kB/s | ETA: 00:00:01 |  80%
+s0_optfreq.densities      | 400 kB | 100.0 kB/s | ETA: 00:00:00 | 100%
+
+xrd_stability.inp         | 0 kB |   0.7 kB/s | ETA: 00:00:00 | 100%
+
+monitor_optfreq.json      | 3 kB |   3.6 kB/s | ETA: 00:00:00 | 100%
+
+Updating project ssh metadata...
+.........Updated [https://www.googleapis.com/compute/v1/projects/<YOUR_GCP_PROJECT_ID>].
+done.
+Waiting for SSH key to propagate.

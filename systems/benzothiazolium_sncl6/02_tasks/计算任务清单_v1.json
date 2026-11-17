@@ -1,0 +1,429 @@
+{
+  "version": "v1",
+  "date": "2026-10-30",
+  "purpose": "用户要求的CPU/ORCA与GPU/QE分工方案，非已提交队列",
+  "cif_sha256": "ed23e88c8f84151de88f25c1ddd3b617e21a626e7ba6e403d5853217436c7a12",
+  "formal_jobs_submitted_this_turn": 0,
+  "auto_submission_enabled": false,
+  "cpu_processes_initial": 12,
+  "orca_maxcore_MB_per_process_initial": 8000,
+  "gpu_hardware": "按实际分配核验；当前方案不预留运行时",
+  "tasks": [
+    {
+      "id": "COMMON_MODEL",
+      "platform": "shared",
+      "software": null,
+      "title": "统一43原子中性周期模型、标签、分子完整性和版本",
+      "stage": "准备",
+      "status": "completed",
+      "dependencies": [],
+      "outputs": [
+        "模型清单",
+        "结构/输入哈希",
+        "晶体近邻关系"
+      ],
+      "activation_condition": null,
+      "auto_submit": false,
+      "completion_note": "43原子周期模型和单体参考已准备及初步几何核查。"
+    },
+    {
+      "id": "QE_G01",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "赝势、截断能与k网格收敛",
+      "stage": "第一轮",
+      "status": "needs_review",
+      "dependencies": [
+        "COMMON_MODEL"
+      ],
+      "outputs": [
+        "收敛表",
+        "资源实测",
+        "赝势哈希"
+      ],
+      "activation_condition": null,
+      "auto_submit": false,
+      "completion_note": "原始几何的能量与受力收敛通过预设目标；带隙与优化结构敏感性、混合赝势进一步核验待做。"
+    },
+    {
+      "id": "QE_G02",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "固定实验晶胞的H优化",
+      "stage": "第一轮",
+      "status": "completed",
+      "dependencies": [
+        "QE_G01"
+      ],
+      "outputs": [
+        "R_H",
+        "受力和优化日志"
+      ],
+      "activation_condition": null,
+      "auto_submit": false,
+      "completion_note": "固定实验晶胞、固定重原子；H最大受力分量0.0137922 eV/A；两段续算。"
+    },
+    {
+      "id": "QE_G03",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "固定实验晶胞的全原子优化",
+      "stage": "第一轮",
+      "status": "completed",
+      "dependencies": [
+        "QE_G02"
+      ],
+      "outputs": [
+        "R_fixed",
+        "结构变化表"
+      ],
+      "activation_condition": null,
+      "auto_submit": false,
+      "completion_note": "固定实验晶胞，BFGS收敛；最大受力分量0.0188521 eV/A；结构及原始输出归档。"
+    },
+    {
+      "id": "QE_G04",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "能带、DOS/PDOS和带边密度",
+      "stage": "第一轮",
+      "status": "needs_review",
+      "dependencies": [
+        "QE_G03"
+      ],
+      "outputs": [
+        "能带/DOS/PDOS",
+        "VBM/CBM空间分布"
+      ],
+      "activation_condition": null,
+      "auto_submit": false,
+      "completion_note": "SCF/NSCF/DOS/PDOS和带边伪电荷密度已完成；标准能带路径、带隙收敛、SOC/HSE及空间图像分析待做。"
+    },
+    {
+      "id": "QE_G05",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "SOC开关电子结构对照",
+      "stage": "关键复核",
+      "status": "planned",
+      "dependencies": [
+        "QE_G04"
+      ],
+      "outputs": [
+        "配对带隙/轨道排序",
+        "SOC参数与赝势核验"
+      ],
+      "activation_condition": null,
+      "auto_submit": false
+    },
+    {
+      "id": "QE_G06",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "变晶胞与固定晶胞结构对照",
+      "stage": "关键复核",
+      "status": "planned",
+      "dependencies": [
+        "QE_G03"
+      ],
+      "outputs": [
+        "R_vc",
+        "晶格/堆积/氢键变化"
+      ],
+      "activation_condition": null,
+      "auto_submit": false
+    },
+    {
+      "id": "QE_G07",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "HSE06关键带边复核",
+      "stage": "关键复核",
+      "status": "planned",
+      "dependencies": [
+        "QE_G04"
+      ],
+      "outputs": [
+        "GPU能力与资源试算",
+        "方法敏感性"
+      ],
+      "activation_condition": "先通过当前GPU编译版本的杂化泛函试算",
+      "auto_submit": false
+    },
+    {
+      "id": "QE_G08",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "含色散一致势能面的Gamma振动筛查",
+      "stage": "稳定性",
+      "status": "planned",
+      "dependencies": [
+        "QE_G06"
+      ],
+      "outputs": [
+        "Gamma频率/模式",
+        "软模及收敛检查"
+      ],
+      "activation_condition": "确认受力和晶格满足所用振动方法的前提",
+      "auto_submit": false
+    },
+    {
+      "id": "QE_G09",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "全布里渊区声子及超胞/q网格收敛",
+      "stage": "深入",
+      "status": "planned",
+      "dependencies": [
+        "QE_G08"
+      ],
+      "outputs": [
+        "声子色散/网格",
+        "超胞收敛与动力学稳定性范围"
+      ],
+      "activation_condition": "先解决Gamma筛查中的数值或真实不稳定；344原子超胞先测资源",
+      "auto_submit": false
+    },
+    {
+      "id": "QE_G10",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "激发态局域化与畸变的周期对照",
+      "stage": "机制触发",
+      "status": "planned",
+      "dependencies": [
+        "QE_G03",
+        "ORC_C06",
+        "ORC_C07"
+      ],
+      "outputs": [
+        "同条件局域/非局域态对照",
+        "模型尺寸检验"
+      ],
+      "activation_condition": "嵌入计算出现无机或CT显著弛豫候选，且选择的受约束激发态方法经过核验",
+      "auto_submit": false
+    },
+    {
+      "id": "QE_G11",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "脱水反应能/自由能",
+      "stage": "实验问题触发",
+      "status": "planned",
+      "dependencies": [
+        "QE_G06"
+      ],
+      "outputs": [
+        "反应式和参考态",
+        "能量/自由能表"
+      ],
+      "activation_condition": "明确脱水产物、水的参考态及温度/湿度问题",
+      "auto_submit": false
+    },
+    {
+      "id": "QE_G12",
+      "platform": "GPU_QE",
+      "software": "Quantum ESPRESSO 7.5",
+      "title": "有限温度AIMD",
+      "stage": "实验问题触发",
+      "status": "planned",
+      "dependencies": [
+        "QE_G06",
+        "QE_G08"
+      ],
+      "outputs": [
+        "温度/能量/轨迹",
+        "氢键与水动态"
+      ],
+      "activation_condition": "明确温区、超胞、系综和需要检验的动态问题",
+      "auto_submit": false
+    },
+    {
+      "id": "ORC_C01",
+      "platform": "CPU_ORCA",
+      "software": "ORCA 6.1.1",
+      "title": "有机阳离子基态与S/T参考",
+      "stage": "第一轮",
+      "status": "needs_review",
+      "dependencies": [
+        "COMMON_MODEL"
+      ],
+      "outputs": [
+        "电荷/电子数",
+        "S/T能级",
+        "振子强度",
+        "轨道/检查点"
+      ],
+      "activation_condition": null,
+      "auto_submit": false,
+      "completion_note": "XRD几何孤立阳离子参考PBE0/def2-SVP TDA 10S+10T已运行；默认及ConvCheckMode=0均结束，部分密度阈值仍需复核；非晶体嵌入发光归属。"
+    },
+    {
+      "id": "ORC_C02",
+      "platform": "CPU_ORCA",
+      "software": "ORCA 6.1.1",
+      "title": "两种实际堆积二聚体的环境激发态",
+      "stage": "第一轮",
+      "status": "needs_review",
+      "dependencies": [
+        "QE_G03"
+      ],
+      "outputs": [
+        "M02A/M02B完整模型",
+        "堆积效应对照"
+      ],
+      "activation_condition": "R_XRD可先做环境与资源预检查；正式对照使用明确标记的几何",
+      "auto_submit": false,
+      "completion_note": "两组真空二聚体诊断参考已完成；SCF部分密度阈值待复核，未加入晶体嵌入。"
+    },
+    {
+      "id": "ORC_C03",
+      "platform": "CPU_ORCA",
+      "software": "ORCA 6.1.1",
+      "title": "嵌入无机参考与中性环境簇的S/T激发",
+      "stage": "第一轮",
+      "status": "needs_review",
+      "dependencies": [
+        "QE_G03"
+      ],
+      "outputs": [
+        "M03/M04模型与点电荷",
+        "逐态激发能/收敛",
+        "资源实测"
+      ],
+      "activation_condition": null,
+      "auto_submit": false,
+      "completion_note": "43原子无嵌入中性簇3S+3T少态资源试算完成；SCF审计、模型边界及晶体嵌入待完成。"
+    },
+    {
+      "id": "ORC_C04",
+      "platform": "CPU_ORCA",
+      "software": "ORCA 6.1.1",
+      "title": "NTO/跃迁密度和片段电子空穴分析",
+      "stage": "第一轮",
+      "status": "planned",
+      "dependencies": [
+        "ORC_C01",
+        "ORC_C02",
+        "ORC_C03"
+      ],
+      "outputs": [
+        "NTO图",
+        "电子/空穴片段表",
+        "候选态清单"
+      ],
+      "activation_condition": null,
+      "auto_submit": false
+    },
+    {
+      "id": "ORC_C05",
+      "platform": "CPU_ORCA",
+      "software": "ORCA 6.1.1",
+      "title": "候选态的泛函/基组/QM区/嵌入稳健性",
+      "stage": "关键复核",
+      "status": "planned",
+      "dependencies": [
+        "ORC_C04",
+        "QE_G04"
+      ],
+      "outputs": [
+        "态排序/性质敏感性",
+        "基态稳定性",
+        "自旋检查"
+      ],
+      "activation_condition": null,
+      "auto_submit": false
+    },
+    {
+      "id": "ORC_C06",
+      "platform": "CPU_ORCA",
+      "software": "ORCA 6.1.1",
+      "title": "少量候选S/T态的优化与态跟踪",
+      "stage": "核心发光",
+      "status": "planned",
+      "dependencies": [
+        "ORC_C05"
+      ],
+      "outputs": [
+        "激发态几何",
+        "态跟踪记录",
+        "结构重组"
+      ],
+      "activation_condition": null,
+      "auto_submit": false
+    },
+    {
+      "id": "ORC_C07",
+      "platform": "CPU_ORCA",
+      "software": "ORCA 6.1.1",
+      "title": "弛豫后发射能与结构重组",
+      "stage": "核心发光",
+      "status": "planned",
+      "dependencies": [
+        "ORC_C06"
+      ],
+      "outputs": [
+        "发射能/波长",
+        "态性质",
+        "方法区间"
+      ],
+      "activation_condition": null,
+      "auto_submit": false
+    },
+    {
+      "id": "ORC_C08",
+      "platform": "CPU_ORCA",
+      "software": "ORCA 6.1.1",
+      "title": "全电子相对论候选态SOC与DeltaEST",
+      "stage": "核心自旋",
+      "status": "planned",
+      "dependencies": [
+        "ORC_C06"
+      ],
+      "outputs": [
+        "SOC矩阵",
+        "明确定义几何的DeltaEST",
+        "兼容性与基组核验"
+      ],
+      "activation_condition": "先验证全电子相对论TDDFT-SOC路径，不使用遗漏Sn SOC积分的ECP设置作Sn作用结论",
+      "auto_submit": false
+    },
+    {
+      "id": "ORC_C09",
+      "platform": "CPU_ORCA",
+      "software": "ORCA 6.1.1",
+      "title": "频率/Hessian、振动谱与适用的跃迁速率",
+      "stage": "候选确定后",
+      "status": "planned",
+      "dependencies": [
+        "ORC_C07",
+        "ORC_C08"
+      ],
+      "outputs": [
+        "Hessian/谱形",
+        "辐射及适用的态间速率",
+        "寿命模型范围"
+      ],
+      "activation_condition": "模型极小值、约束/嵌入振动处理、相关ESD功能均通过核验",
+      "auto_submit": false
+    },
+    {
+      "id": "ORC_C10",
+      "platform": "CPU_ORCA",
+      "software": "ORCA 6.1.1",
+      "title": "堆积/氢键/结晶水的机制相关对照",
+      "stage": "相互作用",
+      "status": "planned",
+      "dependencies": [
+        "ORC_C03",
+        "ORC_C05"
+      ],
+      "outputs": [
+        "结构与激发态受控对照",
+        "相互作用分析"
+      ],
+      "activation_condition": "保持电荷/环境和能量参考定义清楚；不以不同组成总能量直接比较稳定性",
+      "auto_submit": false
+    }
+  ]
+}

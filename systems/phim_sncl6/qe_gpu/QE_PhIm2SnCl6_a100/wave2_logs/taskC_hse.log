@@ -1,0 +1,17 @@
+[setup] cached GPU build found in Drive -> copying to /content/qe
+SG15: {'Sn': 'Sn_ONCV_PBE-1.2.upf', 'Cl': 'Cl_ONCV_PBE-1.2.upf', 'O': 'O_ONCV_PBE-1.2.upf', 'N': 'N_ONCV_PBE-1.2.upf', 'C': 'C_ONCV_PBE-1.2.upf', 'H': 'H_ONCV_PBE-1.2.upf'}
+{"Sn": "Sn_ONCV_PBE-1.2.upf", "Cl": "Cl_ONCV_PBE-1.2.upf", "O": "O_ONCV_PBE-1.2.upf", "N": "N_ONCV_PBE-1.2.upf", "C": "C_ONCV_PBE-1.2.upf", "H": "H_ONCV_PBE-1.2.upf"}
+wrote pbe_sg15.in, hse.in  ecutfock 120 k ['3', '2', '2']
+[C 04:08:20] start pw.x pbe_sg15
+[C 04:09:39] end   pw.x pbe_sg15 rc=0 (79 s)
+[C 04:09:43] PBE(SG15):      highest occupied, lowest unoccupied level (ev):     1.0047    3.2039
+wrote pbe_sg15.in, hse.in  ecutfock 120 k ['3', '2', '2']
+[C 04:09:44] start pw.x hse
+[C 04:26:16] end   pw.x hse rc=0 (992 s)
+[C 04:26:18] HSE06:          highest occupied, lowest unoccupied level (ev):     0.4658    3.4224   [ecutfock=120 k=3x2x2]
+PBE (SG15, 70 Ry):  VBM 1.005  CBM 3.204  Eg 2.199 eV
+HSE06 (ecutfock=120 k=3x2x2):  VBM 0.466  CBM 3.422  Eg 2.957 eV
+Delta Eg (HSE06 - PBE) = +0.757 eV ; VBM shift -0.539, CBM shift +0.219 eV
+PBE(PAW, step 2) gap 2.201 eV  ->  HSE06-corrected estimate 2.96 eV
+EXX outer iterations: 6 | wall: ['PWSCF        :  17m25.43s CPU  16m30.81s WALL']
+[C 04:26:18] TASK C FINISHED

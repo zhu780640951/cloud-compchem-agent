@@ -1,0 +1,89 @@
+{
+  "results": {
+    "scalar_control_VBM": {
+      "grid": [
+        120,
+        128,
+        160
+      ],
+      "sampled_components": {
+        "3": {
+          "organic": 0.8599258565523721,
+          "inorganic": 0.1373139331986515,
+          "water": 0.0027602102489765845
+        },
+        "2": {
+          "organic": 0.863920883670629,
+          "inorganic": 0.13344820850312233,
+          "water": 0.0026309078262484937
+        }
+      },
+      "min_density": 4.2352e-21,
+      "density_integral": 0.9923356906747745
+    },
+    "scalar_control_CBM": {
+      "grid": [
+        120,
+        128,
+        160
+      ],
+      "sampled_components": {
+        "3": {
+          "organic": 0.07892875532288113,
+          "inorganic": 0.9058661051024297,
+          "water": 0.015205139574689172
+        },
+        "2": {
+          "organic": 0.08435985566057906,
+          "inorganic": 0.8999063748071409,
+          "water": 0.01573376953228015
+        }
+      },
+      "min_density": 1.2401e-18,
+      "density_integral": 1.0901181305357326
+    },
+    "soc_on_VBM": {
+      "grid": [
+        120,
+        128,
+        160
+      ],
+      "sampled_components": {
+        "3": {
+          "organic": 0.8568339198916657,
+          "inorganic": 0.14034329405763016,
+          "water": 0.0028227860507040827
+        },
+        "2": {
+          "organic": 0.8609279331279996,
+          "inorganic": 0.1363819556575228,
+          "water": 0.0026901112144775215
+        }
+      },
+      "min_density": 2.9815799999999997e-19,
+      "density_integral": 1.9849892748008098
+    },
+    "soc_on_CBM": {
+      "grid": [
+        120,
+        128,
+        160
+      ],
+      "sampled_components": {
+        "3": {
+          "organic": 0.0794340863541215,
+          "inorganic": 0.9053275271180681,
+          "water": 0.015238386527810384
+        },
+        "2": {
+          "organic": 0.08489346159797904,
+          "inorganic": 0.8993400523983073,
+          "water": 0.015766486003713796
+        }
+      },
+      "min_density": 2.7443e-11,
+      "density_integral": 2.178955968599169
+    }
+  },
+  "caveats": "Nearest-nucleus partition with periodic images; finite-grid subsampling; SOC includes summed degenerate pair, scalar a single state. Projector/pseudopotential differences and partition boundaries limit precision. Not excited-state or charge transfer density."
+}

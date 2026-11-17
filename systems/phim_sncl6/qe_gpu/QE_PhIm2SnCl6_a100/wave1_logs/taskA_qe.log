@@ -1,0 +1,28 @@
+nohup: ignoring input
+[A 01:41:30] setup QE GPU binaries (pw, pp, projwfc, bands)
+[setup] cached GPU build found in Drive -> copying to /content/qe
+wrote step-2 inputs for 106 atoms from /content/drive/MyDrive/QE_PhIm2SnCl6/01_relax_PBE-D3/relax.out
+[A 01:41:37] start pw.x scf
+[A 01:43:40] done  pw.x scf (123 s)
+     highest occupied, lowest unoccupied level (ev):     0.9498    3.1510
+[A 01:43:44] start pp.x pp_vbm
+[A 01:43:54] done  pp.x pp_vbm (10 s)
+[A 01:43:54] start pp.x pp_cbm
+[A 01:44:05] done  pp.x pp_cbm (11 s)
+[A 01:44:05] start pw.x nscf
+[A 01:46:59] done  pw.x nscf (174 s)
+[A 01:47:03] start projwfc.x projwfc
+[A 01:47:56] done  projwfc.x projwfc (53 s)
+[A 01:47:58] start pw.x bands
+[A 01:55:20] done  pw.x bands (442 s)
+[A 01:55:23] start bands.x bandsx
+[A 01:56:43] done  bands.x bandsx (80 s)
+[A 01:56:43] plots
+  lines.append(f"{label} [{lo:+.2f},{hi:+.2f}] eV composition: " + ", ".join(f"{k[0]}-{k[1]} {100*v/s:.0f}%" for k, v in top))
+  lines.append(f"    by element: " + ", ".join(f"{e} {100*v/s:.0f}%" for e, v in sorted(el.items(), key=lambda kv: -kv[1])))
+  lines.append(f"    by part: [SnCl6] {100*inorg/s:.0f}%, organic cation {100*org/s:.0f}%, water(O) {100*wat/s:.0f}%")
+Traceback (most recent call last):
+  File "/content/inputs/plot_step2.py", line 71, in <module>
+    vb, cb = bands[181], bands[182]
+             ~~~~~^^^^^
+IndexError: list index out of range

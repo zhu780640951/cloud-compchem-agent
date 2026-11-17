@@ -1,0 +1,24 @@
+{
+  "baseline": "optimized_scf 80/640 Ry 3x3x2",
+  "baseline_energy_Ry": -828.88282551,
+  "tests": [
+    {
+      "case": "opt_80_640_k443",
+      "energy_difference_meV_per_atom": -0.0021199568264936926,
+      "max_force_component_difference_eV_per_A": 0.00015812291503671037,
+      "elapsed_s": 100.08
+    },
+    {
+      "case": "opt_100_800_k332",
+      "energy_difference_meV_per_atom": -0.34039545727472215,
+      "max_force_component_difference_eV_per_A": 0.0011852790866979403,
+      "elapsed_s": 60.05
+    }
+  ],
+  "thresholds": {
+    "energy_meV_per_atom": 1,
+    "force_component_eV_per_A": 0.005
+  },
+  "interpretation": "Energy and force checks on optimized fixed-cell structure; does not prove band-gap, unoccupied-band, functional, or SOC convergence.",
+  "archive_sha256": "736744e91f8a3a9c0d36255ea0bc649bb708d7173ae7e90dbd36dbde6502e306"
+}

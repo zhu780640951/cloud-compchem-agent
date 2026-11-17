@@ -1,0 +1,15 @@
+! wB97X-D3 ZORA ZORA-def2-SVP SARC/J RIJCOSX TightSCF
+%basis
+  NewGTO Sn "SARC-ZORA-TZVP" end
+end
+%tddft
+  NRoots 10
+  TDA true
+  DoSOC true
+  PrintLevel 3
+end
+%pal nprocs 5 end
+%maxcore 4000
+%pointcharges "mm.pc"
+%scf MaxIter 300 end
+* xyzfile 0 1 crystal.xyz

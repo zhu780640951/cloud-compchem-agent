@@ -1,0 +1,31 @@
+{
+  "persistence_after_a100_release_ok": true,
+  "checked_utc": "2026-10-30T11:39:11.044035+00:00",
+  "new_runtime_hostname": "e533cedf7996",
+  "old_ephemeral_run_directory_absent": true,
+  "drive_directory": "/content/drive/MyDrive/苯并噻唑SnCl4计算/Codex_连接恢复测试/20261030T110920Z",
+  "checkpoint_readback": [
+    {
+      "file": "H.pbe-rrkjus_psl.1.0.0.UPF",
+      "bytes_read": 227296
+    },
+    {
+      "file": "data-file-schema.xml",
+      "bytes_read": 42472
+    },
+    {
+      "file": "wfc1.dat",
+      "bytes_read": 1138568
+    },
+    {
+      "file": "charge-density.dat",
+      "bytes_read": 25838152
+    }
+  ],
+  "archive_readable": true,
+  "original_qe_energies_Ry": [
+    -2.33309878,
+    -2.33309878
+  ],
+  "recovered_directory": "/content/codex_checkpoint_readback_qplly3c5"
+}

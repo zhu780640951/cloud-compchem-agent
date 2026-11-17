@@ -1,0 +1,399 @@
+﻿==== progress  2026-10-27 06:55:24
+实例状态：RUNNING
+
+>>> 远程执行：cd ~/stage3 2>/dev/null || exit; uptime; echo ==progress; cat progress.log; echo ==running; pgrep -af orca_ || echo none; for f in jobs/*/*.summary.txt; do echo; echo ==== $f; cat $f; done; echo ==run.log-tail; tail -5 run.log
+ 22:55:29 up  8:00,  2 users,  load average: 6.07, 6.05, 6.01
+==progress
+[2026-10-26 15:04:09] 开始 00_basis_check_ZORA_SnCl6
+[2026-10-26 15:05:03] 完成 00_basis_check_ZORA_SnCl6  0 days 0 hours 0 minutes 54 seconds 232 msec
+[2026-10-26 15:05:03] 开始 01a_S0_wB97X_SVP_PC
+[2026-10-26 15:07:53] 完成 01a_S0_wB97X_SVP_PC  0 days 0 hours 2 minutes 49 seconds 893 msec
+[2026-10-26 15:07:53] 开始 01b_S0_wB97X_SVP_gas
+[2026-10-26 15:10:37] 完成 01b_S0_wB97X_SVP_gas  0 days 0 hours 2 minutes 44 seconds 410 msec
+[2026-10-26 15:10:39] 全部结束，结果已打包
+[2026-10-26 15:29:40] 开始 01c_S0_wB97X_TZVP_PC
+[2026-10-26 15:38:42] 完成 01c_S0_wB97X_TZVP_PC  0 days 0 hours 9 minutes 1 seconds 898 msec
+[2026-10-26 15:38:42] 开始 02a_TDA_wB97X_SVP_PC
+[2026-10-26 15:50:27] 完成 02a_TDA_wB97X_SVP_PC  0 days 0 hours 11 minutes 44 seconds 883 msec
+[2026-10-26 15:50:27] 开始 02b_TDA_wB97X_TZVP_PC
+[2026-10-26 16:23:17] 完成 02b_TDA_wB97X_TZVP_PC  0 days 0 hours 32 minutes 50 seconds 24 msec
+[2026-10-26 16:23:28] 全部结束，结果已打包
+[2026-10-26 16:31:19] 开始 03_SOC_ZORA_TZVP_PC
+[2026-10-26 17:31:15] 完成 03_SOC_ZORA_TZVP_PC  0 days 0 hours 59 minutes 55 seconds 814 msec
+[2026-10-26 17:31:15] 开始 03b_SOC_control_CatA_gas
+[2026-10-26 17:36:38] 完成 03b_SOC_control_CatA_gas  0 days 0 hours 5 minutes 23 seconds 205 msec
+[2026-10-26 17:36:39] 开始 03b_SOC_control_CatB_gas
+[2026-10-26 17:42:06] 完成 03b_SOC_control_CatB_gas  0 days 0 hours 5 minutes 27 seconds 422 msec
+[2026-10-26 17:42:06] 开始 04a_T1opt_UKS_free_CatB
+==running
+28722 sh -c -- mpirun -np 6  /opt/orca/orca_scfgrad_mpi 04a_T1opt_UKS_free_CatB.scfgrad.inp 04a_T1opt_UKS_free_CatB 
+28723 mpirun -np 6 /opt/orca/orca_scfgrad_mpi 04a_T1opt_UKS_free_CatB.scfgrad.inp 04a_T1opt_UKS_free_CatB
+28727 /opt/orca/orca_scfgrad_mpi 04a_T1opt_UKS_free_CatB.scfgrad.inp 04a_T1opt_UKS_free_CatB
+28728 /opt/orca/orca_scfgrad_mpi 04a_T1opt_UKS_free_CatB.scfgrad.inp 04a_T1opt_UKS_free_CatB
+28729 /opt/orca/orca_scfgrad_mpi 04a_T1opt_UKS_free_CatB.scfgrad.inp 04a_T1opt_UKS_free_CatB
+28730 /opt/orca/orca_scfgrad_mpi 04a_T1opt_UKS_free_CatB.scfgrad.inp 04a_T1opt_UKS_free_CatB
+28731 /opt/orca/orca_scfgrad_mpi 04a_T1opt_UKS_free_CatB.scfgrad.inp 04a_T1opt_UKS_free_CatB
+28732 /opt/orca/orca_scfgrad_mpi 04a_T1opt_UKS_free_CatB.scfgrad.inp 04a_T1opt_UKS_free_CatB
+28760 bash -c cd ~/stage3 2>/dev/null || exit; uptime; echo ==progress; cat progress.log; echo ==running; pgrep -af orca_ || echo none; for f in jobs/*/*.summary.txt; do echo; echo ==== $f; cat $f; done; echo ==run.log-tail; tail -5 run.log
+
+==== jobs/00_basis_check_ZORA_SnCl6/00_basis_check_ZORA_SnCl6.summary.txt
+==============================================================================
+00_basis_check_ZORA_SnCl6.out
+正常结束: 是
+最终能量: -9036.140379958484 Eh
+
+前线轨道（HOMO = MO 76）
+  MO  72 H-4     -2.976 eV | 
+  MO  73 H-3     -2.931 eV | 
+  MO  74 H-2     -2.476 eV | 
+  MO  75 H-1     -2.470 eV | 
+  MO  76 HOMO    -2.420 eV | 
+  MO  77 LUMO     6.755 eV | 
+  MO  78 L+1      8.443 eV | 
+  MO  79 L+2      8.477 eV | 
+  MO  80 L+3      8.487 eV | 
+  能隙 LUMO-HOMO = 9.174 eV
+
+==== jobs/01a_S0_wB97X_SVP_PC/01a_S0_wB97X_SVP_PC.summary.txt
+==============================================================================
+01a_S0_wB97X_SVP_PC.out
+正常结束: 是
+最终能量: -4042.793703695308 Eh
+
+前线轨道（HOMO = MO 148）
+  MO 144 H-4     -9.827 eV | SnCl6 67%  CatB 32%
+  MO 145 H-3     -9.753 eV | SnCl6 63%  CatB 36%
+  MO 146 H-2     -9.613 eV | CatA 100%
+  MO 147 H-1     -9.047 eV | CatB 100%
+  MO 148 HOMO    -8.760 eV | CatA 100%
+  MO 149 LUMO    -0.520 eV | SnCl6 99%
+  MO 150 L+1     -0.122 eV | CatB 100%
+  MO 151 L+2      0.170 eV | CatA 100%
+  MO 152 L+3      1.383 eV | CatB 100%
+  CatA 最高占据 π: MO 148 (-8.760 eV)
+  CatB 最高占据 π: MO 147 (-9.047 eV)
+  SnCl6 最低空轨道 σ*: MO 149 (-0.520 eV)
+  能隙 LUMO-HOMO = 8.240 eV
+
+==== jobs/01b_S0_wB97X_SVP_gas/01b_S0_wB97X_SVP_gas.summary.txt
+==============================================================================
+01b_S0_wB97X_SVP_gas.out
+正常结束: 是
+最终能量: -4042.520615776143 Eh
+
+前线轨道（HOMO = MO 148）
+  MO 144 H-4     -8.684 eV | SnCl6 74%  H2O 26%
+  MO 145 H-3     -8.557 eV | SnCl6 80%  H2O 20%
+  MO 146 H-2     -8.396 eV | SnCl6 99%
+  MO 147 H-1     -8.335 eV | SnCl6 100%
+  MO 148 HOMO    -8.092 eV | SnCl6 99%
+  MO 149 LUMO    -0.453 eV | CatA 100%
+  MO 150 L+1     -0.442 eV | CatB 100%
+  MO 151 L+2      0.939 eV | SnCl6 87%  CatA 12%
+  MO 152 L+3      1.059 eV | CatA 88%  SnCl6 12%
+  CatA 最高占据 π: MO 135 (-9.415 eV)
+  CatB 最高占据 π: MO 134 (-9.424 eV)
+  SnCl6 最低空轨道 σ*: MO 151 (0.939 eV)
+  能隙 LUMO-HOMO = 7.638 eV
+
+==== jobs/01c_S0_wB97X_TZVP_PC/01c_S0_wB97X_TZVP_PC.summary.txt
+==============================================================================
+01c_S0_wB97X_TZVP_PC.out
+正常结束: 是
+最终能量: -4044.911882448007 Eh
+
+前线轨道（HOMO = MO 148）
+  MO 144 H-4    -10.126 eV | SnCl6 98%
+  MO 145 H-3     -9.823 eV | CatB 95%  SnCl6 5%
+  MO 146 H-2     -9.608 eV | CatA 100%
+  MO 147 H-1     -9.022 eV | CatB 100%
+  MO 148 HOMO    -8.730 eV | CatA 100%
+  MO 149 LUMO    -0.902 eV | SnCl6 99%
+  MO 150 L+1     -0.192 eV | CatB 100%
+  MO 151 L+2      0.108 eV | CatA 100%
+  MO 152 L+3      1.191 eV | CatB 100%
+  CatA 最高占据 π: MO 148 (-8.730 eV)
+  CatB 最高占据 π: MO 147 (-9.022 eV)
+  SnCl6 最低空轨道 σ*: MO 149 (-0.902 eV)
+  能隙 LUMO-HOMO = 7.828 eV
+
+==== jobs/02a_TDA_wB97X_SVP_PC/02a_TDA_wB97X_SVP_PC.summary.txt
+==============================================================================
+02a_TDA_wB97X_SVP_PC.out
+正常结束: 是
+最终能量: -4042.623196273427 Eh
+
+前线轨道（HOMO = MO 148）
+  MO 144 H-4     -9.827 eV | SnCl6 67%  CatB 32%
+  MO 145 H-3     -9.753 eV | SnCl6 63%  CatB 36%
+  MO 146 H-2     -9.613 eV | CatA 100%
+  MO 147 H-1     -9.047 eV | CatB 100%
+  MO 148 HOMO    -8.760 eV | CatA 100%
+  MO 149 LUMO    -0.520 eV | SnCl6 99%
+  MO 150 L+1     -0.122 eV | CatB 100%
+  MO 151 L+2      0.170 eV | CatA 100%
+  MO 152 L+3      1.383 eV | CatB 100%
+  CatA 最高占据 π: MO 148 (-8.760 eV)
+  CatB 最高占据 π: MO 147 (-9.047 eV)
+  SnCl6 最低空轨道 σ*: MO 149 (-0.520 eV)
+  能隙 LUMO-HOMO = 8.240 eV
+  S1    4.640 eV  267.2 nm | 局域 SnCl6 97%
+  S2    4.698 eV  263.9 nm | 局域 SnCl6 97%
+  S3    4.949 eV  250.5 nm | 局域 SnCl6 97%
+  S4    5.083 eV  243.9 nm | 局域 CatB 58%  局域 SnCl6 37%
+  S5    5.093 eV  243.4 nm | 局域 SnCl6 47%  局域 CatA 41%  局域 CatB 9%
+  S6    5.116 eV  242.3 nm | 局域 SnCl6 78%  局域 CatB 11%  局域 CatA 5%
+  S7    5.130 eV  241.7 nm | 局域 CatA 50%  局域 SnCl6 31%  局域 CatB 15%
+  S8    5.171 eV  239.8 nm | SnCl6→CatB 65%  局域 CatB 33%
+  S9    5.198 eV  238.5 nm | 局域 CatA 98%
+  S10   5.342 eV  232.1 nm | 局域 SnCl6 94%
+  S11   5.422 eV  228.7 nm | 局域 SnCl6 92%
+  S12   5.444 eV  227.7 nm | 局域 SnCl6 95%
+  S13   5.620 eV  220.6 nm | 局域 SnCl6 90%  H2O→SnCl6 6%
+  S14   5.874 eV  211.1 nm | CatA→SnCl6 96%
+  S15   6.002 eV  206.6 nm | 局域 SnCl6 87%  H2O→SnCl6 7%
+  T1    3.424 eV  362.1 nm | 局域 CatB 94%
+  T2    3.433 eV  361.2 nm | 局域 CatA 99%
+  T3    4.348 eV  285.2 nm | SnCl6→CatB 94%
+  T4    4.357 eV  284.6 nm | 局域 SnCl6 95%
+  T5    4.401 eV  281.7 nm | 局域 CatA 99%
+  T6    4.421 eV  280.4 nm | 局域 SnCl6 96%
+  T7    4.607 eV  269.1 nm | 局域 SnCl6 94%
+  T8    4.611 eV  268.9 nm | 局域 CatA 98%
+  T9    4.630 eV  267.8 nm | SnCl6→CatB 76%  局域 CatB 23%
+  T10   4.689 eV  264.4 nm | 局域 SnCl6 97%
+  T11   4.729 eV  262.2 nm | 局域 SnCl6 94%
+  T12   4.734 eV  261.9 nm | 局域 SnCl6 95%
+  T13   4.885 eV  253.8 nm | 局域 SnCl6 95%
+  T14   4.933 eV  251.3 nm | 局域 SnCl6 93%
+  T15   5.036 eV  246.2 nm | 局域 CatA 98%
+
+==== jobs/02b_TDA_wB97X_TZVP_PC/02b_TDA_wB97X_TZVP_PC.summary.txt
+==============================================================================
+02b_TDA_wB97X_TZVP_PC.out
+正常结束: 是
+最终能量: -4044.741556109330 Eh
+
+前线轨道（HOMO = MO 148）
+  MO 144 H-4    -10.126 eV | SnCl6 98%
+  MO 145 H-3     -9.823 eV | CatB 95%  SnCl6 5%
+  MO 146 H-2     -9.608 eV | CatA 100%
+  MO 147 H-1     -9.022 eV | CatB 100%
+  MO 148 HOMO    -8.730 eV | CatA 100%
+  MO 149 LUMO    -0.902 eV | SnCl6 99%
+  MO 150 L+1     -0.192 eV | CatB 100%
+  MO 151 L+2      0.108 eV | CatA 100%
+  MO 152 L+3      1.191 eV | CatB 100%
+  CatA 最高占据 π: MO 148 (-8.730 eV)
+  CatB 最高占据 π: MO 147 (-9.022 eV)
+  SnCl6 最低空轨道 σ*: MO 149 (-0.902 eV)
+  能隙 LUMO-HOMO = 7.828 eV
+  S1    4.635 eV  267.5 nm | 局域 SnCl6 95%
+  S2    4.664 eV  265.8 nm | 局域 SnCl6 95%
+  S3    4.935 eV  251.2 nm | 局域 SnCl6 95%
+  S4    4.969 eV  249.5 nm | 局域 CatB 72%  局域 CatA 20%
+  S5    4.988 eV  248.6 nm | 局域 CatA 71%  局域 CatB 20%
+  S6    5.096 eV  243.3 nm | 局域 CatB 93%
+  S7    5.111 eV  242.6 nm | 局域 SnCl6 87%  局域 CatA 8%
+  S8    5.118 eV  242.3 nm | 局域 CatA 70%  局域 SnCl6 25%
+  S9    5.127 eV  241.8 nm | 局域 SnCl6 72%  局域 CatA 21%
+  S10   5.355 eV  231.5 nm | 局域 SnCl6 95%
+  S11   5.435 eV  228.1 nm | 局域 SnCl6 66%  CatA→SnCl6 29%
+  S12   5.449 eV  227.5 nm | 局域 SnCl6 86%  CatA→SnCl6 9%
+  S13   5.480 eV  226.2 nm | CatA→SnCl6 65%  局域 SnCl6 31%
+  S14   5.575 eV  222.4 nm | 局域 SnCl6 97%
+  S15   5.793 eV  214.0 nm | CatB→SnCl6 97%
+  T1    3.372 eV  367.7 nm | 局域 CatB 98%
+  T2    3.384 eV  366.4 nm | 局域 CatA 97%
+  T3    4.316 eV  287.3 nm | 局域 CatB 95%
+  T4    4.361 eV  284.3 nm | 局域 CatA 98%
+  T5    4.363 eV  284.2 nm | 局域 SnCl6 94%
+  T6    4.395 eV  282.1 nm | 局域 SnCl6 94%
+  T7    4.555 eV  272.2 nm | 局域 CatA 95%
+  T8    4.574 eV  271.1 nm | 局域 CatB 94%
+  T9    4.610 eV  268.9 nm | 局域 SnCl6 92%
+  T10   4.685 eV  264.6 nm | 局域 SnCl6 97%
+  T11   4.736 eV  261.8 nm | 局域 SnCl6 95%
+  T12   4.752 eV  260.9 nm | 局域 SnCl6 94%
+  T13   4.863 eV  255.0 nm | 局域 SnCl6 95%
+  T14   4.942 eV  250.9 nm | 局域 CatA 89%  局域 SnCl6 5%
+  T15   4.948 eV  250.6 nm | 局域 CatB 71%  局域 SnCl6 24%
+
+==== jobs/03_SOC_ZORA_TZVP_PC/03_SOC_ZORA_TZVP_PC.summary.txt
+==============================================================================
+03_SOC_ZORA_TZVP_PC.out
+正常结束: 是
+最终能量: -10105.795097295970 Eh
+
+前线轨道（HOMO = MO 162）
+  MO 158 H-4    -10.122 eV | SnCl6 98%
+  MO 159 H-3     -9.822 eV | CatB 95%  SnCl6 5%
+  MO 160 H-2     -9.607 eV | CatA 100%
+  MO 161 H-1     -9.021 eV | CatB 100%
+  MO 162 HOMO    -8.729 eV | CatA 100%
+  MO 163 LUMO    -0.878 eV | SnCl6 99%
+  MO 164 L+1     -0.191 eV | CatB 100%
+  MO 165 L+2      0.109 eV | CatA 100%
+  MO 166 L+3      1.187 eV | CatB 99%
+  CatA 最高占据 π: MO 162 (-8.729 eV)
+  CatB 最高占据 π: MO 161 (-9.021 eV)
+  SnCl6 最低空轨道 σ*: MO 163 (-0.878 eV)
+  能隙 LUMO-HOMO = 7.851 eV
+  S1    4.658 eV  266.2 nm | 局域 SnCl6 95%
+  S2    4.687 eV  264.5 nm | 局域 SnCl6 96%
+  S3    4.955 eV  250.2 nm | 局域 SnCl6 73%  局域 CatB 19%  局域 CatA 5%
+  S4    4.969 eV  249.5 nm | 局域 CatB 54%  局域 SnCl6 26%  局域 CatA 17%
+  S5    4.985 eV  248.7 nm | 局域 CatA 71%  局域 CatB 22%
+  S6    5.094 eV  243.4 nm | 局域 CatB 95%
+  S7    5.115 eV  242.4 nm | 局域 CatA 95%
+  S8    5.134 eV  241.5 nm | 局域 SnCl6 94%
+  S9    5.147 eV  240.9 nm | 局域 SnCl6 92%
+  S10   5.379 eV  230.5 nm | 局域 SnCl6 95%
+  T1    3.366 eV  368.3 nm | 局域 CatB 98%
+  T2    3.378 eV  367.0 nm | 局域 CatA 98%
+  T3    4.311 eV  287.6 nm | 局域 CatB 95%
+  T4    4.354 eV  284.8 nm | 局域 CatA 98%
+  T5    4.386 eV  282.7 nm | 局域 SnCl6 94%
+  T6    4.418 eV  280.6 nm | 局域 SnCl6 95%
+  T7    4.545 eV  272.8 nm | 局域 CatA 96%
+  T8    4.564 eV  271.7 nm | 局域 CatB 94%
+  T9    4.629 eV  267.8 nm | 局域 SnCl6 93%
+  T10   4.709 eV  263.3 nm | 局域 SnCl6 98%
+
+SOC 矩阵元 |<T|Hso|S>|（cm^-1，S=0 为基态）
+  T1  S0       0.147
+  T1  S1       0.085
+  T1  S2       0.071
+  T1  S3       0.051
+  T2  S0       0.360
+  T2  S1       0.182
+  T2  S2       0.022
+  T2  S3       0.067
+  T3  S0       5.613
+  T3  S1       2.119
+  T3  S2       2.329
+  T3  S3       1.890
+  T4  S0       1.044
+  T4  S1       0.500
+  T4  S2       0.389
+  T4  S3       0.411
+
+==== jobs/03b_SOC_control_CatA_gas/03b_SOC_control_CatA_gas.summary.txt
+==============================================================================
+03b_SOC_control_CatA_gas.out
+正常结束: 是
+最终能量: -457.903792515811 Eh
+
+前线轨道（HOMO = MO 37）
+  MO  33 H-4    -16.186 eV | CatA 100%
+  MO  34 H-3    -15.892 eV | CatA 100%
+  MO  35 H-2    -14.728 eV | CatA 100%
+  MO  36 H-1    -13.298 eV | CatA 100%
+  MO  37 HOMO   -12.765 eV | CatA 100%
+  MO  38 LUMO    -3.949 eV | CatA 100%
+  MO  39 L+1     -2.280 eV | CatA 100%
+  MO  40 L+2     -1.709 eV | CatA 100%
+  MO  41 L+3     -1.524 eV | CatA 100%
+  CatA 最高占据 π: MO 37 (-12.765 eV)
+  能隙 LUMO-HOMO = 8.817 eV
+  S1    4.942 eV  250.9 nm | 局域 CatA 99%
+  S2    4.976 eV  249.2 nm | 局域 CatA 99%
+  S3    6.616 eV  187.4 nm | 局域 CatA 98%
+  S4    6.667 eV  186.0 nm | 局域 CatA 99%
+  S5    7.051 eV  175.8 nm | 局域 CatA 100%
+  S6    7.112 eV  174.3 nm | 局域 CatA 100%
+  S7    7.179 eV  172.7 nm | 局域 CatA 99%
+  S8    7.290 eV  170.1 nm | 局域 CatA 99%
+  S9    7.408 eV  167.4 nm | 局域 CatA 100%
+  S10   7.895 eV  157.0 nm | 局域 CatA 100%
+  T1    3.349 eV  370.2 nm | 局域 CatA 100%
+  T2    4.085 eV  303.5 nm | 局域 CatA 100%
+  T3    4.577 eV  270.9 nm | 局域 CatA 100%
+  T4    4.818 eV  257.3 nm | 局域 CatA 100%
+  T5    4.953 eV  250.3 nm | 局域 CatA 100%
+  T6    5.180 eV  239.4 nm | 局域 CatA 100%
+  T7    6.421 eV  193.1 nm | 局域 CatA 100%
+  T8    6.880 eV  180.2 nm | 局域 CatA 99%
+  T9    6.909 eV  179.5 nm | 局域 CatA 99%
+  T10   7.018 eV  176.7 nm | 局域 CatA 100%
+
+SOC 矩阵元 |<T|Hso|S>|（cm^-1，S=0 为基态）
+  T1  S0       0.120
+  T1  S1       0.024
+  T1  S2       0.046
+  T1  S3       0.046
+  T2  S0       0.054
+  T2  S1       0.037
+  T2  S2       0.010
+  T2  S3       0.073
+  T3  S0       0.095
+  T3  S1       0.036
+  T3  S2       0.047
+  T3  S3       0.014
+  T4  S0       0.207
+  T4  S1       0.075
+  T4  S2       0.035
+  T4  S3       0.094
+
+==== jobs/03b_SOC_control_CatB_gas/03b_SOC_control_CatB_gas.summary.txt
+==============================================================================
+03b_SOC_control_CatB_gas.out
+正常结束: 是
+最终能量: -457.904214733979 Eh
+
+前线轨道（HOMO = MO 37）
+  MO  33 H-4    -16.184 eV | CatA 100%
+  MO  34 H-3    -15.904 eV | CatA 100%
+  MO  35 H-2    -14.736 eV | CatA 100%
+  MO  36 H-1    -13.310 eV | CatA 100%
+  MO  37 HOMO   -12.762 eV | CatA 100%
+  MO  38 LUMO    -3.955 eV | CatA 100%
+  MO  39 L+1     -2.278 eV | CatA 100%
+  MO  40 L+2     -1.695 eV | CatA 100%
+  MO  41 L+3     -1.527 eV | CatA 100%
+  CatA 最高占据 π: MO 37 (-12.762 eV)
+  能隙 LUMO-HOMO = 8.807 eV
+  S1    4.937 eV  251.1 nm | 局域 CatA 99%
+  S2    4.979 eV  249.0 nm | 局域 CatA 99%
+  S3    6.624 eV  187.2 nm | 局域 CatA 99%
+  S4    6.672 eV  185.8 nm | 局域 CatA 99%
+  S5    7.054 eV  175.8 nm | 局域 CatA 100%
+  S6    7.107 eV  174.5 nm | 局域 CatA 100%
+  S7    7.185 eV  172.6 nm | 局域 CatA 99%
+  S8    7.298 eV  169.9 nm | 局域 CatA 99%
+  S9    7.395 eV  167.7 nm | 局域 CatA 100%
+  S10   7.897 eV  157.0 nm | 局域 CatA 100%
+  T1    3.341 eV  371.1 nm | 局域 CatA 100%
+  T2    4.086 eV  303.4 nm | 局域 CatA 100%
+  T3    4.587 eV  270.3 nm | 局域 CatA 100%
+  T4    4.830 eV  256.7 nm | 局域 CatA 100%
+  T5    4.958 eV  250.1 nm | 局域 CatA 100%
+  T6    5.181 eV  239.3 nm | 局域 CatA 100%
+  T7    6.415 eV  193.3 nm | 局域 CatA 100%
+  T8    6.887 eV  180.0 nm | 局域 CatA 100%
+  T9    6.911 eV  179.4 nm | 局域 CatA 100%
+  T10   7.012 eV  176.8 nm | 局域 CatA 100%
+
+SOC 矩阵元 |<T|Hso|S>|（cm^-1，S=0 为基态）
+  T1  S0       0.070
+  T1  S1       0.024
+  T1  S2       0.032
+  T1  S3       0.041
+  T2  S0       0.059
+  T2  S1       0.032
+  T2  S2       0.017
+  T2  S3       0.044
+  T3  S0       0.067
+  T3  S1       0.024
+  T3  S2       0.054
+  T3  S3       0.017
+  T4  S0       0.171
+  T4  S1       0.087
+  T4  S2       0.010
+  T4  S3       0.078
+==run.log-tail
+[2026-10-26 17:31:15] 开始 03b_SOC_control_CatA_gas
+[2026-10-26 17:36:38] 完成 03b_SOC_control_CatA_gas  0 days 0 hours 5 minutes 23 seconds 205 msec
+[2026-10-26 17:36:39] 开始 03b_SOC_control_CatB_gas
+[2026-10-26 17:42:06] 完成 03b_SOC_control_CatB_gas  0 days 0 hours 5 minutes 27 seconds 422 msec
+[2026-10-26 17:42:06] 开始 04a_T1opt_UKS_free_CatB

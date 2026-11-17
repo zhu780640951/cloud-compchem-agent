@@ -1,0 +1,8 @@
+! PBE0 D3BJ def2-SVP def2/J RIJCOSX TightSCF
+%pal nprocs 6 end
+%maxcore 6000
+%tddft
+ nroots 15
+ tda false
+end
+* xyzfile 0 1 phim_opt.xyz

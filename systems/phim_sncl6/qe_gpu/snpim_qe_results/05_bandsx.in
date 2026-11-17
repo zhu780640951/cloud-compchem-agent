@@ -1,0 +1,5 @@
+&BANDS
+  prefix = 'snpim'
+  outdir = './tmp'
+  filband = 'snpim.bands'
+/

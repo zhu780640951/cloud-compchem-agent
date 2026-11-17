@@ -1,0 +1,50 @@
+{
+  "valence_electrons": {
+    "H": 1.0,
+    "C": 4.0,
+    "N": 5.0,
+    "O": 6.0,
+    "S": 6.0,
+    "Cl": 7.0,
+    "Sn": 14.0
+  },
+  "raw_fragment_charges": [
+    -1.3224999999999998,
+    1.3516000000000004,
+    1.3516000000000004,
+    0.11359999999999992,
+    0.11359999999999992
+  ],
+  "models": [
+    {
+      "shell": 1,
+      "pointcharges": 1118,
+      "net_charge": 2.886579864025407e-15,
+      "nearest_qm_distance_A": 1.5769629517147057,
+      "source": "QE projwfc Lowdin populations; per-fragment neutral-cell formal-charge correction",
+      "fragment_target_charges": [
+        -2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "warning": "diagnostic fixed point charges; no polarization or Pauli repulsion; finite-cube boundary and population scheme sensitivity not yet tested"
+    },
+    {
+      "shell": 2,
+      "pointcharges": 5332,
+      "net_charge": 1.3766765505351941e-14,
+      "nearest_qm_distance_A": 1.5769629517147057,
+      "source": "QE projwfc Lowdin populations; per-fragment neutral-cell formal-charge correction",
+      "fragment_target_charges": [
+        -2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "warning": "diagnostic fixed point charges; no polarization or Pauli repulsion; finite-cube boundary and population scheme sensitivity not yet tested"
+    }
+  ]
+}
